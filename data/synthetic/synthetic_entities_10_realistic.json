@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Production Site A",
+    "description": "A sprawling manufacturing complex dedicated to producing high-performance automotive tires. It encompasses raw material handling, mixing, component preparation, tire building, curing, and final inspection stages, operating 24/7 with advanced automation systems. Its integrated logistics ensure efficient material flow and product distribution.",
+    "type_name": "Production Site",
+    "path": "Smart Tire Production/Production Site A",
+    "full_text": "Production Site A - A sprawling manufacturing complex dedicated to producing high-performance automotive tires. It encompasses raw material handling, mixing, component preparation, tire building, curing, and final inspection stages, operating 24/7 with advanced automation systems. Its integrated logistics ensure efficient material flow and product distribution.",
+    "guid": "SYNTH_REALISTIC_0001",
+    "is_synthetic": true
+  },
+  {
+    "name": "Curing Press 2",
+    "description": "This advanced vulcanization press transforms green tires into finished products. It uses precise heat and pressure cycles to achieve optimal tire properties and durability.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/Curing Press 2",
+    "full_text": "Curing Press 2 - This advanced vulcanization press transforms green tires into finished products. It uses precise heat and pressure cycles to achieve optimal tire properties and durability.",
+    "guid": "SYNTH_REALISTIC_0002",
+    "is_synthetic": true
+  },
+  {
+    "name": "Boiler System 1",
+    "description": "Provides high-pressure steam for the entire factory's curing processes and various heating needs. Crucial for maintaining consistent temperatures and pressures throughout production.",
+    "type_name": "Boiler System",
+    "path": "Smart Tire Production/Production Site A/Boiler System 1",
+    "full_text": "Boiler System 1 - Provides high-pressure steam for the entire factory's curing processes and various heating needs. Crucial for maintaining consistent temperatures and pressures throughout production.",
+    "guid": "SYNTH_REALISTIC_0003",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX 2",
+    "description": "Cutting-edge machine for high-speed tire assembly.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Devices/VMI MAXX 2",
+    "full_text": "VMI MAXX 2 - Cutting-edge machine for high-speed tire assembly.",
+    "guid": "SYNTH_REALISTIC_0004",
+    "is_synthetic": true
+  },
+  {
+    "name": "Mixer 1",
+    "description": "Blends rubber compounds with additives precisely.",
+    "type_name": "Mixer",
+    "path": "Smart Tire Production/Production Site A/Mixing Department/Mixer 1",
+    "full_text": "Mixer 1 - Blends rubber compounds with additives precisely.",
+    "guid": "SYNTH_REALISTIC_0005",
+    "is_synthetic": true
+  },
+  {
+    "name": "AGV 3",
+    "description": "Autonomous Guided Vehicle for material transport.",
+    "type_name": "AGV",
+    "path": "Smart Tire Production/Logistics/AGV 3",
+    "full_text": "AGV 3 - Autonomous Guided Vehicle for material transport.",
+    "guid": "SYNTH_REALISTIC_0006",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER 2",
+    "description": "",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Devices/VMI EDGER 2",
+    "full_text": "VMI EDGER 2",
+    "guid": "SYNTH_REALISTIC_0007",
+    "is_synthetic": true
+  },
+  {
+    "name": "Tire Uniformity Machine (TUM) 2",
+    "description": "",
+    "type_name": "Tire Uniformity Machine (TUM)",
+    "path": "Smart Tire Production/Production Site B/Tire Production Line 1/Tire Uniformity Machine (TUM) 2",
+    "full_text": "Tire Uniformity Machine (TUM) 2",
+    "guid": "SYNTH_REALISTIC_0008",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cutter 1",
+    "description": "",
+    "type_name": "Cutter",
+    "path": "Smart Tire Production/Production Site A/Mixing Department/Cutter 1",
+    "full_text": "Cutter 1",
+    "guid": "SYNTH_REALISTIC_0009",
+    "is_synthetic": true
+  },
+  {
+    "name": "Production Line 3",
+    "description": "",
+    "type_name": "Production Line",
+    "path": "Smart Tire Production/Production Site B/Production Line 3",
+    "full_text": "Production Line 3",
+    "guid": "SYNTH_REALISTIC_0010",
+    "is_synthetic": true
+  }
+]

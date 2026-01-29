@@ -1,0 +1,92 @@
+[
+  {
+    "name": "VMI EDGER 2",
+    "description": "",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Devices/VMI EDGER 2",
+    "full_text": "VMI EDGER 2",
+    "guid": "SYNTH_MIXED_0001",
+    "is_synthetic": true
+  },
+  {
+    "name": "Boiler System 1",
+    "description": "",
+    "type_name": "Boiler System",
+    "path": "Smart Tire Production/Production Site A/Boiler System 1",
+    "full_text": "Boiler System 1",
+    "guid": "SYNTH_MIXED_0002",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX 2",
+    "description": "Advanced smart tire building machine for high-performance tires.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Devices/VMI MAXX 2",
+    "full_text": "VMI MAXX 2 - Advanced smart tire building machine for high-performance tires.",
+    "guid": "SYNTH_MIXED_0003",
+    "is_synthetic": true
+  },
+  {
+    "name": "AGV 5",
+    "description": "Autonomous guided vehicle for material transport.",
+    "type_name": "AGV",
+    "path": "Smart Tire Production/Logistics/AGV 5",
+    "full_text": "AGV 5 - Autonomous guided vehicle for material transport.",
+    "guid": "SYNTH_MIXED_0004",
+    "is_synthetic": true
+  },
+  {
+    "name": "Curing Press 2",
+    "description": "This press vulcanizes green tires, converting them into durable, finished products. It uses precise heat and pressure cycles to achieve the desired material properties and tread patterns.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site B/Tire Production Line 2/Curing Press 2",
+    "full_text": "Curing Press 2 - This press vulcanizes green tires, converting them into durable, finished products. It uses precise heat and pressure cycles to achieve the desired material properties and tread patterns.",
+    "guid": "SYNTH_MIXED_0005",
+    "is_synthetic": true
+  },
+  {
+    "name": "Mixing Department 1",
+    "description": "Central hub for rubber compounding and preparation. Raw materials are blended here to create specific rubber formulations required for different tire components.",
+    "type_name": "Mixing Department",
+    "path": "Smart Tire Production/Mixing Department/Mixing Department 1",
+    "full_text": "Mixing Department 1 - Central hub for rubber compounding and preparation. Raw materials are blended here to create specific rubber formulations required for different tire components.",
+    "guid": "SYNTH_MIXED_0006",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cutter 3",
+    "description": "Specialized machine for precise cutting of rubber sheets and fabric plies. Essential for preparing components before the tire assembly process.",
+    "type_name": "Cutter",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Cutter 3",
+    "full_text": "Cutter 3 - Specialized machine for precise cutting of rubber sheets and fabric plies. Essential for preparing components before the tire assembly process.",
+    "guid": "SYNTH_MIXED_0007",
+    "is_synthetic": true
+  },
+  {
+    "name": "Production Line 3",
+    "description": "This dedicated line specializes in light truck and SUV tires. It integrates advanced automation, including VMI MAXX machines and a robust curing press bank, ensuring high throughput and consistent quality with real-time process monitoring. It handles raw material feeding, component assembly, curing, and initial inspection.",
+    "type_name": "Production Line",
+    "path": "Smart Tire Production/Production Site B/Tire Production Line 3/Production Line 3",
+    "full_text": "Production Line 3 - This dedicated line specializes in light truck and SUV tires. It integrates advanced automation, including VMI MAXX machines and a robust curing press bank, ensuring high throughput and consistent quality with real-time process monitoring. It handles raw material feeding, component assembly, curing, and initial inspection.",
+    "guid": "SYNTH_MIXED_0008",
+    "is_synthetic": true
+  },
+  {
+    "name": "Smart Tire Machine 2",
+    "description": "A next-generation tire building machine equipped with AI-driven vision systems and force sensors. It automatically adjusts component placement and tension to minimize human error and optimize tire uniformity, significantly reducing defects and improving cycle times through predictive maintenance capabilities.",
+    "type_name": "Smart Tire Machine",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Smart Tire Machine 2",
+    "full_text": "Smart Tire Machine 2 - A next-generation tire building machine equipped with AI-driven vision systems and force sensors. It automatically adjusts component placement and tension to minimize human error and optimize tire uniformity, significantly reducing defects and improving cycle times through predictive maintenance capabilities.",
+    "guid": "SYNTH_MIXED_0009",
+    "is_synthetic": true
+  },
+  {
+    "name": "Tire Uniformity Machine (TUM) 2",
+    "description": "Critical quality control station that measures force variation, radial runout, and lateral runout of finished tires. It employs advanced laser and load cell technology to detect subtle imperfections, ensuring tires meet stringent industry standards for ride comfort and performance. Data from this machine feeds back into upstream processes for continuous improvement.",
+    "type_name": "Tire Uniformity Machine (TUM)",
+    "path": "Smart Tire Production/Production Site B/Tire Production Line 2/Tire Uniformity Machine (TUM) 2",
+    "full_text": "Tire Uniformity Machine (TUM) 2 - Critical quality control station that measures force variation, radial runout, and lateral runout of finished tires. It employs advanced laser and load cell technology to detect subtle imperfections, ensuring tires meet stringent industry standards for ride comfort and performance. Data from this machine feeds back into upstream processes for continuous improvement.",
+    "guid": "SYNTH_MIXED_0010",
+    "is_synthetic": true
+  }
+]

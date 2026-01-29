@@ -1,0 +1,314 @@
+[
+  {
+    "guid": "d458a4f6-4183-4300-b14e-4d66f1f191e1",
+    "name": "Production Site B",
+    "description": "A Production Site represents a physical manufacturing facility that contains one or more production lines, machines, and operational processes. It serves as the central organizational unit where raw materials, equipment, personnel, and workflows are combined to produce finished goods.\n\nThis semantic level provides a high-level overview of the entire factory’s performance, aggregating production output, efficiency, resource usage, and machine status from all assets within the site. The Production Site defines the operational structure of the facility and establishes the context needed for AI systems to understand how different production lines and machines work together.\n\nA Production Site is also responsible for summarizing key performance indicators, detecting facility-wide anomalies, identifying bottlenecks across lines, and enabling comparison between different sections of the plant. It acts as the top-level reference point for insights, reporting, optimization, and predictive analysis.",
+    "full_text": "Production Site B - A Production Site represents a physical manufacturing facility that contains one or more production lines, machines, and operational processes. It serves as the central organizational unit where raw materials, equipment, personnel, and workflows are combined to produce finished goods.\n\nThis semantic level provides a high-level overview of the entire factory’s performance, aggregating production output, efficiency, resource usage, and machine status from all assets within the site. The Production Site defines the operational structure of the facility and establishes the context needed for AI systems to understand how different production lines and machines work together.\n\nA Production Site is also responsible for summarizing key performance indicators, detecting facility-wide anomalies, identifying bottlenecks across lines, and enabling comparison between different sections of the plant. It acts as the top-level reference point for insights, reporting, optimization, and predictive analysis.",
+    "path": "Smart Tire Production/Production Site B",
+    "type_name": "Production Site"
+  },
+  {
+    "guid": "07e0a5e2-53da-4b2b-bf78-29b30ff3ff61",
+    "name": "VMI EDGER 1",
+    "description": "",
+    "full_text": "VMI EDGER 1",
+    "path": "Smart Tire Production/Devices/VMI EDGER 1",
+    "type_name": "VMI EDGER"
+  },
+  {
+    "guid": "8fba4c10-ec34-4703-96bd-c3411973c0c8",
+    "name": "VMI MAXX 1",
+    "description": "VMI MAXX high performance smart tire machine.",
+    "full_text": "VMI MAXX 1 - VMI MAXX high performance smart tire machine.",
+    "path": "Smart Tire Production/Devices/VMI MAXX 1",
+    "type_name": "VMI MAXX"
+  },
+  {
+    "guid": "d0f1f976-5989-4549-88bb-d62ebc7fb03a",
+    "name": "VMI MAXX 3",
+    "description": "VMI MAXX high performance smart tire machine.",
+    "full_text": "VMI MAXX 3 - VMI MAXX high performance smart tire machine.",
+    "path": "Smart Tire Production/Devices/VMI MAXX 3",
+    "type_name": "VMI MAXX"
+  },
+  {
+    "guid": "f5fd4987-33d1-400c-94ff-8c60ec4ede58",
+    "name": "VMI MAXX 2",
+    "description": "VMI MAXX high performance smart tire machine.",
+    "full_text": "VMI MAXX 2 - VMI MAXX high performance smart tire machine.",
+    "path": "Smart Tire Production/Devices/VMI MAXX 2",
+    "type_name": "VMI MAXX"
+  },
+  {
+    "guid": "e7a4c1aa-321f-4650-8f59-12d89eeacaf5",
+    "name": "Production Site A",
+    "description": "Top-level production facility node for regional benchmarking. Aggregates data from Mixing, Production Lines, and Utilities. Primary output is Passenger Car Radial (PCR) and SUV tires. Use this node to correlate site-wide energy consumption with total throughput and to normalize KPIs against other global sites.",
+    "full_text": "Production Site A - Top-level production facility node for regional benchmarking. Aggregates data from Mixing, Production Lines, and Utilities. Primary output is Passenger Car Radial (PCR) and SUV tires. Use this node to correlate site-wide energy consumption with total throughput and to normalize KPIs against other global sites.",
+    "path": "Smart Tire Production/Production Site A",
+    "type_name": "Production Site"
+  },
+  {
+    "guid": "676a309e-1fae-4637-b900-608507e51093",
+    "name": "Tire Production Line 1",
+    "description": "Sequential manufacturing line for Passenger Car Radial tires. Comprises Component Preparation (Cutting), Assembly (Tire Building), Curing, and Final Finish. Throughput is constrained by the Curing Press cycle time. Use this context to track Work-In-Progress (WIP) flow and overall Line OEE.",
+    "full_text": "Tire Production Line 1 - Sequential manufacturing line for Passenger Car Radial tires. Comprises Component Preparation (Cutting), Assembly (Tire Building), Curing, and Final Finish. Throughput is constrained by the Curing Press cycle time. Use this context to track Work-In-Progress (WIP) flow and overall Line OEE.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1",
+    "type_name": "Production Line"
+  },
+  {
+    "guid": "2ad4456c-f312-4cc4-9f4a-51863ede406b",
+    "name": "Curing Press 5",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 5 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Curing Press 5",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "6a358a75-e557-4f4a-b77c-91f3baac43cb",
+    "name": "Tire Machine 1",
+    "description": "High-speed discrete automation asset that assembles 'Green Tires' from uncured rubber components. Process Type: Discrete, Cycle-based (~40s). Key Physics: Tension control and mechanical alignment determine tire uniformity (Run-out/Balance). Data Profile: High-frequency time-series for servo torques and tension; discrete events for cycle steps. Predictive target for mechanical scrap and cycle time degradation.",
+    "full_text": "Tire Machine 1 - High-speed discrete automation asset that assembles 'Green Tires' from uncured rubber components. Process Type: Discrete, Cycle-based (~40s). Key Physics: Tension control and mechanical alignment determine tire uniformity (Run-out/Balance). Data Profile: High-frequency time-series for servo torques and tension; discrete events for cycle steps. Predictive target for mechanical scrap and cycle time degradation.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Tire Machine 1",
+    "type_name": "Smart Tire Machine"
+  },
+  {
+    "guid": "6c28974b-b9ac-492a-805b-9f382ce876af",
+    "name": "TUM 1",
+    "description": "",
+    "full_text": "TUM 1",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/TUM 1",
+    "type_name": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "guid": "8db65225-b010-45db-8531-52a81fb726ed",
+    "name": "Curing Press 4",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 4 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Curing Press 4",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "d6057be7-b040-4660-af7e-13a91eca8f5b",
+    "name": "Cutter 1",
+    "description": "",
+    "full_text": "Cutter 1",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Cutter 1",
+    "type_name": "Cutter"
+  },
+  {
+    "guid": "d951592f-cc48-48bc-b171-2a85847d6139",
+    "name": "Curing Press 2",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 2 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Curing Press 2",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "dbafccc4-16e8-4b99-bf44-d0218e4fcc16",
+    "name": "Curing Press 1",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 1 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Curing Press 1",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "ed215756-d8c0-4fcd-bf8b-12ce7e9f82b3",
+    "name": "Curing Press 3",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 3 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Curing Press 3",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "9441326c-6239-4efd-9743-75bb6ba93fe8",
+    "name": "Mixing Department",
+    "description": "Upstream batch processing asset responsible for blending raw rubber, carbon black, and chemicals into masterbatch or final batch compounds. Criticality: High. Anomalies here (e.g., temperature spikes, mixing time deviations) propagate downstream to cause batch-wide quality failures in Extrusion and Curing. Correlate Power_Curve profile with Mooney_Viscosity lab results.",
+    "full_text": "Mixing Department - Upstream batch processing asset responsible for blending raw rubber, carbon black, and chemicals into masterbatch or final batch compounds. Criticality: High. Anomalies here (e.g., temperature spikes, mixing time deviations) propagate downstream to cause batch-wide quality failures in Extrusion and Curing. Correlate Power_Curve profile with Mooney_Viscosity lab results.",
+    "path": "Smart Tire Production/Production Site A/Mixing Department",
+    "type_name": "Mixing Department"
+  },
+  {
+    "guid": "574b5dc5-fdd5-4c67-93ab-4a6286761c05",
+    "name": "Mixer 1",
+    "description": "",
+    "full_text": "Mixer 1",
+    "path": "Smart Tire Production/Production Site A/Mixing Department/Mixer 1",
+    "type_name": "Mixer"
+  },
+  {
+    "guid": "7c1e45e1-a0d7-4d90-bfca-9cd082ed021d",
+    "name": "Mixer 2",
+    "description": "",
+    "full_text": "Mixer 2",
+    "path": "Smart Tire Production/Production Site A/Mixing Department/Mixer 2",
+    "type_name": "Mixer"
+  },
+  {
+    "guid": "98710228-5a1f-4b21-aed1-1f6ece025bc4",
+    "name": "Tire Production Line 2",
+    "description": "Sequential manufacturing line for Passenger Car Radial tires. Comprises Component Preparation (Cutting), Assembly (Tire Building), Curing, and Final Finish. Throughput is constrained by the Curing Press cycle time. Use this context to track Work-In-Progress (WIP) flow and overall Line OEE.",
+    "full_text": "Tire Production Line 2 - Sequential manufacturing line for Passenger Car Radial tires. Comprises Component Preparation (Cutting), Assembly (Tire Building), Curing, and Final Finish. Throughput is constrained by the Curing Press cycle time. Use this context to track Work-In-Progress (WIP) flow and overall Line OEE.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2",
+    "type_name": "Production Line"
+  },
+  {
+    "guid": "70c2e664-fe2f-4f1b-9b1b-f4ae0d5e5c15",
+    "name": "Tire Machine 2",
+    "description": "High-speed discrete automation asset that assembles 'Green Tires' from uncured rubber components. Process Type: Discrete, Cycle-based (~40s). Key Physics: Tension control and mechanical alignment determine tire uniformity (Run-out/Balance). Data Profile: High-frequency time-series for servo torques and tension; discrete events for cycle steps. Predictive target for mechanical scrap and cycle time degradation.",
+    "full_text": "Tire Machine 2 - High-speed discrete automation asset that assembles 'Green Tires' from uncured rubber components. Process Type: Discrete, Cycle-based (~40s). Key Physics: Tension control and mechanical alignment determine tire uniformity (Run-out/Balance). Data Profile: High-frequency time-series for servo torques and tension; discrete events for cycle steps. Predictive target for mechanical scrap and cycle time degradation.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/Tire Machine 2",
+    "type_name": "Smart Tire Machine"
+  },
+  {
+    "guid": "80331638-95f1-43a3-89f3-746b7f6c6bba",
+    "name": "TUM 2",
+    "description": "",
+    "full_text": "TUM 2",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/TUM 2",
+    "type_name": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "guid": "898abe60-dbcf-40ee-977e-eebc5ad56b68",
+    "name": "Curing Press 6",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 6 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/Curing Press 6",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "95ffa38c-e4ef-4fff-98d1-cb3c74c0c38d",
+    "name": "Curing Press 7",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 7 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/Curing Press 7",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "e0b3d110-4191-491c-9608-b57757a6cdc0",
+    "name": "Cutter 2",
+    "description": "",
+    "full_text": "Cutter 2",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/Cutter 2",
+    "type_name": "Cutter"
+  },
+  {
+    "guid": "a9e6fb5a-e7a0-45a2-bd76-c0b294115f21",
+    "name": "Tire Production Line 3",
+    "description": "Sequential manufacturing line for Passenger Car Radial tires. Comprises Component Preparation (Cutting), Assembly (Tire Building), Curing, and Final Finish. Throughput is constrained by the Curing Press cycle time. Use this context to track Work-In-Progress (WIP) flow and overall Line OEE.",
+    "full_text": "Tire Production Line 3 - Sequential manufacturing line for Passenger Car Radial tires. Comprises Component Preparation (Cutting), Assembly (Tire Building), Curing, and Final Finish. Throughput is constrained by the Curing Press cycle time. Use this context to track Work-In-Progress (WIP) flow and overall Line OEE.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3",
+    "type_name": "Production Line"
+  },
+  {
+    "guid": "116406e8-e2ef-487c-babf-31bb616fdfd7",
+    "name": "TUM 3",
+    "description": "End-of-line quality inspection gate. Measures Radial Force Variation (RFV), Lateral Force Variation (LFV), and geometric run-out. Role: The 'Label' generator for supervised learning models. Use data from this asset as the 'Ground Truth' (Y-variable) to train predictive models on upstream TBM and Mixer parameters (X-variables).",
+    "full_text": "TUM 3 - End-of-line quality inspection gate. Measures Radial Force Variation (RFV), Lateral Force Variation (LFV), and geometric run-out. Role: The 'Label' generator for supervised learning models. Use data from this asset as the 'Ground Truth' (Y-variable) to train predictive models on upstream TBM and Mixer parameters (X-variables).",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3/TUM 3",
+    "type_name": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "guid": "1869457f-9214-4627-83fc-07e1b33cc422",
+    "name": "Curing Press 11",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 11 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3/Curing Press 11",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "1ff3e153-2706-489d-a33e-b6b60477bfe9",
+    "name": "Tire Machine 3",
+    "description": "High-speed discrete automation asset that assembles 'Green Tires' from uncured rubber components. Process Type: Discrete, Cycle-based (~40s). Key Physics: Tension control and mechanical alignment determine tire uniformity (Run-out/Balance). Data Profile: High-frequency time-series for servo torques and tension; discrete events for cycle steps. Predictive target for mechanical scrap and cycle time degradation.",
+    "full_text": "Tire Machine 3 - High-speed discrete automation asset that assembles 'Green Tires' from uncured rubber components. Process Type: Discrete, Cycle-based (~40s). Key Physics: Tension control and mechanical alignment determine tire uniformity (Run-out/Balance). Data Profile: High-frequency time-series for servo torques and tension; discrete events for cycle steps. Predictive target for mechanical scrap and cycle time degradation.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3/Tire Machine 3",
+    "type_name": "Smart Tire Machine"
+  },
+  {
+    "guid": "d27849ad-01d2-45eb-8996-7ef7663d67a5",
+    "name": "Curing Press 10",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 10 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3/Curing Press 10",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "d2ec6346-ab54-4d2c-95aa-9837fe4aaa2c",
+    "name": "Cutter 5",
+    "description": "",
+    "full_text": "Cutter 5",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3/Cutter 5",
+    "type_name": "Cutter"
+  },
+  {
+    "guid": "d4d6430c-362e-4597-87ce-e9c5f99d365d",
+    "name": "Curing Press 12",
+    "description": "Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "full_text": "Curing Press 12 - Parallel processing bank of vulcanization presses. Acts as the line's primary bottleneck. Converts 'Green Tires' to finished tires using heat and pressure. Dependency: Heavily dependent on 'Boiler_House' for steam pressure. Impact: Determines final chemical properties and tire shape.",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3/Curing Press 12",
+    "type_name": "Curing Press"
+  },
+  {
+    "guid": "afb61ac5-0f55-4520-aba4-d6bb8867f49d",
+    "name": "Logistics",
+    "description": "Orchestration layer for all material movement within the plant, spanning from Inbound Raw Materials to Work-In-Progress (WIP) and Outbound Finished Goods. Role: Ensures the synchronization of material flow with production cadence (Just-In-Time). Causality: Inefficiencies here manifest as 'Micro-stops' at production machines (starvation) or 'Blocked' states at buffers (overflow). Key Analysis: Use this node to correlate throughput losses with material transport delays or AGV traffic congestion, distinct from machine mechanical failures.",
+    "full_text": "Logistics - Orchestration layer for all material movement within the plant, spanning from Inbound Raw Materials to Work-In-Progress (WIP) and Outbound Finished Goods. Role: Ensures the synchronization of material flow with production cadence (Just-In-Time). Causality: Inefficiencies here manifest as 'Micro-stops' at production machines (starvation) or 'Blocked' states at buffers (overflow). Key Analysis: Use this node to correlate throughput losses with material transport delays or AGV traffic congestion, distinct from machine mechanical failures.",
+    "path": "Smart Tire Production/Production Site A/Logistics",
+    "type_name": "Logistics"
+  },
+  {
+    "guid": "b06c2b97-b649-47f3-9f31-dddb0a9439bc",
+    "name": "AGV",
+    "description": "Automated material handling system responsible for transporting Green Tires from TBM to Curing Presses. Impact: Transport delays here directly reduce Curing Press utilization (OEE-Availability). Correlate 'Wait_Time' events with Line Throughput drops.",
+    "full_text": "AGV - Automated material handling system responsible for transporting Green Tires from TBM to Curing Presses. Impact: Transport delays here directly reduce Curing Press utilization (OEE-Availability). Correlate 'Wait_Time' events with Line Throughput drops.",
+    "path": "Smart Tire Production/Production Site A/Logistics/AGV",
+    "type_name": "AGV"
+  },
+  {
+    "guid": "c27add30-5a38-4e17-acc4-d71a49dc5727",
+    "name": "Raw Materials Warehouse",
+    "description": "Inventory management node for critical inbound components (Steel Cord, Bead Wire, Synthetic/Natural Rubber). Role: Buffer to decouple supply chain variability from production demand. Criticality: 'Stock-out' events here cause immediate production stops at the Mixer (Batch starvation) or Component Preparation (Cutters). Environmental Factor: Monitor 'Ambient_Temperature' and 'Humidity' strictly; high humidity causes steel cord oxidation (rust), leading to 'Steel Belt Separation' failures in the field. High temperature accelerates rubber aging (pre-cure), affecting tackiness at the TBM.",
+    "full_text": "Raw Materials Warehouse - Inventory management node for critical inbound components (Steel Cord, Bead Wire, Synthetic/Natural Rubber). Role: Buffer to decouple supply chain variability from production demand. Criticality: 'Stock-out' events here cause immediate production stops at the Mixer (Batch starvation) or Component Preparation (Cutters). Environmental Factor: Monitor 'Ambient_Temperature' and 'Humidity' strictly; high humidity causes steel cord oxidation (rust), leading to 'Steel Belt Separation' failures in the field. High temperature accelerates rubber aging (pre-cure), affecting tackiness at the TBM.",
+    "path": "Smart Tire Production/Production Site A/Logistics/Raw Materials Warehouse",
+    "type_name": "Warehouse"
+  },
+  {
+    "guid": "ed33efda-bde7-44ee-a6bd-d6ad10c1b72c",
+    "name": "Green Tire Buffer",
+    "description": "Intermediate storage zone between Tire Building (TBM) and Curing. Role: Decouples the fast building process from the slow curing process. Critical KPI: 'Residence Time'. If residence time exceeds 4 hours, risk of 'Green Tire Slump' (deformation) increases, leading to Uniformity defects at the TUM. Monitor inventory levels to predict starvation or blockage.",
+    "full_text": "Green Tire Buffer - Intermediate storage zone between Tire Building (TBM) and Curing. Role: Decouples the fast building process from the slow curing process. Critical KPI: 'Residence Time'. If residence time exceeds 4 hours, risk of 'Green Tire Slump' (deformation) increases, leading to Uniformity defects at the TUM. Monitor inventory levels to predict starvation or blockage.",
+    "path": "Smart Tire Production/Production Site A/Logistics/Green Tire Buffer",
+    "type_name": "Green Tire Buffer"
+  },
+  {
+    "guid": "d6ab52c7-2937-48b0-a814-6bacfa8cba36",
+    "name": "Mold Shop",
+    "description": "",
+    "full_text": "Mold Shop",
+    "path": "Smart Tire Production/Production Site A/Mold Shop",
+    "type_name": "Mold Shop"
+  },
+  {
+    "guid": "ecfe05f4-37ff-4c8a-82a4-8d1cce7e785c",
+    "name": "Utilities",
+    "description": "Central infrastructure node managing the generation and distribution of critical media (Steam, Compressed Air, Electricity, Water, Nitrogen) to all production assets. Role: The foundational stability layer for the plant. Criticality: Global dependency; a deviation here (e.g., voltage dip, steam pressure drop) creates correlated anomalies across multiple independent production lines simultaneously (Common Mode Failure). Sustainability: Primary context for tracking Scope 1 & 2 carbon emissions and Energy Specific Consumption (kWh/kg) metrics.",
+    "full_text": "Utilities - Central infrastructure node managing the generation and distribution of critical media (Steam, Compressed Air, Electricity, Water, Nitrogen) to all production assets. Role: The foundational stability layer for the plant. Criticality: Global dependency; a deviation here (e.g., voltage dip, steam pressure drop) creates correlated anomalies across multiple independent production lines simultaneously (Common Mode Failure). Sustainability: Primary context for tracking Scope 1 & 2 carbon emissions and Energy Specific Consumption (kWh/kg) metrics.",
+    "path": "Smart Tire Production/Production Site A/Utilities",
+    "type_name": "Utilities"
+  },
+  {
+    "guid": "4f0926a9-5701-4ee6-9ac8-1cfa5decd00d",
+    "name": "Boiler System",
+    "description": "Central utility provider delivering high-pressure steam (~15-20 Bar) to all Curing Presses. Causality: A drop in 'Main_Header_Pressure' is a common mode cause for widespread 'Under-Cured' alarms across multiple production lines simultaneously. Monitor for pressure stability to rule out local machine failures.",
+    "full_text": "Boiler System - Central utility provider delivering high-pressure steam (~15-20 Bar) to all Curing Presses. Causality: A drop in 'Main_Header_Pressure' is a common mode cause for widespread 'Under-Cured' alarms across multiple production lines simultaneously. Monitor for pressure stability to rule out local machine failures.",
+    "path": "Smart Tire Production/Production Site A/Utilities/Boiler System",
+    "type_name": "Boiler System"
+  },
+  {
+    "guid": "f42a0bad-c269-4da0-a138-7ba0cc908ed1",
+    "name": "Air Compressor System",
+    "description": "Central pneumatic energy provider. Supplies compressed air for mechanical actuation (cylinders, grippers) on Tire Building Machines and cutters. Causality: Pressure fluctuation causes cycle time variance and potential stalling on TBMs.",
+    "full_text": "Air Compressor System - Central pneumatic energy provider. Supplies compressed air for mechanical actuation (cylinders, grippers) on Tire Building Machines and cutters. Causality: Pressure fluctuation causes cycle time variance and potential stalling on TBMs.",
+    "path": "Smart Tire Production/Production Site A/Utilities/Air Compressor System",
+    "type_name": "Air Compressor System"
+  }
+]

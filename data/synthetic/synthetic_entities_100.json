@@ -1,0 +1,902 @@
+[
+  {
+    "name": "VMI MAXX 2",
+    "description": "The VMI MAXX 2 is a high-output radial passenger tire building machine featuring a sophisticated two-drum system designed for a hands-off/eyes-off manufacturing process. This unit offers exceptional flexibility for both passenger and light truck tires, capable of producing up to 1800 units daily. It integrates advanced modules for bead apex loading and cushion gum extrusion, ensuring consistent quality and high throughput. As a central component of Line 1, it minimizes manual intervention while maximizing operational efficiency in a smart factory environment through integrated automated controls.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Production Site B/Tire Production Line 1",
+    "full_text": "VMI MAXX 2 - The VMI MAXX 2 is a high-output radial passenger tire building machine featuring a sophisticated two-drum system designed for a hands-off/eyes-off manufacturing process. This unit offers exceptional flexibility for both passenger and light truck tires, capable of producing up to 1800 units daily. It integrates advanced modules for bead apex loading and cushion gum extrusion, ensuring consistent quality and high throughput. As a central component of Line 1, it minimizes manual intervention while maximizing operational efficiency in a smart factory environment through integrated automated controls.",
+    "guid": "SYNTH_0001",
+    "is_synthetic": true
+  },
+  {
+    "name": "Hydraulic Curing Press CP-08",
+    "description": "Hydraulic Curing Press CP-08 is a critical asset for vulcanizing green tires under high pressure and temperature conditions. This machine facilitates the chemical reaction necessary to achieve the final shape, durability, and tread patterns required for high-performance automotive tires. Operating within Vulcanization Bay 4, it utilizes precise thermal control systems to ensure uniform heat distribution across the tire mold. This press is essential for transforming raw rubber components into a finished product that meets strict safety and performance standards for the Smart Tire Production facility, supporting high-volume output.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site A/Vulcanization Bay 4",
+    "full_text": "Hydraulic Curing Press CP-08 - Hydraulic Curing Press CP-08 is a critical asset for vulcanizing green tires under high pressure and temperature conditions. This machine facilitates the chemical reaction necessary to achieve the final shape, durability, and tread patterns required for high-performance automotive tires. Operating within Vulcanization Bay 4, it utilizes precise thermal control systems to ensure uniform heat distribution across the tire mold. This press is essential for transforming raw rubber components into a finished product that meets strict safety and performance standards for the Smart Tire Production facility, supporting high-volume output.",
+    "guid": "SYNTH_0002",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quadraplex Extruder E-3",
+    "description": "The Quadraplex Extruder E-3 is engineered for the high-precision shaping of rubber compounds into various tire components, including treads, sidewalls, and inner liners. By utilizing a multi-stage extrusion process, this machine maintains consistent profiles and dimensional accuracy across high-volume production runs. It plays a vital role in the initial stages of tire manufacturing by preparing raw materials for assembly on the building machines. The E-3 unit is integrated into the smart factory network for real-time monitoring of temperature, pressure, and material flow rates to ensure optimal component quality and material efficiency.",
+    "type_name": "Extruder",
+    "path": "Smart Tire Production/Production Site A/Component Prep Bay 2",
+    "full_text": "Quadraplex Extruder E-3 - The Quadraplex Extruder E-3 is engineered for the high-precision shaping of rubber compounds into various tire components, including treads, sidewalls, and inner liners. By utilizing a multi-stage extrusion process, this machine maintains consistent profiles and dimensional accuracy across high-volume production runs. It plays a vital role in the initial stages of tire manufacturing by preparing raw materials for assembly on the building machines. The E-3 unit is integrated into the smart factory network for real-time monitoring of temperature, pressure, and material flow rates to ensure optimal component quality and material efficiency.",
+    "guid": "SYNTH_0003",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer M-12",
+    "description": "Banbury Mixer M-12 serves as the primary internal mixer for compounding raw rubber with essential additives, carbon black, and chemicals. This heavy-duty machine ensures a homogeneous mixture through intensive shearing and temperature management, providing the foundational rubber stock for all subsequent production stages. Located in the Mixing Department of Production Site B, the M-12 is equipped with advanced sensors for monitoring batch consistency and energy consumption. Its high-capacity design supports the demand of multiple tire production lines by delivering high-quality, pre-processed rubber compounds required for durable tire manufacturing.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Production Site B/Mixing Department",
+    "full_text": "Banbury Mixer M-12 - Banbury Mixer M-12 serves as the primary internal mixer for compounding raw rubber with essential additives, carbon black, and chemicals. This heavy-duty machine ensures a homogeneous mixture through intensive shearing and temperature management, providing the foundational rubber stock for all subsequent production stages. Located in the Mixing Department of Production Site B, the M-12 is equipped with advanced sensors for monitoring batch consistency and energy consumption. Its high-capacity design supports the demand of multiple tire production lines by delivering high-quality, pre-processed rubber compounds required for durable tire manufacturing.",
+    "guid": "SYNTH_0004",
+    "is_synthetic": true
+  },
+  {
+    "name": "Bead Builder BB-05",
+    "description": "Bead Builder BB-05 is a specialized machine dedicated to forming tire beads with precise wire reinforcement and uniform rubber coating. This component is crucial for ensuring the tire remains securely seated on the wheel rim under extreme pressure. The BB-05 operates with high automation, feeding wire and rubber into a forming drum to create high-strength circular beads. Its integration within Tire Production Line 3 allows for seamless coordination with the VMI MAXX building machines, contributing to the overall structural integrity and safety of the final tire product while maintaining high throughput speeds.",
+    "type_name": "Bead Builder",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3",
+    "full_text": "Bead Builder BB-05 - Bead Builder BB-05 is a specialized machine dedicated to forming tire beads with precise wire reinforcement and uniform rubber coating. This component is crucial for ensuring the tire remains securely seated on the wheel rim under extreme pressure. The BB-05 operates with high automation, feeding wire and rubber into a forming drum to create high-strength circular beads. Its integration within Tire Production Line 3 allows for seamless coordination with the VMI MAXX building machines, contributing to the overall structural integrity and safety of the final tire product while maintaining high throughput speeds.",
+    "guid": "SYNTH_0005",
+    "is_synthetic": true
+  },
+  {
+    "name": "Multi-Roll Calender C-02",
+    "description": "The Multi-Roll Calender C-02 is a precision machine used for producing high-quality rubber sheets and coating steel belts or fabric plies. By passing rubber through a series of heated rollers, it achieves exact thicknesses and applies rubber layers to reinforcement materials with high adhesion. This machine is fundamental for creating the ply and belt layers that provide the tire's structural strength. Located in Production Site C, the C-02 unit is monitored for roll alignment and temperature stability to ensure material uniformity across the entire production batch, essential for reducing manufacturing defects.",
+    "type_name": "Calender",
+    "path": "Smart Tire Production/Production Site C/Material Preparation Area",
+    "full_text": "Multi-Roll Calender C-02 - The Multi-Roll Calender C-02 is a precision machine used for producing high-quality rubber sheets and coating steel belts or fabric plies. By passing rubber through a series of heated rollers, it achieves exact thicknesses and applies rubber layers to reinforcement materials with high adhesion. This machine is fundamental for creating the ply and belt layers that provide the tire's structural strength. Located in Production Site C, the C-02 unit is monitored for roll alignment and temperature stability to ensure material uniformity across the entire production batch, essential for reducing manufacturing defects.",
+    "guid": "SYNTH_0006",
+    "is_synthetic": true
+  },
+  {
+    "name": "Uniformity Tester UT-10",
+    "description": "Uniformity Tester UT-10 is an essential quality assurance machine that measures force variations and balance during high-speed rotation simulations. By mimicking real-world driving conditions, the UT-10 identifies any inconsistencies in the tire's construction, such as radial or lateral run-out. This data is critical for maintaining high standards of ride comfort and vehicle handling. Situated in Quality Control Bay 1, the tester provides immediate feedback to the production lines, allowing for rapid adjustments to the building and curing processes to eliminate manufacturing defects and ensure every unit meets the facility's rigorous quality benchmarks.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Quality Control Bay 1",
+    "full_text": "Uniformity Tester UT-10 - Uniformity Tester UT-10 is an essential quality assurance machine that measures force variations and balance during high-speed rotation simulations. By mimicking real-world driving conditions, the UT-10 identifies any inconsistencies in the tire's construction, such as radial or lateral run-out. This data is critical for maintaining high standards of ride comfort and vehicle handling. Situated in Quality Control Bay 1, the tester provides immediate feedback to the production lines, allowing for rapid adjustments to the building and curing processes to eliminate manufacturing defects and ensure every unit meets the facility's rigorous quality benchmarks.",
+    "guid": "SYNTH_0007",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER E-21",
+    "description": "The VMI EDGER E-21 is a precision machine designed for tire component preparation and edge finishing within the production line. It ensures that all rubber components have clean, accurate edges for optimal bonding during the assembly process. This unit improves the overall quality of the green tire by refining the dimensions of treads and plies before they reach the building machine. Operating in Finishing Line 2, the E-21 reduces material waste and enhances the structural durability of the tire. Its automated controls allow for quick changeovers between different tire specifications and sizes.",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Production Site B/Finishing Line 2",
+    "full_text": "VMI EDGER E-21 - The VMI EDGER E-21 is a precision machine designed for tire component preparation and edge finishing within the production line. It ensures that all rubber components have clean, accurate edges for optimal bonding during the assembly process. This unit improves the overall quality of the green tire by refining the dimensions of treads and plies before they reach the building machine. Operating in Finishing Line 2, the E-21 reduces material waste and enhances the structural durability of the tire. Its automated controls allow for quick changeovers between different tire specifications and sizes.",
+    "guid": "SYNTH_0008",
+    "is_synthetic": true
+  },
+  {
+    "name": "TBM-X4 Dual Drum",
+    "description": "The TBM-X4 Dual Drum is an automatic assembler for green tires, integrating plies, beads, belts, and treads into a single cohesive structure. Utilizing multi-drum technology for maximum efficiency, it significantly reduces cycle times compared to single-drum variations. The machine’s high-precision placement systems ensure that each component is aligned perfectly, which is critical for the tire's performance and longevity. As a key asset in Line 5, the TBM-X4 is connected to the factory’s central management system to track production metrics and facilitate predictive maintenance schedules, ensuring continuous operation.",
+    "type_name": "Tire Building Machine (TBM)",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 5",
+    "full_text": "TBM-X4 Dual Drum - The TBM-X4 Dual Drum is an automatic assembler for green tires, integrating plies, beads, belts, and treads into a single cohesive structure. Utilizing multi-drum technology for maximum efficiency, it significantly reduces cycle times compared to single-drum variations. The machine’s high-precision placement systems ensure that each component is aligned perfectly, which is critical for the tire's performance and longevity. As a key asset in Line 5, the TBM-X4 is connected to the factory’s central management system to track production metrics and facilitate predictive maintenance schedules, ensuring continuous operation.",
+    "guid": "SYNTH_0009",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX 5",
+    "description": "VMI MAXX 5 is an advanced radial passenger tire building machine situated on Line 3, featuring a dual-drum architecture for hands-off/eyes-off operation. This unit is optimized for the high-volume production of both standard passenger and light truck tires, achieving outputs of up to 1800 units per day. It includes integrated modules for automated bead apex loading and precision cushion gum extrusion, which enhance the structural consistency of the green tires. The machine’s smart sensors provide real-time data for anomaly detection, ensuring high efficiency and minimal downtime within the smart production environment.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3",
+    "full_text": "VMI MAXX 5 - VMI MAXX 5 is an advanced radial passenger tire building machine situated on Line 3, featuring a dual-drum architecture for hands-off/eyes-off operation. This unit is optimized for the high-volume production of both standard passenger and light truck tires, achieving outputs of up to 1800 units per day. It includes integrated modules for automated bead apex loading and precision cushion gum extrusion, which enhance the structural consistency of the green tires. The machine’s smart sensors provide real-time data for anomaly detection, ensuring high efficiency and minimal downtime within the smart production environment.",
+    "guid": "SYNTH_0010",
+    "is_synthetic": true
+  },
+  {
+    "name": "Air Compressor System 101",
+    "description": "Primary pneumatic source for the VMI MAXX high-output tire building line. This system provides consistent air pressure for the hands-off bead apex loading and cushion gum extrusion modules. Stable pressure is critical to maintaining the 1800 tire-per-day production rate. Variations in air supply lead to timing misalignments during the two-drum transfer process, causing synchronization errors and potential mechanical stalls in the robotic grippers and cutting assemblies.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site A/Utilities/Line A",
+    "full_text": "Air Compressor System 101 - Primary pneumatic source for the VMI MAXX high-output tire building line. This system provides consistent air pressure for the hands-off bead apex loading and cushion gum extrusion modules. Stable pressure is critical to maintaining the 1800 tire-per-day production rate. Variations in air supply lead to timing misalignments during the two-drum transfer process, causing synchronization errors and potential mechanical stalls in the robotic grippers and cutting assemblies.",
+    "guid": "SYNTH_0011",
+    "is_synthetic": true
+  },
+  {
+    "name": "Pneumatic Power Station B2",
+    "description": "Industrial air compression unit dedicated to the Curing Press sector in Bay 4. It facilitates the movement of hydraulic valves and loading mechanisms during the vulcanization process. Precision in pneumatic actuation ensures green tires are positioned correctly before high-pressure molding occurs. A drop in pressure results in slower cycle times and inconsistent seal integrity on the press lids, impacting the overall durability and final shape of the passenger tires.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site A/Utilities/Curing Area",
+    "full_text": "Pneumatic Power Station B2 - Industrial air compression unit dedicated to the Curing Press sector in Bay 4. It facilitates the movement of hydraulic valves and loading mechanisms during the vulcanization process. Precision in pneumatic actuation ensures green tires are positioned correctly before high-pressure molding occurs. A drop in pressure results in slower cycle times and inconsistent seal integrity on the press lids, impacting the overall durability and final shape of the passenger tires.",
+    "guid": "SYNTH_0012",
+    "is_synthetic": true
+  },
+  {
+    "name": "Air Compressor System C-09",
+    "description": "Heavy-duty pneumatic supply for the Banbury Mixer compounding area. This system operates the discharge gates and raw material feed injectors for additives and carbon black. Consistent pneumatic energy is required for the high-torque operations involved in mixing raw rubber with chemicals. Any fluctuation in pressure disrupts the ingredient feeding sequence, leading to batch inconsistency and increased cycle time variance during the initial rubber compounding phase.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site B/Utilities/Mixing Wing",
+    "full_text": "Air Compressor System C-09 - Heavy-duty pneumatic supply for the Banbury Mixer compounding area. This system operates the discharge gates and raw material feed injectors for additives and carbon black. Consistent pneumatic energy is required for the high-torque operations involved in mixing raw rubber with chemicals. Any fluctuation in pressure disrupts the ingredient feeding sequence, leading to batch inconsistency and increased cycle time variance during the initial rubber compounding phase.",
+    "guid": "SYNTH_0013",
+    "is_synthetic": true
+  },
+  {
+    "name": "Compressed Air Unit E-04",
+    "description": "Specialized pneumatic provider for the Quadraplex Extruder line. It supplies the necessary pressure for the profile shaping blades and cooling bath actuators. Maintaining constant pressure is essential for ensuring consistent profiles of treads and sidewalls. Pressure drops cause the extrusion speed to fluctuate, resulting in dimensional inaccuracies and potential scrap during the rubber cooling process, which directly impacts the quality of components sent to the Tire Building Machines.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site A/Utilities/Extrusion Line",
+    "full_text": "Compressed Air Unit E-04 - Specialized pneumatic provider for the Quadraplex Extruder line. It supplies the necessary pressure for the profile shaping blades and cooling bath actuators. Maintaining constant pressure is essential for ensuring consistent profiles of treads and sidewalls. Pressure drops cause the extrusion speed to fluctuate, resulting in dimensional inaccuracies and potential scrap during the rubber cooling process, which directly impacts the quality of components sent to the Tire Building Machines.",
+    "guid": "SYNTH_0014",
+    "is_synthetic": true
+  },
+  {
+    "name": "Air Supply System 202",
+    "description": "Central air compressor serving the multi-roll Calender machines. It drives the pneumatic tensioners used for coating steel belts and fabric plies with rubber sheets. Precise pressure regulation is vital for maintaining the uniform thickness of the composite materials. Fluctuations in the pneumatic line cause tension variance across the rolls, leading to wrinkles or uneven coating, which compromises the integrity of the tire carcass components during subsequent assembly.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site A/Utilities/Calender Room",
+    "full_text": "Air Supply System 202 - Central air compressor serving the multi-roll Calender machines. It drives the pneumatic tensioners used for coating steel belts and fabric plies with rubber sheets. Precise pressure regulation is vital for maintaining the uniform thickness of the composite materials. Fluctuations in the pneumatic line cause tension variance across the rolls, leading to wrinkles or uneven coating, which compromises the integrity of the tire carcass components during subsequent assembly.",
+    "guid": "SYNTH_0015",
+    "is_synthetic": true
+  },
+  {
+    "name": "Pneumatic Supply Unit 55",
+    "description": "Auxiliary air compression system supporting the VMI MAXX radial passenger tire line in Bay 2. It ensures the eyes-off automation process remains uninterrupted by providing pressure for the precision cutters and drum expansion cylinders. Inconsistent air delivery creates delays in the bead-loading module, potentially stalling the high-speed rotation cycle. Reliable pneumatic energy is necessary to meet the 1800 tire-per-day output target while maintaining strict tolerances for passenger and light truck tires.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site B/Utilities/VMI MAXX Section",
+    "full_text": "Pneumatic Supply Unit 55 - Auxiliary air compression system supporting the VMI MAXX radial passenger tire line in Bay 2. It ensures the eyes-off automation process remains uninterrupted by providing pressure for the precision cutters and drum expansion cylinders. Inconsistent air delivery creates delays in the bead-loading module, potentially stalling the high-speed rotation cycle. Reliable pneumatic energy is necessary to meet the 1800 tire-per-day output target while maintaining strict tolerances for passenger and light truck tires.",
+    "guid": "SYNTH_0016",
+    "is_synthetic": true
+  },
+  {
+    "name": "Air Compressor System F-12",
+    "description": "Dedicated pneumatic source for the Uniformity Tester and final finishing machines. This system provides air for the high-speed rotation spindles and load-simulation actuators used during force variation measurements. Stable pressure is required to ensure accurate balancing data and consistent tire rotation during the test sequence. Pressure drops lead to false anomalies in uniformity readings or mechanical vibrations that interfere with the predictive analysis of the final tire output.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site A/Utilities/Finishing Area",
+    "full_text": "Air Compressor System F-12 - Dedicated pneumatic source for the Uniformity Tester and final finishing machines. This system provides air for the high-speed rotation spindles and load-simulation actuators used during force variation measurements. Stable pressure is required to ensure accurate balancing data and consistent tire rotation during the test sequence. Pressure drops lead to false anomalies in uniformity readings or mechanical vibrations that interfere with the predictive analysis of the final tire output.",
+    "guid": "SYNTH_0017",
+    "is_synthetic": true
+  },
+  {
+    "name": "Compressed Air Station BB-01",
+    "description": "Pneumatic energy provider for the Bead Builder machines. It powers the wire reinforcement applicators and rubber coating grippers. Constant air supply is mandatory for the precision forming of tire beads to ensure they meet the structural requirements for high-pressure vulcanization. Any pressure fluctuation causes the bead wire to misalign during the coating process, resulting in defective beads that cannot be used by the Tire Building Machine (TBM) for green tire assembly.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site B/Utilities/Bead Building Lab",
+    "full_text": "Compressed Air Station BB-01 - Pneumatic energy provider for the Bead Builder machines. It powers the wire reinforcement applicators and rubber coating grippers. Constant air supply is mandatory for the precision forming of tire beads to ensure they meet the structural requirements for high-pressure vulcanization. Any pressure fluctuation causes the bead wire to misalign during the coating process, resulting in defective beads that cannot be used by the Tire Building Machine (TBM) for green tire assembly.",
+    "guid": "SYNTH_0018",
+    "is_synthetic": true
+  },
+  {
+    "name": "Pneumatic Unit V-EDGER",
+    "description": "Specific air compressor system for the VMI EDGER component preparation line. It supplies pneumatic force for the precision cutting and edge finishing of rubber sheets prior to assembly. High-pressure stability is necessary for the precision machine to maintain the exact profile required for the green tire building process. Drops in pneumatic energy cause jagged edges and misalignment during component feeding, leading to increased rejection rates at the multi-drum assembly station.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site A/Utilities/Edge Prep",
+    "full_text": "Pneumatic Unit V-EDGER - Specific air compressor system for the VMI EDGER component preparation line. It supplies pneumatic force for the precision cutting and edge finishing of rubber sheets prior to assembly. High-pressure stability is necessary for the precision machine to maintain the exact profile required for the green tire building process. Drops in pneumatic energy cause jagged edges and misalignment during component feeding, leading to increased rejection rates at the multi-drum assembly station.",
+    "guid": "SYNTH_0019",
+    "is_synthetic": true
+  },
+  {
+    "name": "Air Compressor System G-07",
+    "description": "High-capacity pneumatic distribution system for the Tire Building Machine (TBM) assembly hall. It supplies air to multiple multi-drum units for the assembly of plies, belts, and treads into green tires. Reliable pneumatic actuation is required for the high-speed transfer drums and folding bladders. Any pressure drop causes significant cycle time variance and potential stalling, which disrupts the flow of green tires to the hydraulic Curing Press for final vulcanization.",
+    "type_name": "Air Compressor System",
+    "path": "Smart Tire Production/Production Site A/Utilities/TBM Hall",
+    "full_text": "Air Compressor System G-07 - High-capacity pneumatic distribution system for the Tire Building Machine (TBM) assembly hall. It supplies air to multiple multi-drum units for the assembly of plies, belts, and treads into green tires. Reliable pneumatic actuation is required for the high-speed transfer drums and folding bladders. Any pressure drop causes significant cycle time variance and potential stalling, which disrupts the flow of green tires to the hydraulic Curing Press for final vulcanization.",
+    "guid": "SYNTH_0020",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX 2",
+    "description": "High-output radial passenger tire building machine featuring a sophisticated two-drum system. It facilitates a hands-off/eyes-off manufacturing process, ensuring maximum safety and precision. This unit is optimized for light truck tires, capable of producing up to 1800 units daily. It includes specialized modules for bead apex loading and cushion gum extrusion, streamlining the assembly of complex tire architectures while maintaining high throughput and consistent quality standards across multiple shifts.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1",
+    "full_text": "VMI MAXX 2 - High-output radial passenger tire building machine featuring a sophisticated two-drum system. It facilitates a hands-off/eyes-off manufacturing process, ensuring maximum safety and precision. This unit is optimized for light truck tires, capable of producing up to 1800 units daily. It includes specialized modules for bead apex loading and cushion gum extrusion, streamlining the assembly of complex tire architectures while maintaining high throughput and consistent quality standards across multiple shifts.",
+    "guid": "SYNTH_0021",
+    "is_synthetic": true
+  },
+  {
+    "name": "Curing Press 12",
+    "description": "Heavy-duty hydraulic vulcanization press designed for high-pressure and high-temperature curing cycles. This unit transforms green tires into finished products by cross-linking rubber polymers to achieve specified durability and traction ratings. It operates as a critical step in the curing bank, utilizing precise thermal controls to ensure uniform heat distribution. The machine is essential for defining the final tread pattern and sidewall markings, directly impacting the tire's structural integrity and road performance during vehicle operation.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2",
+    "full_text": "Curing Press 12 - Heavy-duty hydraulic vulcanization press designed for high-pressure and high-temperature curing cycles. This unit transforms green tires into finished products by cross-linking rubber polymers to achieve specified durability and traction ratings. It operates as a critical step in the curing bank, utilizing precise thermal controls to ensure uniform heat distribution. The machine is essential for defining the final tread pattern and sidewall markings, directly impacting the tire's structural integrity and road performance during vehicle operation.",
+    "guid": "SYNTH_0022",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer 01",
+    "description": "Large-scale internal mixer used for compounding raw rubber with various additives, including carbon black, silica, and chemical curing agents. This high-torque machine ensures a homogeneous distribution of ingredients through intensive shearing and temperature management. It serves as the primary stage in the material preparation process, where the specific rubber recipe is established. The Banbury Mixer’s efficiency determines the quality of all subsequent components, from treads to inner liners, by providing consistent material properties for the downstream extruders.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Production Site A/Mixing Bay Alpha",
+    "full_text": "Banbury Mixer 01 - Large-scale internal mixer used for compounding raw rubber with various additives, including carbon black, silica, and chemical curing agents. This high-torque machine ensures a homogeneous distribution of ingredients through intensive shearing and temperature management. It serves as the primary stage in the material preparation process, where the specific rubber recipe is established. The Banbury Mixer’s efficiency determines the quality of all subsequent components, from treads to inner liners, by providing consistent material properties for the downstream extruders.",
+    "guid": "SYNTH_0023",
+    "is_synthetic": true
+  },
+  {
+    "name": "Extruder 4",
+    "description": "Quadraplex extruder system designed for precision shaping of rubber compounds into specific tire components. This machine processes multiple material streams simultaneously to create complex profiles for treads, sidewalls, and apexes with tight tolerances. It utilizes advanced temperature-controlled barrels to maintain consistent viscosity and flow rates. The extrusion process is critical for ensuring the dimensional accuracy of the green tire components, which directly influences the overall balance and performance of the final vulcanized tire product in the testing phase.",
+    "type_name": "Extruder",
+    "path": "Smart Tire Production/Production Site A/Component Prep Line 3",
+    "full_text": "Extruder 4 - Quadraplex extruder system designed for precision shaping of rubber compounds into specific tire components. This machine processes multiple material streams simultaneously to create complex profiles for treads, sidewalls, and apexes with tight tolerances. It utilizes advanced temperature-controlled barrels to maintain consistent viscosity and flow rates. The extrusion process is critical for ensuring the dimensional accuracy of the green tire components, which directly influences the overall balance and performance of the final vulcanized tire product in the testing phase.",
+    "guid": "SYNTH_0024",
+    "is_synthetic": true
+  },
+  {
+    "name": "Calender Unit 2",
+    "description": "Multi-roll industrial machine used for the production of uniform rubber sheets and the coating of steel belts or fabric plies. This high-precision system ensures even thickness and adhesion of rubber to the reinforcing materials, which form the structural backbone of the tire. By controlling roll pressure and temperature, the calender achieves consistent gauge and material density. Its performance is vital for structural reliability, preventing separation between the rubber and internal reinforcements during high-speed vehicle operation and heavy load conditions.",
+    "type_name": "Calender",
+    "path": "Smart Tire Production/Production Site A/Fabric Coating Area",
+    "full_text": "Calender Unit 2 - Multi-roll industrial machine used for the production of uniform rubber sheets and the coating of steel belts or fabric plies. This high-precision system ensures even thickness and adhesion of rubber to the reinforcing materials, which form the structural backbone of the tire. By controlling roll pressure and temperature, the calender achieves consistent gauge and material density. Its performance is vital for structural reliability, preventing separation between the rubber and internal reinforcements during high-speed vehicle operation and heavy load conditions.",
+    "guid": "SYNTH_0025",
+    "is_synthetic": true
+  },
+  {
+    "name": "Uniformity Tester 05",
+    "description": "Specialized testing apparatus designed to measure force variations and balance during high-speed rotation simulations of finished tires. This machine detects deviations in radial and lateral force, ensuring that every tire meets strict safety and comfort standards before shipment. By simulating real-world driving conditions, the uniformity tester identifies structural anomalies that could lead to vibration or uneven wear. It provides essential data for final grading and predictive analysis of production line performance, assisting in the calibration of building machines.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Quality Control Bay",
+    "full_text": "Uniformity Tester 05 - Specialized testing apparatus designed to measure force variations and balance during high-speed rotation simulations of finished tires. This machine detects deviations in radial and lateral force, ensuring that every tire meets strict safety and comfort standards before shipment. By simulating real-world driving conditions, the uniformity tester identifies structural anomalies that could lead to vibration or uneven wear. It provides essential data for final grading and predictive analysis of production line performance, assisting in the calibration of building machines.",
+    "guid": "SYNTH_0026",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER 03",
+    "description": "Precision machine dedicated to tire component preparation and detailed edge finishing within the production line. This unit ensures that all rubber layers and reinforcements are trimmed and shaped to exact specifications before they reach the assembly stage. By maintaining high accuracy in edge profiles, the VMI EDGER minimizes material waste and prevents assembly defects during the tire building process. Its integration into the workflow enhances the overall efficiency and precision of the automated assembly environment, supporting high-speed production targets.",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2",
+    "full_text": "VMI EDGER 03 - Precision machine dedicated to tire component preparation and detailed edge finishing within the production line. This unit ensures that all rubber layers and reinforcements are trimmed and shaped to exact specifications before they reach the assembly stage. By maintaining high accuracy in edge profiles, the VMI EDGER minimizes material waste and prevents assembly defects during the tire building process. Its integration into the workflow enhances the overall efficiency and precision of the automated assembly environment, supporting high-speed production targets.",
+    "guid": "SYNTH_0027",
+    "is_synthetic": true
+  },
+  {
+    "name": "Bead Builder 08",
+    "description": "Automated machine used for forming the tire beads, which are critical for securing the tire to the wheel rim. This system integrates high-tensile wire reinforcement with a rubber coating to create a robust and flexible bead ring. It operates with high repeatability to ensure each bead meets precise diameter and strength requirements. The machine’s output is a foundational component for the Tire Building Machine, providing the structural anchor points necessary for the integrity and safety of the final radial tire.",
+    "type_name": "Bead Builder",
+    "path": "Smart Tire Production/Production Site A/Bead Assembly Section",
+    "full_text": "Bead Builder 08 - Automated machine used for forming the tire beads, which are critical for securing the tire to the wheel rim. This system integrates high-tensile wire reinforcement with a rubber coating to create a robust and flexible bead ring. It operates with high repeatability to ensure each bead meets precise diameter and strength requirements. The machine’s output is a foundational component for the Tire Building Machine, providing the structural anchor points necessary for the integrity and safety of the final radial tire.",
+    "guid": "SYNTH_0028",
+    "is_synthetic": true
+  },
+  {
+    "name": "TBM Dual-Drum 02",
+    "description": "Multi-drum automatic assembler designed for the efficient construction of green tires from various pre-prepared components. This machine integrates plies, beads, belts, and treads into a single cohesive structure through a series of automated steps. The dual-drum configuration allows for parallel processing, significantly increasing the production rate compared to single-drum systems. Its high level of automation ensures consistent application of components, which is essential for maintaining the symmetry and balance required for high-performance automotive tires and light truck applications.",
+    "type_name": "Tire Building Machine (TBM)",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 4",
+    "full_text": "TBM Dual-Drum 02 - Multi-drum automatic assembler designed for the efficient construction of green tires from various pre-prepared components. This machine integrates plies, beads, belts, and treads into a single cohesive structure through a series of automated steps. The dual-drum configuration allows for parallel processing, significantly increasing the production rate compared to single-drum systems. Its high level of automation ensures consistent application of components, which is essential for maintaining the symmetry and balance required for high-performance automotive tires and light truck applications.",
+    "guid": "SYNTH_0029",
+    "is_synthetic": true
+  },
+  {
+    "name": "Production Site Alpha",
+    "description": "Primary industrial facility aggregating multiple production lines and automated processes for large-scale tire output. This site integrates all manufacturing stages from raw material mixing in the Banbury units to final vulcanization and quality testing. It serves as the central hub for operational data, enabling advanced anomaly detection and predictive analysis to maximize factory efficiency. The facility is designed to optimize workflow across several Tire Production Lines, ensuring that global safety standards and production targets are consistently met through rigorous monitoring.",
+    "type_name": "Production Site",
+    "path": "Smart Tire Production/Production Site Alpha",
+    "full_text": "Production Site Alpha - Primary industrial facility aggregating multiple production lines and automated processes for large-scale tire output. This site integrates all manufacturing stages from raw material mixing in the Banbury units to final vulcanization and quality testing. It serves as the central hub for operational data, enabling advanced anomaly detection and predictive analysis to maximize factory efficiency. The facility is designed to optimize workflow across several Tire Production Lines, ensuring that global safety standards and production targets are consistently met through rigorous monitoring.",
+    "guid": "SYNTH_0030",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer 3",
+    "description": "Banbury Mixer 3 is a high-capacity internal mixer located in Bay 4 of the Mixing Department. It is specialized for compounding raw rubber with precise amounts of additives, carbon black, and chemicals to create specific tire compounds. The machine features advanced temperature monitoring and variable rotor speeds to ensure the material reaches the ideal viscosity for downstream processes. This unit is essential for maintaining the consistency and quality of the base rubber used across the entire Smart Tire Production facility.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Production Site A/Mixing Department/Banbury Mixer 3",
+    "full_text": "Banbury Mixer 3 - Banbury Mixer 3 is a high-capacity internal mixer located in Bay 4 of the Mixing Department. It is specialized for compounding raw rubber with precise amounts of additives, carbon black, and chemicals to create specific tire compounds. The machine features advanced temperature monitoring and variable rotor speeds to ensure the material reaches the ideal viscosity for downstream processes. This unit is essential for maintaining the consistency and quality of the base rubber used across the entire Smart Tire Production facility.",
+    "guid": "SYNTH_0031",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX Unit 1",
+    "description": "The VMI MAXX Unit 1 is a high-output radial passenger tire building machine situated in the Main Assembly area. It utilizes a sophisticated two-drum system and a hands-off, eyes-off process to ensure maximum precision and safety. Capable of producing up to 1800 tires per day, this machine provides exceptional flexibility for passenger and light truck tire specifications. It includes integrated modules for bead apex loading and cushion gum extrusion, streamlining the transition from individual components to a finished green tire.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Production Site B/Assembly Line 1/VMI MAXX Unit 1",
+    "full_text": "VMI MAXX Unit 1 - The VMI MAXX Unit 1 is a high-output radial passenger tire building machine situated in the Main Assembly area. It utilizes a sophisticated two-drum system and a hands-off, eyes-off process to ensure maximum precision and safety. Capable of producing up to 1800 tires per day, this machine provides exceptional flexibility for passenger and light truck tire specifications. It includes integrated modules for bead apex loading and cushion gum extrusion, streamlining the transition from individual components to a finished green tire.",
+    "guid": "SYNTH_0032",
+    "is_synthetic": true
+  },
+  {
+    "name": "Curing Press 15",
+    "description": "Curing Press 15 is a heavy-duty hydraulic press located in the Vulcanization Department. It is engineered for vulcanizing green tires under high pressure and temperature to achieve their final shape and material durability. The press utilizes a precise timing and heat distribution system to ensure chemical cross-linking of the rubber compound. This machine is critical for ensuring that the tire tread and sidewall characteristics meet all safety and performance standards before the tires are cleared for final quality inspection.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site A/Curing Department/Curing Press 15",
+    "full_text": "Curing Press 15 - Curing Press 15 is a heavy-duty hydraulic press located in the Vulcanization Department. It is engineered for vulcanizing green tires under high pressure and temperature to achieve their final shape and material durability. The press utilizes a precise timing and heat distribution system to ensure chemical cross-linking of the rubber compound. This machine is critical for ensuring that the tire tread and sidewall characteristics meet all safety and performance standards before the tires are cleared for final quality inspection.",
+    "guid": "SYNTH_0033",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quadraplex Extruder 2",
+    "description": "Quadraplex Extruder 2 is a specialized machine located in the Component Preparation zone. It is designed for shaping rubber into complex profiles for treads, sidewalls, and liners with high dimensional consistency. By utilizing multiple extrusion heads, the machine can process different rubber compounds simultaneously to create multi-layered components. Integrated sensors monitor extrusion speed and temperature to prevent material defects, ensuring that the components delivered to the tire building machines meet the exact engineering specifications for high-performance tires.",
+    "type_name": "Extruder",
+    "path": "Smart Tire Production/Production Site A/Extrusion Department/Quadraplex Extruder 2",
+    "full_text": "Quadraplex Extruder 2 - Quadraplex Extruder 2 is a specialized machine located in the Component Preparation zone. It is designed for shaping rubber into complex profiles for treads, sidewalls, and liners with high dimensional consistency. By utilizing multiple extrusion heads, the machine can process different rubber compounds simultaneously to create multi-layered components. Integrated sensors monitor extrusion speed and temperature to prevent material defects, ensuring that the components delivered to the tire building machines meet the exact engineering specifications for high-performance tires.",
+    "guid": "SYNTH_0034",
+    "is_synthetic": true
+  },
+  {
+    "name": "Calender Line A",
+    "description": "Calender Line A is a precision multi-roll machine utilized for producing uniform rubber sheets and coating steel belts or fabric plies. Situated in the Material Preparation department, it is essential for creating the reinforced layers that provide structural integrity to radial tires. The machine maintains tight tolerances on thickness and adhesive properties through automated roll gap adjustments. This ensures that the steel and fabric reinforcements are perfectly encapsulated in rubber, preventing delamination and extending the operational life of the final tire product.",
+    "type_name": "Calender",
+    "path": "Smart Tire Production/Production Site A/Preparation Department/Calender Line A",
+    "full_text": "Calender Line A - Calender Line A is a precision multi-roll machine utilized for producing uniform rubber sheets and coating steel belts or fabric plies. Situated in the Material Preparation department, it is essential for creating the reinforced layers that provide structural integrity to radial tires. The machine maintains tight tolerances on thickness and adhesive properties through automated roll gap adjustments. This ensures that the steel and fabric reinforcements are perfectly encapsulated in rubber, preventing delamination and extending the operational life of the final tire product.",
+    "guid": "SYNTH_0035",
+    "is_synthetic": true
+  },
+  {
+    "name": "Tire Building Machine 4",
+    "description": "Tire Building Machine (TBM) 4 is an automated assembly unit located in the Building Department. It is designed to assemble green tires from various pre-manufactured components, including plies, beads, belts, and tread strips. TBM 4 features a multi-drum variation that significantly increases production efficiency by allowing multiple assembly steps to occur simultaneously. The machine's high degree of automation ensures that every layer is placed with millimeter precision, which is vital for the balance and uniformity of the finished passenger vehicle tires.",
+    "type_name": "Tire Building Machine (TBM)",
+    "path": "Smart Tire Production/Production Site B/Building Department/Tire Building Machine 4",
+    "full_text": "Tire Building Machine 4 - Tire Building Machine (TBM) 4 is an automated assembly unit located in the Building Department. It is designed to assemble green tires from various pre-manufactured components, including plies, beads, belts, and tread strips. TBM 4 features a multi-drum variation that significantly increases production efficiency by allowing multiple assembly steps to occur simultaneously. The machine's high degree of automation ensures that every layer is placed with millimeter precision, which is vital for the balance and uniformity of the finished passenger vehicle tires.",
+    "guid": "SYNTH_0036",
+    "is_synthetic": true
+  },
+  {
+    "name": "Bead Builder 2",
+    "description": "Bead Builder 2 is a critical production machine in the Bead Department responsible for forming the tire beads that anchor the tire to the rim. The machine precisely wraps wire reinforcements and applies a specialized rubber coating to ensure a high-strength, airtight seal. By automating the bead-forming process, Bead Builder 2 maintains consistent dimensions and wire tension across every unit produced. This consistency is essential for the structural safety of the tire, particularly during high-speed operation and heavy cornering loads.",
+    "type_name": "Bead Builder",
+    "path": "Smart Tire Production/Production Site A/Bead Department/Bead Builder 2",
+    "full_text": "Bead Builder 2 - Bead Builder 2 is a critical production machine in the Bead Department responsible for forming the tire beads that anchor the tire to the rim. The machine precisely wraps wire reinforcements and applies a specialized rubber coating to ensure a high-strength, airtight seal. By automating the bead-forming process, Bead Builder 2 maintains consistent dimensions and wire tension across every unit produced. This consistency is essential for the structural safety of the tire, particularly during high-speed operation and heavy cornering loads.",
+    "guid": "SYNTH_0037",
+    "is_synthetic": true
+  },
+  {
+    "name": "Uniformity Tester 1",
+    "description": "Uniformity Tester 1 is a high-precision diagnostic machine located in the Quality Control department of Production Site B. It simulates high-speed rotation to measure radial and lateral force variations, as well as tire balance. This machine is vital for anomaly detection, ensuring that only tires that meet strict uniformity standards proceed to packaging. By identifying even minor imbalances or structural irregularities, Uniformity Tester 1 helps maintain the factory's reputation for producing smooth-riding and safe passenger and light truck tires.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site B/Quality Control/Uniformity Tester 1",
+    "full_text": "Uniformity Tester 1 - Uniformity Tester 1 is a high-precision diagnostic machine located in the Quality Control department of Production Site B. It simulates high-speed rotation to measure radial and lateral force variations, as well as tire balance. This machine is vital for anomaly detection, ensuring that only tires that meet strict uniformity standards proceed to packaging. By identifying even minor imbalances or structural irregularities, Uniformity Tester 1 helps maintain the factory's reputation for producing smooth-riding and safe passenger and light truck tires.",
+    "guid": "SYNTH_0038",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER 3",
+    "description": "The VMI EDGER 3 is a precision machine dedicated to component preparation and edge finishing within the production line. Located in the Finishing Department, it ensures that all rubber components have the exact edge profiles required for optimal bonding during the tire building process. By providing clean, consistent edges on treads and sidewalls, the VMI EDGER 3 reduces the risk of air entrapment and defects during assembly. This automation enhances the overall durability and quality of the final tire while increasing throughput.",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Production Site A/Finishing Department/VMI EDGER 3",
+    "full_text": "VMI EDGER 3 - The VMI EDGER 3 is a precision machine dedicated to component preparation and edge finishing within the production line. Located in the Finishing Department, it ensures that all rubber components have the exact edge profiles required for optimal bonding during the tire building process. By providing clean, consistent edges on treads and sidewalls, the VMI EDGER 3 reduces the risk of air entrapment and defects during assembly. This automation enhances the overall durability and quality of the final tire while increasing throughput.",
+    "guid": "SYNTH_0039",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer 1",
+    "description": "Banbury Mixer 1 is the primary internal mixer for compounding raw materials in the Mixing Department's Bay 1. This machine is the first stage in the production process, where it blends raw rubber with carbon black, oils, and chemical additives. It is equipped with advanced sensors for predictive analysis, monitoring motor load and mixing temperature to optimize energy consumption and batch uniformity. Banbury Mixer 1 is fundamental to the production site's ability to create high-performance rubber compounds that meet modern tire specifications.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Production Site A/Mixing Department/Banbury Mixer 1",
+    "full_text": "Banbury Mixer 1 - Banbury Mixer 1 is the primary internal mixer for compounding raw materials in the Mixing Department's Bay 1. This machine is the first stage in the production process, where it blends raw rubber with carbon black, oils, and chemical additives. It is equipped with advanced sensors for predictive analysis, monitoring motor load and mixing temperature to optimize energy consumption and batch uniformity. Banbury Mixer 1 is fundamental to the production site's ability to create high-performance rubber compounds that meet modern tire specifications.",
+    "guid": "SYNTH_0040",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX 101",
+    "description": "High-output radial passenger tire building machine featuring a specialized two-drum system for hands-off processing. This automated unit handles both passenger and light truck tire specifications with a maximum output capacity of 1800 units per day. It integrates bead apex loading and cushion gum extrusion modules directly into the workflow. Critical for high-speed assembly, it ensures precision in component placement before the green tire reaches the vulcanization stage.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Assembly Bay",
+    "full_text": "VMI MAXX 101 - High-output radial passenger tire building machine featuring a specialized two-drum system for hands-off processing. This automated unit handles both passenger and light truck tire specifications with a maximum output capacity of 1800 units per day. It integrates bead apex loading and cushion gum extrusion modules directly into the workflow. Critical for high-speed assembly, it ensures precision in component placement before the green tire reaches the vulcanization stage.",
+    "guid": "SYNTH_0041",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer 02",
+    "description": "Internal heavy-duty mixer used for compounding raw rubber with essential additives, carbon black, and chemical agents. This machine represents the initial stage of the production flow, ensuring a homogeneous blend required for high-performance tire compounds. It features advanced temperature control systems to prevent premature vulcanization during the mixing cycle. Operational efficiency here directly impacts the material quality of all subsequent extrusion and calendering processes within the facility.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Production Site A/Compounding Area",
+    "full_text": "Banbury Mixer 02 - Internal heavy-duty mixer used for compounding raw rubber with essential additives, carbon black, and chemical agents. This machine represents the initial stage of the production flow, ensuring a homogeneous blend required for high-performance tire compounds. It features advanced temperature control systems to prevent premature vulcanization during the mixing cycle. Operational efficiency here directly impacts the material quality of all subsequent extrusion and calendering processes within the facility.",
+    "guid": "SYNTH_0042",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quadraplex Extruder 05",
+    "description": "High-precision quadraplex extruder designed for shaping raw rubber into complex treads, sidewalls, and inner liners. It produces consistent profiles by merging four distinct rubber compounds into a single extrudate through a shared die head. This machine is critical for maintaining the dimensional accuracy and weight distribution of tire components. It continuously feeds the building machines with high-quality semi-finished materials, ensuring the structural integrity of the final tire profile.",
+    "type_name": "Extruder",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Extrusion Section",
+    "full_text": "Quadraplex Extruder 05 - High-precision quadraplex extruder designed for shaping raw rubber into complex treads, sidewalls, and inner liners. It produces consistent profiles by merging four distinct rubber compounds into a single extrudate through a shared die head. This machine is critical for maintaining the dimensional accuracy and weight distribution of tire components. It continuously feeds the building machines with high-quality semi-finished materials, ensuring the structural integrity of the final tire profile.",
+    "guid": "SYNTH_0043",
+    "is_synthetic": true
+  },
+  {
+    "name": "TBM Unit 08",
+    "description": "Automatic tire building machine used for constructing green tires from individual components including plies, beads, belts, and treads. Utilizing a multi-drum configuration, this machine maximizes throughput while maintaining strict tolerances for component alignment. It serves as the primary integration point where the tire's multi-layered structure is finalized before being moved to the curing bay. Reliable operation is essential for preventing structural defects and ensuring uniform expansion during the vulcanization process.",
+    "type_name": "Tire Building Machine (TBM)",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/Assembly Bay",
+    "full_text": "TBM Unit 08 - Automatic tire building machine used for constructing green tires from individual components including plies, beads, belts, and treads. Utilizing a multi-drum configuration, this machine maximizes throughput while maintaining strict tolerances for component alignment. It serves as the primary integration point where the tire's multi-layered structure is finalized before being moved to the curing bay. Reliable operation is essential for preventing structural defects and ensuring uniform expansion during the vulcanization process.",
+    "guid": "SYNTH_0044",
+    "is_synthetic": true
+  },
+  {
+    "name": "Precision Calender 01",
+    "description": "Multi-roll machine engineered for producing rubber sheets and coating steel belts or fabric plies with precision. This machine ensures that reinforcing materials are perfectly embedded within the rubber matrix to provide necessary structural strength. It controls the thickness and tension of the ply material, which is vital for the tire's final load-bearing capabilities. Any deviation in the calendering process can lead to separation issues during high-speed tire operation and affects overall durability.",
+    "type_name": "Calender",
+    "path": "Smart Tire Production/Production Site A/Material Preparation/Calendering Bay",
+    "full_text": "Precision Calender 01 - Multi-roll machine engineered for producing rubber sheets and coating steel belts or fabric plies with precision. This machine ensures that reinforcing materials are perfectly embedded within the rubber matrix to provide necessary structural strength. It controls the thickness and tension of the ply material, which is vital for the tire's final load-bearing capabilities. Any deviation in the calendering process can lead to separation issues during high-speed tire operation and affects overall durability.",
+    "guid": "SYNTH_0045",
+    "is_synthetic": true
+  },
+  {
+    "name": "Uniformity Tester UT-09",
+    "description": "Advanced testing station used for measuring force variations and balance during high-speed rotation simulations. It identifies radial and lateral force fluctuations that could lead to vehicle vibration or uneven tread wear. By simulating real-world driving conditions, the tester ensures that every finished tire meets strict OEM quality standards before shipping. It acts as the final gatekeeper for product quality, providing critical data for the predictive analysis of the preceding manufacturing stages.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Final Inspection/Quality Control",
+    "full_text": "Uniformity Tester UT-09 - Advanced testing station used for measuring force variations and balance during high-speed rotation simulations. It identifies radial and lateral force fluctuations that could lead to vehicle vibration or uneven tread wear. By simulating real-world driving conditions, the tester ensures that every finished tire meets strict OEM quality standards before shipping. It acts as the final gatekeeper for product quality, providing critical data for the predictive analysis of the preceding manufacturing stages.",
+    "guid": "SYNTH_0046",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER 03",
+    "description": "Precision machine dedicated to tire component preparation and edge finishing within the automated production line. This unit ensures that the edges of belts and plies are trimmed to exact specifications, preventing material overlap or gaps that could compromise the tire's internal integrity. Its operation is closely synchronized with the tire building machines to provide a seamless flow of prepared components. High accuracy at this stage reduces material waste and improves the overall structural uniformity.",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Component Prep",
+    "full_text": "VMI EDGER 03 - Precision machine dedicated to tire component preparation and edge finishing within the automated production line. This unit ensures that the edges of belts and plies are trimmed to exact specifications, preventing material overlap or gaps that could compromise the tire's internal integrity. Its operation is closely synchronized with the tire building machines to provide a seamless flow of prepared components. High accuracy at this stage reduces material waste and improves the overall structural uniformity.",
+    "guid": "SYNTH_0047",
+    "is_synthetic": true
+  },
+  {
+    "name": "Bead Builder B-07",
+    "description": "Specialized machine for forming tire beads using high-tensile wire reinforcement and protective rubber coating. The beads are crucial for securing the tire to the wheel rim and maintaining an airtight seal. This unit automates the winding and coating process, ensuring that each bead meets required diameter and strength specifications. It is a critical sub-assembly station that supplies the main tire building machines with the essential structural rings needed for green tire construction.",
+    "type_name": "Bead Builder",
+    "path": "Smart Tire Production/Production Site A/Bead Manufacturing Room",
+    "full_text": "Bead Builder B-07 - Specialized machine for forming tire beads using high-tensile wire reinforcement and protective rubber coating. The beads are crucial for securing the tire to the wheel rim and maintaining an airtight seal. This unit automates the winding and coating process, ensuring that each bead meets required diameter and strength specifications. It is a critical sub-assembly station that supplies the main tire building machines with the essential structural rings needed for green tire construction.",
+    "guid": "SYNTH_0048",
+    "is_synthetic": true
+  },
+  {
+    "name": "Curing Press 12",
+    "description": "Parallel processing bank of vulcanization presses located in Bay 4. This system acts as the primary bottleneck for Line 2, converting green tires into durable finished products using intense heat and hydraulic pressure. It is heavily dependent on the central Boiler House for steam pressure consistency. The unit's performance determines the final chemical properties, tread definition, and structural shape of the tires, ensuring they meet the required safety and performance ratings.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/Curing Bay",
+    "full_text": "Curing Press 12 - Parallel processing bank of vulcanization presses located in Bay 4. This system acts as the primary bottleneck for Line 2, converting green tires into durable finished products using intense heat and hydraulic pressure. It is heavily dependent on the central Boiler House for steam pressure consistency. The unit's performance determines the final chemical properties, tread definition, and structural shape of the tires, ensuring they meet the required safety and performance ratings.",
+    "guid": "SYNTH_0049",
+    "is_synthetic": true
+  },
+  {
+    "name": "Production Site Alpha",
+    "description": "Central facility aggregating multiple production lines, automated machines, and support processes for comprehensive output monitoring. This site facilitates real-time efficiency tracking, anomaly detection, and predictive maintenance analysis across all tire manufacturing stages. It serves as the digital twin foundation, integrating data from mixers, extruders, and curing presses to optimize the entire factory lifecycle. The hub ensures that all manufacturing parameters align with global quality and safety standards for high-performance tire production.",
+    "type_name": "Production Site",
+    "path": "Smart Tire Production/Production Site A",
+    "full_text": "Production Site Alpha - Central facility aggregating multiple production lines, automated machines, and support processes for comprehensive output monitoring. This site facilitates real-time efficiency tracking, anomaly detection, and predictive maintenance analysis across all tire manufacturing stages. It serves as the digital twin foundation, integrating data from mixers, extruders, and curing presses to optimize the entire factory lifecycle. The hub ensures that all manufacturing parameters align with global quality and safety standards for high-performance tire production.",
+    "guid": "SYNTH_0050",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX-01",
+    "description": "The VMI MAXX-01 is a high-output radial passenger tire building machine featuring a sophisticated two-drum system. It operates on a hands-off/eyes-off process, significantly increasing safety and precision. This unit is optimized for light truck tire production, capable of outputting up to 1800 units per day. It includes dedicated modules for bead apex loading and cushion gum extrusion, ensuring seamless assembly within Line 1.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1",
+    "full_text": "VMI MAXX-01 - The VMI MAXX-01 is a high-output radial passenger tire building machine featuring a sophisticated two-drum system. It operates on a hands-off/eyes-off process, significantly increasing safety and precision. This unit is optimized for light truck tire production, capable of outputting up to 1800 units per day. It includes dedicated modules for bead apex loading and cushion gum extrusion, ensuring seamless assembly within Line 1.",
+    "guid": "SYNTH_0051",
+    "is_synthetic": true
+  },
+  {
+    "name": "CP-402 Vulcanizer",
+    "description": "CP-402 is a heavy-duty hydraulic curing press designed for the vulcanization of green tires. By applying precise high pressure and controlled temperature cycles, the machine transforms raw compounds into durable final products with specific tread patterns and structural integrity. This unit is integrated into Bay 2 to manage high-volume throughput while maintaining strict quality standards for thermal consistency and pressure distribution during the curing process.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site A/Curing Bay 2",
+    "full_text": "CP-402 Vulcanizer - CP-402 is a heavy-duty hydraulic curing press designed for the vulcanization of green tires. By applying precise high pressure and controlled temperature cycles, the machine transforms raw compounds into durable final products with specific tread patterns and structural integrity. This unit is integrated into Bay 2 to manage high-volume throughput while maintaining strict quality standards for thermal consistency and pressure distribution during the curing process.",
+    "guid": "SYNTH_0052",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer BM-10",
+    "description": "The Banbury Mixer BM-10 serves as the primary internal mixer for compounding raw rubber with essential additives, carbon black, and chemical agents. This machine ensures a homogeneous distribution of materials through high-shear mixing, which is critical for the resulting tire's physical properties. Located in the Mixing Department of Site B, it prepares high-quality batches for subsequent extrusion and calendering stages in the production workflow.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Production Site B/Mixing Department",
+    "full_text": "Banbury Mixer BM-10 - The Banbury Mixer BM-10 serves as the primary internal mixer for compounding raw rubber with essential additives, carbon black, and chemical agents. This machine ensures a homogeneous distribution of materials through high-shear mixing, which is critical for the resulting tire's physical properties. Located in the Mixing Department of Site B, it prepares high-quality batches for subsequent extrusion and calendering stages in the production workflow.",
+    "guid": "SYNTH_0053",
+    "is_synthetic": true
+  },
+  {
+    "name": "Extruder EX-7",
+    "description": "Extruder EX-7 is a Quadraplex system engineered for shaping raw rubber into complex profiles for treads, sidewalls, and inner liners. Its four-chamber design allows for the simultaneous extrusion of multiple rubber compounds, ensuring consistent dimensions and material density. This machine is a vital component of Production Line 2, providing the necessary precision for high-performance tire components before they reach the building machines.",
+    "type_name": "Extruder",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2",
+    "full_text": "Extruder EX-7 - Extruder EX-7 is a Quadraplex system engineered for shaping raw rubber into complex profiles for treads, sidewalls, and inner liners. Its four-chamber design allows for the simultaneous extrusion of multiple rubber compounds, ensuring consistent dimensions and material density. This machine is a vital component of Production Line 2, providing the necessary precision for high-performance tire components before they reach the building machines.",
+    "guid": "SYNTH_0054",
+    "is_synthetic": true
+  },
+  {
+    "name": "Uniformity Tester UT-505",
+    "description": "The UT-505 is a high-precision Uniformity Tester utilized for measuring force variations and dynamic balance during high-speed rotation simulations. This machine identifies structural anomalies and deviations in weight distribution to ensure every tire meets strict safety and performance specifications. Located in the Quality Control Bay, it provides critical feedback for predictive analysis and process optimization to minimize waste and ensure product excellence.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Quality Control Bay",
+    "full_text": "Uniformity Tester UT-505 - The UT-505 is a high-precision Uniformity Tester utilized for measuring force variations and dynamic balance during high-speed rotation simulations. This machine identifies structural anomalies and deviations in weight distribution to ensure every tire meets strict safety and performance specifications. Located in the Quality Control Bay, it provides critical feedback for predictive analysis and process optimization to minimize waste and ensure product excellence.",
+    "guid": "SYNTH_0055",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER-03",
+    "description": "The VMI EDGER-03 is a precision machine dedicated to tire component preparation and edge finishing within Production Line 1. It ensures that the edges of ply and belt materials are perfectly trimmed and conditioned for the assembly process. This level of accuracy is essential for preventing structural defects during the building stage, contributing to the overall durability and reliability of the final radial passenger tires.",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1",
+    "full_text": "VMI EDGER-03 - The VMI EDGER-03 is a precision machine dedicated to tire component preparation and edge finishing within Production Line 1. It ensures that the edges of ply and belt materials are perfectly trimmed and conditioned for the assembly process. This level of accuracy is essential for preventing structural defects during the building stage, contributing to the overall durability and reliability of the final radial passenger tires.",
+    "guid": "SYNTH_0056",
+    "is_synthetic": true
+  },
+  {
+    "name": "Bead Builder BB-22",
+    "description": "Bead Builder BB-22 is an automated machine responsible for forming tire beads with high-strength wire reinforcement and uniform rubber coating. Located in the Component Prep Area of Site B, it maintains the structural integrity of the tire's foundation. The machine ensures consistent wire tension and rubber adhesion, which are critical for the tire's ability to seat securely on the wheel rim and withstand high inflation pressures.",
+    "type_name": "Bead Builder",
+    "path": "Smart Tire Production/Production Site B/Component Prep Area",
+    "full_text": "Bead Builder BB-22 - Bead Builder BB-22 is an automated machine responsible for forming tire beads with high-strength wire reinforcement and uniform rubber coating. Located in the Component Prep Area of Site B, it maintains the structural integrity of the tire's foundation. The machine ensures consistent wire tension and rubber adhesion, which are critical for the tire's ability to seat securely on the wheel rim and withstand high inflation pressures.",
+    "guid": "SYNTH_0057",
+    "is_synthetic": true
+  },
+  {
+    "name": "Calender CL-100",
+    "description": "Calender CL-100 is a multi-roll machine designed for producing high-quality rubber sheets and coating steel belts or fabric plies with precision. By controlling the gap between heated rolls, it achieves uniform thickness across the material width. This unit is essential for creating the reinforced layers used in radial tires, ensuring that the internal structure provides both flexibility and strength during operation in the field.",
+    "type_name": "Calender",
+    "path": "Smart Tire Production/Production Site B/Material Processing Line",
+    "full_text": "Calender CL-100 - Calender CL-100 is a multi-roll machine designed for producing high-quality rubber sheets and coating steel belts or fabric plies with precision. By controlling the gap between heated rolls, it achieves uniform thickness across the material width. This unit is essential for creating the reinforced layers used in radial tires, ensuring that the internal structure provides both flexibility and strength during operation in the field.",
+    "guid": "SYNTH_0058",
+    "is_synthetic": true
+  },
+  {
+    "name": "TBM-MD-04 Assembler",
+    "description": "TBM-MD-04 is an automatic multi-drum assembler designed to construct green tires from various components, including plies, beads, belts, and treads. Its multi-drum configuration allows for overlapping assembly stages, significantly improving production efficiency and cycle times. Located on Line 2, this machine handles the complex task of integrating all tire layers into a cohesive structure ready for final vulcanization.",
+    "type_name": "Tire Building Machine (TBM)",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2",
+    "full_text": "TBM-MD-04 Assembler - TBM-MD-04 is an automatic multi-drum assembler designed to construct green tires from various components, including plies, beads, belts, and treads. Its multi-drum configuration allows for overlapping assembly stages, significantly improving production efficiency and cycle times. Located on Line 2, this machine handles the complex task of integrating all tire layers into a cohesive structure ready for final vulcanization.",
+    "guid": "SYNTH_0059",
+    "is_synthetic": true
+  },
+  {
+    "name": "Site C Operations",
+    "description": "Production Site C serves as an advanced facility aggregating multiple production lines, machines, and automated processes. It is designed for maximum output and efficiency through integrated anomaly detection and predictive analysis. By monitoring real-time data from building machines and curing presses, the site optimizes the entire manufacturing lifecycle, from raw material mixing to final quality testing, ensuring a streamlined environment.",
+    "type_name": "Production Site",
+    "path": "Smart Tire Production/Production Site C",
+    "full_text": "Site C Operations - Production Site C serves as an advanced facility aggregating multiple production lines, machines, and automated processes. It is designed for maximum output and efficiency through integrated anomaly detection and predictive analysis. By monitoring real-time data from building machines and curing presses, the site optimizes the entire manufacturing lifecycle, from raw material mixing to final quality testing, ensuring a streamlined environment.",
+    "guid": "SYNTH_0060",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX 2",
+    "description": "High-output radial passenger tire building machine located in Line 1, Bay A. This advanced unit features a dual-drum system supporting a hands-off/eyes-off process for maximum efficiency. It offers extreme flexibility for passenger and light truck tire specifications with a daily output capacity of up to 1800 tires. The machine includes integrated modules for automated bead apex loading and precise cushion gum extrusion for high-performance builds.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Devices/Line 1/Bay A/VMI MAXX 2",
+    "full_text": "VMI MAXX 2 - High-output radial passenger tire building machine located in Line 1, Bay A. This advanced unit features a dual-drum system supporting a hands-off/eyes-off process for maximum efficiency. It offers extreme flexibility for passenger and light truck tire specifications with a daily output capacity of up to 1800 tires. The machine includes integrated modules for automated bead apex loading and precise cushion gum extrusion for high-performance builds.",
+    "guid": "SYNTH_0061",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER 04",
+    "description": "Precision machine dedicated to tire component preparation and edge finishing within the primary production line at Bay B. This unit ensures that all rubber components meet exact dimensional specifications before the final assembly stage. By providing high-quality edge finishing, it maintains the strict tolerances required for high-performance smart tires. The machine is critical for reducing material waste and ensuring the structural integrity of the tire's final shape.",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Devices/Line 2/Bay B/VMI EDGER 04",
+    "full_text": "VMI EDGER 04 - Precision machine dedicated to tire component preparation and edge finishing within the primary production line at Bay B. This unit ensures that all rubber components meet exact dimensional specifications before the final assembly stage. By providing high-quality edge finishing, it maintains the strict tolerances required for high-performance smart tires. The machine is critical for reducing material waste and ensuring the structural integrity of the tire's final shape.",
+    "guid": "SYNTH_0062",
+    "is_synthetic": true
+  },
+  {
+    "name": "Curing Press CP-80",
+    "description": "Industrial hydraulic press utilized for the vulcanization of green tires under high pressure and temperature. Located in Line 3, Bay C, this machine is responsible for the chemical transformation of the rubber compound to achieve final durability and shape. It features precise temperature control systems to ensure uniformity across the tire surface. This curing process is vital for creating a product that meets safety standards for high-speed passenger vehicles.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Devices/Line 3/Bay C/Curing Press CP-80",
+    "full_text": "Curing Press CP-80 - Industrial hydraulic press utilized for the vulcanization of green tires under high pressure and temperature. Located in Line 3, Bay C, this machine is responsible for the chemical transformation of the rubber compound to achieve final durability and shape. It features precise temperature control systems to ensure uniformity across the tire surface. This curing process is vital for creating a product that meets safety standards for high-speed passenger vehicles.",
+    "guid": "SYNTH_0063",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quadraplex Extruder EX-12",
+    "description": "Sophisticated Quadraplex extruder designed for shaping specialized rubber compounds into treads, sidewalls, and inner liners. Positioned in Line 1, Bay D, it maintains consistent profiles through automated pressure and speed adjustments. The machine is essential for creating the complex multi-layer components required in radial tire construction. Its high-precision output ensures that every component aligns perfectly during the subsequent tire building stages, optimizing overall production efficiency and product quality.",
+    "type_name": "Extruder",
+    "path": "Smart Tire Production/Devices/Line 1/Bay D/Quadraplex Extruder EX-12",
+    "full_text": "Quadraplex Extruder EX-12 - Sophisticated Quadraplex extruder designed for shaping specialized rubber compounds into treads, sidewalls, and inner liners. Positioned in Line 1, Bay D, it maintains consistent profiles through automated pressure and speed adjustments. The machine is essential for creating the complex multi-layer components required in radial tire construction. Its high-precision output ensures that every component aligns perfectly during the subsequent tire building stages, optimizing overall production efficiency and product quality.",
+    "guid": "SYNTH_0064",
+    "is_synthetic": true
+  },
+  {
+    "name": "Multi-Roll Calender CAL-05",
+    "description": "Heavy-duty multi-roll calender machine used for producing high-quality rubber sheets and coating steel belts or fabric plies. Situated in Line 4, Bay E, it applies rubber compounds to reinforcements with extreme precision to ensure uniform thickness and superior adhesion. This machine is a fundamental part of the material preparation phase, providing the structural layers necessary for tire durability. The integrated sensors monitor sheet thickness in real-time to prevent anomalies in the production flow.",
+    "type_name": "Calender",
+    "path": "Smart Tire Production/Devices/Line 4/Bay E/Multi-Roll Calender CAL-05",
+    "full_text": "Multi-Roll Calender CAL-05 - Heavy-duty multi-roll calender machine used for producing high-quality rubber sheets and coating steel belts or fabric plies. Situated in Line 4, Bay E, it applies rubber compounds to reinforcements with extreme precision to ensure uniform thickness and superior adhesion. This machine is a fundamental part of the material preparation phase, providing the structural layers necessary for tire durability. The integrated sensors monitor sheet thickness in real-time to prevent anomalies in the production flow.",
+    "guid": "SYNTH_0065",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer MX-200",
+    "description": "High-capacity internal mixer used for compounding raw rubber with various additives, carbon black, and chemical agents. Located in the Material Preparation Zone at Bay F, this unit ensures a perfectly homogeneous mixture for tire production. It features advanced cooling and heating systems to control the chemical reactions during the mixing cycle. The mixer is the starting point of the factory process, where the specific rubber recipes for high-performance tires are accurately created.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Devices/Preparation Zone/Bay F/Banbury Mixer MX-200",
+    "full_text": "Banbury Mixer MX-200 - High-capacity internal mixer used for compounding raw rubber with various additives, carbon black, and chemical agents. Located in the Material Preparation Zone at Bay F, this unit ensures a perfectly homogeneous mixture for tire production. It features advanced cooling and heating systems to control the chemical reactions during the mixing cycle. The mixer is the starting point of the factory process, where the specific rubber recipes for high-performance tires are accurately created.",
+    "guid": "SYNTH_0066",
+    "is_synthetic": true
+  },
+  {
+    "name": "TBM Dual Drum 08",
+    "description": "Automated Tire Building Machine (TBM) designed for the high-speed assembly of green tires from individual plies, beads, and treads. Operating in Line 2, Bay G, this dual-drum variation significantly increases output by allowing simultaneous assembly steps. It manages the complex layering process with robotic precision, ensuring that all components are perfectly aligned. This unit is essential for maintaining the high-volume production requirements of the modern smart tire manufacturing facility.",
+    "type_name": "Tire Building Machine (TBM)",
+    "path": "Smart Tire Production/Devices/Line 2/Bay G/TBM Dual Drum 08",
+    "full_text": "TBM Dual Drum 08 - Automated Tire Building Machine (TBM) designed for the high-speed assembly of green tires from individual plies, beads, and treads. Operating in Line 2, Bay G, this dual-drum variation significantly increases output by allowing simultaneous assembly steps. It manages the complex layering process with robotic precision, ensuring that all components are perfectly aligned. This unit is essential for maintaining the high-volume production requirements of the modern smart tire manufacturing facility.",
+    "guid": "SYNTH_0067",
+    "is_synthetic": true
+  },
+  {
+    "name": "Bead Builder BB-02",
+    "description": "Specialized machine for forming tire beads using wire reinforcement and protective rubber coatings. Located in Line 5, Bay H, this machine provides the structural foundation that secures the tire to the vehicle rim. It automates the winding and coating process to ensure consistent wire tension and rubber thickness across every bead produced. The machine's high-speed operation supports the overall factory throughput while maintaining the strict safety standards required for tire reinforcement components.",
+    "type_name": "Bead Builder",
+    "path": "Smart Tire Production/Devices/Line 5/Bay H/Bead Builder BB-02",
+    "full_text": "Bead Builder BB-02 - Specialized machine for forming tire beads using wire reinforcement and protective rubber coatings. Located in Line 5, Bay H, this machine provides the structural foundation that secures the tire to the vehicle rim. It automates the winding and coating process to ensure consistent wire tension and rubber thickness across every bead produced. The machine's high-speed operation supports the overall factory throughput while maintaining the strict safety standards required for tire reinforcement components.",
+    "guid": "SYNTH_0068",
+    "is_synthetic": true
+  },
+  {
+    "name": "Uniformity Tester UT-15",
+    "description": "Final stage quality control machine designed to measure force variations and balance during high-speed rotation simulations. Located in the Quality Inspection Bay, this unit identifies any physical anomalies or imbalances in the finished tire. It provides essential data for predictive analysis and ensures that only tires meeting strict performance criteria leave the facility. This system is critical for maintaining the reputation of the smart factory by guaranteeing safety and ride comfort for consumers.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Devices/Quality Control/Uniformity Tester UT-15",
+    "full_text": "Uniformity Tester UT-15 - Final stage quality control machine designed to measure force variations and balance during high-speed rotation simulations. Located in the Quality Inspection Bay, this unit identifies any physical anomalies or imbalances in the finished tire. It provides essential data for predictive analysis and ensures that only tires meeting strict performance criteria leave the facility. This system is critical for maintaining the reputation of the smart factory by guaranteeing safety and ride comfort for consumers.",
+    "guid": "SYNTH_0069",
+    "is_synthetic": true
+  },
+  {
+    "name": "Smart Production Site A",
+    "description": "Primary manufacturing facility aggregating all production lines, automated machines, and support processes. This site coordinates the flow between Banbury mixers, extruders, and tire building machines to maximize daily output and operational efficiency. It serves as the hub for data-driven anomaly detection and predictive maintenance across the entire factory floor. Site A is optimized for the production of high-performance radial tires, utilizing a fully integrated digital infrastructure to monitor every stage of the tire manufacturing lifecycle.",
+    "type_name": "Production Site",
+    "path": "Smart Tire Production/Sites/Site A",
+    "full_text": "Smart Production Site A - Primary manufacturing facility aggregating all production lines, automated machines, and support processes. This site coordinates the flow between Banbury mixers, extruders, and tire building machines to maximize daily output and operational efficiency. It serves as the hub for data-driven anomaly detection and predictive maintenance across the entire factory floor. Site A is optimized for the production of high-performance radial tires, utilizing a fully integrated digital infrastructure to monitor every stage of the tire manufacturing lifecycle.",
+    "guid": "SYNTH_0070",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX 1",
+    "description": "This VMI MAXX high-output radial passenger tire building machine is situated in Production Line 1. It utilizes a sophisticated two-drum system and a hands-off, eyes-off process to ensure maximum safety and consistency. The unit is optimized for both passenger and light truck tires, capable of producing up to 1800 units daily. Integrated modules facilitate automated bead apex loading and cushion gum extrusion, streamlining the overall manufacturing workflow while maintaining precise tolerances required for high-performance tire components.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1",
+    "full_text": "VMI MAXX 1 - This VMI MAXX high-output radial passenger tire building machine is situated in Production Line 1. It utilizes a sophisticated two-drum system and a hands-off, eyes-off process to ensure maximum safety and consistency. The unit is optimized for both passenger and light truck tires, capable of producing up to 1800 units daily. Integrated modules facilitate automated bead apex loading and cushion gum extrusion, streamlining the overall manufacturing workflow while maintaining precise tolerances required for high-performance tire components.",
+    "guid": "SYNTH_0071",
+    "is_synthetic": true
+  },
+  {
+    "name": "Curing Press 4",
+    "description": "Curing Press 4 is a critical hydraulic unit located in Production Line 2, Bay B. It is responsible for the vulcanization of green tires, applying precise high pressure and extreme temperatures to achieve the final shape and material durability. The press features advanced monitoring sensors to track the curing cycle, ensuring optimal chemical cross-linking of the rubber compounds. This specific unit is essential for transforming the raw assembled tire into a finished product ready for quality inspection and uniformity testing.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2",
+    "full_text": "Curing Press 4 - Curing Press 4 is a critical hydraulic unit located in Production Line 2, Bay B. It is responsible for the vulcanization of green tires, applying precise high pressure and extreme temperatures to achieve the final shape and material durability. The press features advanced monitoring sensors to track the curing cycle, ensuring optimal chemical cross-linking of the rubber compounds. This specific unit is essential for transforming the raw assembled tire into a finished product ready for quality inspection and uniformity testing.",
+    "guid": "SYNTH_0072",
+    "is_synthetic": true
+  },
+  {
+    "name": "Extruder 102",
+    "description": "The Quadraplex Extruder 102 is located within Bay A of the Smart Tire Production facility. This heavy-duty machine is designed for shaping raw rubber into complex profiles for treads, sidewalls, and inner liners. By utilizing four separate extrusion heads, it ensures consistent material distribution and profile accuracy across various tire dimensions. The system is integrated with real-time temperature controls and pressure sensors to prevent material degradation during the extrusion process, facilitating the continuous production of high-quality semi-finished tire components.",
+    "type_name": "Extruder",
+    "path": "Smart Tire Production/Production Site B/Bay A",
+    "full_text": "Extruder 102 - The Quadraplex Extruder 102 is located within Bay A of the Smart Tire Production facility. This heavy-duty machine is designed for shaping raw rubber into complex profiles for treads, sidewalls, and inner liners. By utilizing four separate extrusion heads, it ensures consistent material distribution and profile accuracy across various tire dimensions. The system is integrated with real-time temperature controls and pressure sensors to prevent material degradation during the extrusion process, facilitating the continuous production of high-quality semi-finished tire components.",
+    "guid": "SYNTH_0073",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer 5",
+    "description": "Banbury Mixer 5 is an internal high-capacity mixer dedicated to the initial compounding phase in the Mixing Department. It efficiently blends raw rubber with specific chemical additives, carbon black, and processing oils to create precise rubber formulations. The machine features automated feeding systems and rotor speed control to manage heat generation during the intensive mixing cycle. By ensuring a homogeneous distribution of all ingredients, this Banbury Mixer provides the foundational material consistency required for all subsequent extrusion and calendering processes.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Mixing Area/Sector 1",
+    "full_text": "Banbury Mixer 5 - Banbury Mixer 5 is an internal high-capacity mixer dedicated to the initial compounding phase in the Mixing Department. It efficiently blends raw rubber with specific chemical additives, carbon black, and processing oils to create precise rubber formulations. The machine features automated feeding systems and rotor speed control to manage heat generation during the intensive mixing cycle. By ensuring a homogeneous distribution of all ingredients, this Banbury Mixer provides the foundational material consistency required for all subsequent extrusion and calendering processes.",
+    "guid": "SYNTH_0074",
+    "is_synthetic": true
+  },
+  {
+    "name": "Uniformity Tester 2",
+    "description": "Uniformity Tester 2 is an advanced quality control machine positioned at the end of Production Line 3. It measures force variations and balance during high-speed rotation simulations to ensure every tire meets strict safety and performance standards. The system detects radial and lateral force fluctuations that could cause vehicle vibration or uneven wear. By providing detailed analytical data for each tire, the tester supports predictive maintenance and allows for immediate anomaly detection within the manufacturing process, maintaining the highest product standards.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Quality Control",
+    "full_text": "Uniformity Tester 2 - Uniformity Tester 2 is an advanced quality control machine positioned at the end of Production Line 3. It measures force variations and balance during high-speed rotation simulations to ensure every tire meets strict safety and performance standards. The system detects radial and lateral force fluctuations that could cause vehicle vibration or uneven wear. By providing detailed analytical data for each tire, the tester supports predictive maintenance and allows for immediate anomaly detection within the manufacturing process, maintaining the highest product standards.",
+    "guid": "SYNTH_0075",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER 1",
+    "description": "The VMI EDGER 1 is a precision machine integrated into the component preparation stage of Production Line 2. It specializes in the edge finishing of tire components, ensuring that every layer is prepared with exact dimensions before assembly on the tire building machines. The unit minimizes material waste through accurate trimming and profiling, contributing to the overall efficiency of the line. Its automated sensors detect minute deviations in material thickness, providing real-time feedback to maintain the integrity of the tire's structural components.",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2",
+    "full_text": "VMI EDGER 1 - The VMI EDGER 1 is a precision machine integrated into the component preparation stage of Production Line 2. It specializes in the edge finishing of tire components, ensuring that every layer is prepared with exact dimensions before assembly on the tire building machines. The unit minimizes material waste through accurate trimming and profiling, contributing to the overall efficiency of the line. Its automated sensors detect minute deviations in material thickness, providing real-time feedback to maintain the integrity of the tire's structural components.",
+    "guid": "SYNTH_0076",
+    "is_synthetic": true
+  },
+  {
+    "name": "Calender 8",
+    "description": "Multi-Roll Calender 8 is a high-precision machine located in Bay C, designed for producing consistent rubber sheets and coating steel belts or fabric plies. The multi-roll configuration allows for exact control over thickness and surface finish, which is crucial for the structural integrity of the tire carcass. This unit plays a vital role in the reinforcement stage, ensuring that the adhesive properties of the rubber are perfectly matched with the steel or textile cords, preventing delamination and enhancing the tire's long-term durability.",
+    "type_name": "Calender",
+    "path": "Smart Tire Production/Production Site B/Bay C",
+    "full_text": "Calender 8 - Multi-Roll Calender 8 is a high-precision machine located in Bay C, designed for producing consistent rubber sheets and coating steel belts or fabric plies. The multi-roll configuration allows for exact control over thickness and surface finish, which is crucial for the structural integrity of the tire carcass. This unit plays a vital role in the reinforcement stage, ensuring that the adhesive properties of the rubber are perfectly matched with the steel or textile cords, preventing delamination and enhancing the tire's long-term durability.",
+    "guid": "SYNTH_0077",
+    "is_synthetic": true
+  },
+  {
+    "name": "TBM 5",
+    "description": "The Automatic TBM 5 is a high-efficiency Tire Building Machine located on Line 5, utilizing a multi-drum variation for rapid green tire assembly. It automatically assembles various components, including plies, beads, belts, and treads, into a cohesive unit ready for vulcanization. The machine is programmed to handle diverse tire specifications, offering flexibility between different production runs. With its advanced sensor array, TBM 5 monitors component alignment in real-time, significantly reducing manual intervention and ensuring the structural uniformity of every green tire produced.",
+    "type_name": "Tire Building Machine (TBM)",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 5",
+    "full_text": "TBM 5 - The Automatic TBM 5 is a high-efficiency Tire Building Machine located on Line 5, utilizing a multi-drum variation for rapid green tire assembly. It automatically assembles various components, including plies, beads, belts, and treads, into a cohesive unit ready for vulcanization. The machine is programmed to handle diverse tire specifications, offering flexibility between different production runs. With its advanced sensor array, TBM 5 monitors component alignment in real-time, significantly reducing manual intervention and ensuring the structural uniformity of every green tire produced.",
+    "guid": "SYNTH_0078",
+    "is_synthetic": true
+  },
+  {
+    "name": "Bead Builder 12",
+    "description": "Bead Builder 12 is a specialized machine in the component fabrication area of Line 1, dedicated to forming tire beads. It combines high-tensile wire reinforcement with a precision rubber coating to create the critical structural ring that holds the tire onto the wheel rim. The machine automates the winding and insulation process, ensuring uniform tension and diameter for every bead produced. By maintaining tight tolerances, Bead Builder 12 ensures that the final tire assembly remains secure under high-pressure conditions and intense lateral forces during vehicle operation.",
+    "type_name": "Bead Builder",
+    "path": "Smart Tire Production/Production Site A/Line 1/Sub-Assembly",
+    "full_text": "Bead Builder 12 - Bead Builder 12 is a specialized machine in the component fabrication area of Line 1, dedicated to forming tire beads. It combines high-tensile wire reinforcement with a precision rubber coating to create the critical structural ring that holds the tire onto the wheel rim. The machine automates the winding and insulation process, ensuring uniform tension and diameter for every bead produced. By maintaining tight tolerances, Bead Builder 12 ensures that the final tire assembly remains secure under high-pressure conditions and intense lateral forces during vehicle operation.",
+    "guid": "SYNTH_0079",
+    "is_synthetic": true
+  },
+  {
+    "name": "Production Site C",
+    "description": "Production Site C serves as a primary facility aggregating multiple production lines, machines, and supporting processes for the Smart Tire Production project. This site is engineered for maximum output and efficiency, utilizing integrated data systems for real-time anomaly detection and predictive analysis. It coordinates the flow of raw materials through mixing, extrusion, and assembly to final curing and testing. By centralizing management of various machine types like Banbury mixers and curing presses, the site ensures a streamlined manufacturing workflow and high-quality output.",
+    "type_name": "Production Site",
+    "path": "Smart Tire Production/Regional Hub",
+    "full_text": "Production Site C - Production Site C serves as a primary facility aggregating multiple production lines, machines, and supporting processes for the Smart Tire Production project. This site is engineered for maximum output and efficiency, utilizing integrated data systems for real-time anomaly detection and predictive analysis. It coordinates the flow of raw materials through mixing, extrusion, and assembly to final curing and testing. By centralizing management of various machine types like Banbury mixers and curing presses, the site ensures a streamlined manufacturing workflow and high-quality output.",
+    "guid": "SYNTH_0080",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX Assembly Station 04",
+    "description": "High-output radial passenger tire building machine featuring a sophisticated two-drum system designed for hands-off/eyes-off operation. This unit supports a production capacity of up to 1800 tires per day, integrating modules for bead apex loading and precision cushion gum extrusion. It serves as a critical assembly node for both passenger and light truck tire variants, ensuring consistent structural integrity. Operational efficiency is monitored through integrated sensors to maintain high-speed throughput and minimize material waste while handling complex multi-layer tire constructions.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1",
+    "full_text": "VMI MAXX Assembly Station 04 - High-output radial passenger tire building machine featuring a sophisticated two-drum system designed for hands-off/eyes-off operation. This unit supports a production capacity of up to 1800 tires per day, integrating modules for bead apex loading and precision cushion gum extrusion. It serves as a critical assembly node for both passenger and light truck tire variants, ensuring consistent structural integrity. Operational efficiency is monitored through integrated sensors to maintain high-speed throughput and minimize material waste while handling complex multi-layer tire constructions.",
+    "guid": "SYNTH_0081",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER Unit 07",
+    "description": "Precision machine dedicated to tire component preparation and high-accuracy edge finishing within the primary production line. This unit ensures that component dimensions meet strict tolerances before the final assembly phase. It plays a vital role in reducing material defects and enhancing the bonding surface for subsequent layers. The automated system interfaces with the main PLC to adjust settings for different tire profiles, maintaining high-speed operation while ensuring the edge geometry is optimized for the VMI MAXX assembly sequence downstream.",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1",
+    "full_text": "VMI EDGER Unit 07 - Precision machine dedicated to tire component preparation and high-accuracy edge finishing within the primary production line. This unit ensures that component dimensions meet strict tolerances before the final assembly phase. It plays a vital role in reducing material defects and enhancing the bonding surface for subsequent layers. The automated system interfaces with the main PLC to adjust settings for different tire profiles, maintaining high-speed operation while ensuring the edge geometry is optimized for the VMI MAXX assembly sequence downstream.",
+    "guid": "SYNTH_0082",
+    "is_synthetic": true
+  },
+  {
+    "name": "Curing Press 15",
+    "description": "Hydraulic curing press configured for the vulcanization of green tires under extreme high pressure and temperature conditions. As a primary bottleneck in Line 2, this machine is essential for achieving the final tire shape and required durability through chemical cross-linking. It is heavily dependent on steady steam pressure from the centralized boiler facility. The press cycles are calibrated to optimize cycle times while ensuring the tire's internal structure and external tread pattern are flawlessly molded according to specification for various passenger car tire models.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2",
+    "full_text": "Curing Press 15 - Hydraulic curing press configured for the vulcanization of green tires under extreme high pressure and temperature conditions. As a primary bottleneck in Line 2, this machine is essential for achieving the final tire shape and required durability through chemical cross-linking. It is heavily dependent on steady steam pressure from the centralized boiler facility. The press cycles are calibrated to optimize cycle times while ensuring the tire's internal structure and external tread pattern are flawlessly molded according to specification for various passenger car tire models.",
+    "guid": "SYNTH_0083",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quadraplex Extruder 02",
+    "description": "High-capacity quadraplex extruder designed for shaping raw rubber compounds into precise profiles for treads, sidewalls, and inner liners. The multi-feed system ensures consistent material density and profile geometry across varying production batches. This machine is critical for the initial formation of tire components, feeding directly into the tire building stage. It features advanced temperature control zones to manage the viscosity of the rubber, preventing premature curing and ensuring the dimensional stability required for high-performance radial tires during the building phase.",
+    "type_name": "Extruder",
+    "path": "Smart Tire Production/Production Site B/Bay A",
+    "full_text": "Quadraplex Extruder 02 - High-capacity quadraplex extruder designed for shaping raw rubber compounds into precise profiles for treads, sidewalls, and inner liners. The multi-feed system ensures consistent material density and profile geometry across varying production batches. This machine is critical for the initial formation of tire components, feeding directly into the tire building stage. It features advanced temperature control zones to manage the viscosity of the rubber, preventing premature curing and ensuring the dimensional stability required for high-performance radial tires during the building phase.",
+    "guid": "SYNTH_0084",
+    "is_synthetic": true
+  },
+  {
+    "name": "Multi-Roll Calender 01",
+    "description": "Industrial multi-roll calender used for producing high-quality rubber sheets and coating steel belts or fabric plies with precision rubber layers. This machine ensures uniform thickness and optimal adhesion between the reinforcement materials and the rubber compound. It is a foundational component for the structural layers of the tire, requiring precise speed synchronization and tension control to avoid deformations. The output from this calender is vital for the integrity of the tire's belt package, impacting overall safety and high-speed performance ratings across the entire product line.",
+    "type_name": "Calender",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3",
+    "full_text": "Multi-Roll Calender 01 - Industrial multi-roll calender used for producing high-quality rubber sheets and coating steel belts or fabric plies with precision rubber layers. This machine ensures uniform thickness and optimal adhesion between the reinforcement materials and the rubber compound. It is a foundational component for the structural layers of the tire, requiring precise speed synchronization and tension control to avoid deformations. The output from this calender is vital for the integrity of the tire's belt package, impacting overall safety and high-speed performance ratings across the entire product line.",
+    "guid": "SYNTH_0085",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer 05",
+    "description": "Internal compounding mixer engineered for the heavy-duty processing of raw rubber with various additives, including carbon black, silica, and proprietary chemicals. This unit is the starting point of the manufacturing process, where the specific rubber recipes are created to define the tire's performance characteristics. It utilizes a high-torque rotor system to ensure homogenous dispersion of ingredients. The mixing cycle is strictly controlled for temperature and duration to prevent scorch and ensure the compound meets the required rheological properties before moving to the extrusion and calendaring stages.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Production Site B/Mixing Room 1",
+    "full_text": "Banbury Mixer 05 - Internal compounding mixer engineered for the heavy-duty processing of raw rubber with various additives, including carbon black, silica, and proprietary chemicals. This unit is the starting point of the manufacturing process, where the specific rubber recipes are created to define the tire's performance characteristics. It utilizes a high-torque rotor system to ensure homogenous dispersion of ingredients. The mixing cycle is strictly controlled for temperature and duration to prevent scorch and ensure the compound meets the required rheological properties before moving to the extrusion and calendaring stages.",
+    "guid": "SYNTH_0086",
+    "is_synthetic": true
+  },
+  {
+    "name": "TBM Multi-Drum Unit 03",
+    "description": "Automatic tire building machine utilizing a multi-drum configuration for the efficient assembly of green tires. This system integrates multiple components, including plies, beads, belts, and treads, into a single cohesive structure before vulcanization. The multi-drum variation allows for concurrent assembly stages, significantly increasing throughput compared to single-drum systems. Its precision placement sensors ensure that each layer is perfectly aligned, which is critical for the tire's balance and uniformity. This machine serves as the central assembly point where all prepared components are unified into the final green tire.",
+    "type_name": "Tire Building Machine (TBM)",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 4",
+    "full_text": "TBM Multi-Drum Unit 03 - Automatic tire building machine utilizing a multi-drum configuration for the efficient assembly of green tires. This system integrates multiple components, including plies, beads, belts, and treads, into a single cohesive structure before vulcanization. The multi-drum variation allows for concurrent assembly stages, significantly increasing throughput compared to single-drum systems. Its precision placement sensors ensure that each layer is perfectly aligned, which is critical for the tire's balance and uniformity. This machine serves as the central assembly point where all prepared components are unified into the final green tire.",
+    "guid": "SYNTH_0087",
+    "is_synthetic": true
+  },
+  {
+    "name": "Bead Builder Station 09",
+    "description": "Specialized machine for forming tire beads through the precise wrapping of wire reinforcement with a rubber coating. This component provides the structural rigidity necessary for the tire to seat securely onto the wheel rim. The machine automates the winding and insulation process, ensuring consistent wire tension and rubber distribution. High reliability in bead construction is essential for preventing air leaks and ensuring the safety of the final product under high inflation pressures. This unit feeds the Tire Building Machine with standardized bead assemblies for various rim sizes.",
+    "type_name": "Bead Builder",
+    "path": "Smart Tire Production/Production Site B/Bay B",
+    "full_text": "Bead Builder Station 09 - Specialized machine for forming tire beads through the precise wrapping of wire reinforcement with a rubber coating. This component provides the structural rigidity necessary for the tire to seat securely onto the wheel rim. The machine automates the winding and insulation process, ensuring consistent wire tension and rubber distribution. High reliability in bead construction is essential for preventing air leaks and ensuring the safety of the final product under high inflation pressures. This unit feeds the Tire Building Machine with standardized bead assemblies for various rim sizes.",
+    "guid": "SYNTH_0088",
+    "is_synthetic": true
+  },
+  {
+    "name": "High-Speed Uniformity Tester 06",
+    "description": "Advanced testing apparatus designed to measure force variations and balance through high-speed rotation simulation. This machine identifies internal structural defects that could lead to vibration or uneven wear during real-world driving. It simulates road conditions by applying load to the tire and measuring radial and lateral force fluctuations. Tires that fail to meet strict uniformity thresholds are automatically diverted for secondary inspection, ensuring that only products meeting the highest quality standards reach the final distribution phase. This is the final quality gate before the tires are cleared for shipping.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Final Inspection Area",
+    "full_text": "High-Speed Uniformity Tester 06 - Advanced testing apparatus designed to measure force variations and balance through high-speed rotation simulation. This machine identifies internal structural defects that could lead to vibration or uneven wear during real-world driving. It simulates road conditions by applying load to the tire and measuring radial and lateral force fluctuations. Tires that fail to meet strict uniformity thresholds are automatically diverted for secondary inspection, ensuring that only products meeting the highest quality standards reach the final distribution phase. This is the final quality gate before the tires are cleared for shipping.",
+    "guid": "SYNTH_0089",
+    "is_synthetic": true
+  },
+  {
+    "name": "Production Site A Management Hub",
+    "description": "Centralized digital facility management node aggregating data from multiple production lines, machines, and processes to monitor overall output and efficiency. It serves as the primary hub for anomaly detection and predictive analysis across the Tire Production Line 3 and Line 4. By integrating real-time telemetry from Banbury Mixers to Curing Presses, it allows plant managers to identify bottlenecks and optimize maintenance schedules. The system provides a holistic view of the factory's operational health, ensuring that production targets are met while maintaining strict adherence to safety and quality protocols.",
+    "type_name": "Production Site",
+    "path": "Smart Tire Production/Production Site A",
+    "full_text": "Production Site A Management Hub - Centralized digital facility management node aggregating data from multiple production lines, machines, and processes to monitor overall output and efficiency. It serves as the primary hub for anomaly detection and predictive analysis across the Tire Production Line 3 and Line 4. By integrating real-time telemetry from Banbury Mixers to Curing Presses, it allows plant managers to identify bottlenecks and optimize maintenance schedules. The system provides a holistic view of the factory's operational health, ensuring that production targets are met while maintaining strict adherence to safety and quality protocols.",
+    "guid": "SYNTH_0090",
+    "is_synthetic": true
+  },
+  {
+    "name": "Curing Press 7",
+    "description": "Heavy-duty hydraulic curing press located in Bay 4 of Production Line 2. This unit operates as a critical parallel processing station, vulcanizing green tires under extreme pressure and high temperature. It is strictly dependent on the centralized Boiler House for consistent steam delivery and pressure maintenance. The operation serves as the final chemical transformation step, determining the tire's structural integrity, tread pattern, and final durability. Any fluctuation in steam pressure results in immediate quality deviations and potential product loss.",
+    "type_name": "Curing Press",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/Curing Press 7",
+    "full_text": "Curing Press 7 - Heavy-duty hydraulic curing press located in Bay 4 of Production Line 2. This unit operates as a critical parallel processing station, vulcanizing green tires under extreme pressure and high temperature. It is strictly dependent on the centralized Boiler House for consistent steam delivery and pressure maintenance. The operation serves as the final chemical transformation step, determining the tire's structural integrity, tread pattern, and final durability. Any fluctuation in steam pressure results in immediate quality deviations and potential product loss.",
+    "guid": "SYNTH_0091",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI MAXX - Unit 01",
+    "description": "High-output radial passenger tire building machine featuring a sophisticated two-drum system for maximum efficiency. Located in Production Line 1, it utilizes a hands-off/eyes-off automated process to maintain high precision and worker safety standards. Capable of producing up to 1800 tires per day, this machine integrates modules for bead apex loading and cushion gum extrusion. It serves as the primary assembly hub for light truck tires, ensuring seamless transitions between various tire specifications while maintaining strict quality control over the green tire assembly.",
+    "type_name": "VMI MAXX",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/VMI MAXX - Unit 01",
+    "full_text": "VMI MAXX - Unit 01 - High-output radial passenger tire building machine featuring a sophisticated two-drum system for maximum efficiency. Located in Production Line 1, it utilizes a hands-off/eyes-off automated process to maintain high precision and worker safety standards. Capable of producing up to 1800 tires per day, this machine integrates modules for bead apex loading and cushion gum extrusion. It serves as the primary assembly hub for light truck tires, ensuring seamless transitions between various tire specifications while maintaining strict quality control over the green tire assembly.",
+    "guid": "SYNTH_0092",
+    "is_synthetic": true
+  },
+  {
+    "name": "Banbury Mixer Alpha",
+    "description": "Heavy-duty internal mixer situated in the primary compounding area of the facility. This machine is responsible for the initial processing stage, compounding raw rubber with specific additives, carbon black, and chemical agents. Banbury Mixer Alpha ensures a homogenous distribution of materials to meet the rigorous chemical requirements of the tire's base compound. Its performance directly impacts the physical properties of all downstream components produced by the extruders and calenders within the site. Precise control over mixing temperature and rotor speed is essential for compound consistency.",
+    "type_name": "Banbury Mixer",
+    "path": "Smart Tire Production/Production Site A/Mixing Department/Banbury Mixer Alpha",
+    "full_text": "Banbury Mixer Alpha - Heavy-duty internal mixer situated in the primary compounding area of the facility. This machine is responsible for the initial processing stage, compounding raw rubber with specific additives, carbon black, and chemical agents. Banbury Mixer Alpha ensures a homogenous distribution of materials to meet the rigorous chemical requirements of the tire's base compound. Its performance directly impacts the physical properties of all downstream components produced by the extruders and calenders within the site. Precise control over mixing temperature and rotor speed is essential for compound consistency.",
+    "guid": "SYNTH_0093",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quadraplex Extruder 2",
+    "description": "Advanced quadraplex extrusion system designed for simultaneous shaping of rubber into treads, sidewalls, and inner liners. Operating in Bay 3 of Production Line 1, this machine ensures consistent profiles and dimensional accuracy for all rubber tire components. It acts as a vital link between the mixing stage and the Tire Building Machine. Precision temperature control is maintained through integrated cooling units to prevent rubber scorching, while the automated feedback loop adjusts flow rates to match the production line's high-speed requirements.",
+    "type_name": "Extruder",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Quadraplex Extruder 2",
+    "full_text": "Quadraplex Extruder 2 - Advanced quadraplex extrusion system designed for simultaneous shaping of rubber into treads, sidewalls, and inner liners. Operating in Bay 3 of Production Line 1, this machine ensures consistent profiles and dimensional accuracy for all rubber tire components. It acts as a vtal link between the mixing stage and the Tire Building Machine. Precision temperature control is maintained through integrated cooling units to prevent rubber scorching, while the automated feedback loop adjusts flow rates to match the production line's high-speed requirements.",
+    "guid": "SYNTH_0094",
+    "is_synthetic": true
+  },
+  {
+    "name": "Tire Building Machine 04",
+    "description": "Multi-drum automatic assembler responsible for constructing green tires from individual plies, beads, belts, and treads. Located on Production Line 1, this machine synchronizes the application of various rubber components to ensure total structural balance. As a primary Tire Building Machine (TBM), it focuses on maximizing efficiency through rapid component layering and automated stitching processes. The high-quality output of TBM 04 serves as the direct input for the Curing Press bank, making its mechanical uptime critical for the overall factory throughput and production targets.",
+    "type_name": "Tire Building Machine (TBM)",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Tire Building Machine 04",
+    "full_text": "Tire Building Machine 04 - Multi-drum automatic assembler responsible for constructing green tires from individual plies, beads, belts, and treads. Located on Production Line 1, this machine synchronizes the application of various rubber components to ensure total structural balance. As a primary Tire Building Machine (TBM), it focuses on maximizing efficiency through rapid component layering and automated stitching processes. The high-quality output of TBM 04 serves as the direct input for the Curing Press bank, making its mechanical uptime critical for the overall factory throughput and production targets.",
+    "guid": "SYNTH_0095",
+    "is_synthetic": true
+  },
+  {
+    "name": "Steel Belt Calender 1",
+    "description": "High-precision multi-roll calender machine used for producing uniform rubber sheets and coating steel belts or fabric plies. Situated in the material preparation wing of Production Site A, it ensures that the steel reinforcement is perfectly encapsulated in the rubber compound. This process is essential for providing the tire with internal strength and puncture resistance. The calender’s advanced thickness control system maintains strict tolerances to prevent weight imbalances during the subsequent high-speed rotation phase and final uniformity testing.",
+    "type_name": "Calender",
+    "path": "Smart Tire Production/Production Site A/Material Preparation/Steel Belt Calender 1",
+    "full_text": "Steel Belt Calender 1 - High-precision multi-roll calender machine used for producing uniform rubber sheets and coating steel belts or fabric plies. Situated in the material preparation wing of Production Site A, it ensures that the steel reinforcement is perfectly encapsulated in the rubber compound. This process is essential for providing the tire with internal strength and puncture resistance. The calender’s advanced thickness control system maintains strict tolerances to prevent weight imbalances during the subsequent high-speed rotation phase and final uniformity testing.",
+    "guid": "SYNTH_0096",
+    "is_synthetic": true
+  },
+  {
+    "name": "Bead Builder 12",
+    "description": "Specialized machine dedicated to forming tire beads through precise wire reinforcement and rubber coating. Located in the component preparation area of Bay 2, Bead Builder 12 creates the rigid foundation that secures the tire to the wheel rim. This unit operates autonomously to provide a steady supply of finished beads to the Tire Building Machines across multiple lines. Its reliability and precision are essential for maintaining the safety and structural integrity of the passenger and light truck tires produced on Line 2.",
+    "type_name": "Bead Builder",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/Bead Builder 12",
+    "full_text": "Bead Builder 12 - Specialized machine dedicated to forming tire beads through precise wire reinforcement and rubber coating. Located in the component preparation area of Bay 2, Bead Builder 12 creates the rigid foundation that secures the tire to the wheel rim. This unit operates autonomously to provide a steady supply of finished beads to the Tire Building Machines across multiple lines. Its reliability and precision are essential for maintaining the safety and structural integrity of the passenger and light truck tires produced on Line 2.",
+    "guid": "SYNTH_0097",
+    "is_synthetic": true
+  },
+  {
+    "name": "Uniformity Tester X-100",
+    "description": "Critical quality control machine used for measuring force variations and balance during simulated high-speed rotation. Installed at the end of Production Line 1, the Uniformity Tester X-100 identifies any anomalies in tire shape, mass distribution, or lateral force after the vulcanization process. This machine serves as the final gatekeeper for safety, ensuring every finished tire meets the rigorous performance standards required for consumer use. Detailed diagnostic data from this unit is fed into the predictive analysis system to optimize upstream processes.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1/Uniformity Tester X-100",
+    "full_text": "Uniformity Tester X-100 - Critical quality control machine used for measuring force variations and balance during simulated high-speed rotation. Installed at the end of Production Line 1, the Uniformity Tester X-100 identifies any anomalies in tire shape, mass distribution, or lateral force after the vulcanization process. This machine serves as the final gatekeeper for safety, ensuring every finished tire meets the rigorous performance standards required for consumer use. Detailed diagnostic data from this unit is fed into the predictive analysis system to optimize upstream processes.",
+    "guid": "SYNTH_0098",
+    "is_synthetic": true
+  },
+  {
+    "name": "VMI EDGER 5",
+    "description": "Precision machine specialized in tire component preparation and edge finishing. Integrated into the mid-section of Production Line 2, VMI EDGER 5 refines the edges of rubber layers to ensure a perfect fit during the final green tire assembly stage. This machine minimizes material waste and prevents air entrapment between layers, which is crucial for preventing future tire delamination and structural failures. Its high-speed operation is synchronized with the upstream extruder to maintain a continuous, high-efficiency flow of prepared materials to the builders.",
+    "type_name": "VMI EDGER",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2/VMI EDGER 5",
+    "full_text": "VMI EDGER 5 - Precision machine specialized in tire component preparation and edge finishing. Integrated into the mid-section of Production Line 2, VMI EDGER 5 refines the edges of rubber layers to ensure a perfect fit during the final green tire assembly stage. This machine minimizes material waste and prevents air entrapment between layers, which is crucial for preventing future tire delamination and structural failures. Its high-speed operation is synchronized with the upstream extruder to maintain a continuous, high-efficiency flow of prepared materials to the builders.",
+    "guid": "SYNTH_0099",
+    "is_synthetic": true
+  },
+  {
+    "name": "Production Site A",
+    "description": "Primary industrial facility aggregating multiple production lines, high-output machines, and complex chemical processes to achieve maximum manufacturing output. Production Site A serves as the central hub for overall efficiency monitoring, anomaly detection, and predictive maintenance analysis. By integrating data from all units—from Banbury Mixers to Curing Presses—the site management team optimizes the entire tire lifecycle. This facility is the cornerstone of the Smart Tire Production initiative, focusing on high-quality passenger and light truck tire fabrication for global distribution.",
+    "type_name": "Production Site",
+    "path": "Smart Tire Production/Production Site A",
+    "full_text": "Production Site A - Primary industrial facility aggregating multiple production lines, high-output machines, and complex chemical processes to achieve maximum manufacturing output. Production Site A serves as the central hub for overall efficiency monitoring, anomaly detection, and predictive maintenance analysis. By integrating data from all units—from Banbury Mixers to Curing Presses—the site management team optimizes the entire tire lifecycle. This facility is the cornerstone of the Smart Tire Production initiative, focusing on high-quality passenger and light truck tire fabrication for global distribution.",
+    "guid": "SYNTH_0100",
+    "is_synthetic": true
+  }
+]

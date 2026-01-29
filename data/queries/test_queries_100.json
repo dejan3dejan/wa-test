@@ -1,0 +1,4746 @@
+[
+  {
+    "query_id": "Q_SYNTH_0001_01",
+    "query": "display VMI MAXX 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0001_02",
+    "query": "check VMI MAXX 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0001_03",
+    "query": "find control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0001_04",
+    "query": "which VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0001_05",
+    "query": "VMI MAAX 2 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0002_01",
+    "query": "show Hydraulic Curing Prss CP-08",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "Hydraulic Curing Press CP-08",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0002_02",
+    "query": "get info on Hydraulic Curing Press CP-08",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "Hydraulic Curing Press CP-08",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0002_03",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "Hydraulic Curing Press CP-08",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0002_04",
+    "query": "machines with temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "Hydraulic Curing Press CP-08",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0002_05",
+    "query": "Hydraulic Curing Press CP-08 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "Hydraulic Curing Press CP-08",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0003_01",
+    "query": "show me Quadraplex Extruder E-3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "Quadraplex Extruder E-3",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0003_02",
+    "query": "QuadraplexExtruderE-3 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "Quadraplex Extruder E-3",
+    "expected_object_type": "Extruder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0003_03",
+    "query": "show all Extruder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "Quadraplex Extruder E-3",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0003_04",
+    "query": "machines with pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "Quadraplex Extruder E-3",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0003_05",
+    "query": "show me Quadraplex Extruder E-3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "Quadraplex Extruder E-3",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0004_01",
+    "query": "BanburyMixerM-12 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "Banbury Mixer M-12",
+    "expected_object_type": "Banbury Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0004_02",
+    "query": "find Banbury Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "Banbury Mixer M-12",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0004_03",
+    "query": "which has sensor",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "Banbury Mixer M-12",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0004_04",
+    "query": "Banbury Mixer M-12 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "Banbury Mixer M-12",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0004_05",
+    "query": "display Banbury Mixer M-12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "Banbury Mixer M-12",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0005_01",
+    "query": "BeadBuilderBB-05 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "Bead Builder BB-05",
+    "expected_object_type": "Bead Builder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0005_02",
+    "query": "which Bead Builder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "Bead Builder BB-05",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0005_03",
+    "query": "show me Bead Builder BB-05",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "Bead Builder BB-05",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0005_04",
+    "query": "get info on Bead Builder BB-05",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "Bead Builder BB-05",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0005_05",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "Bead Builder BB-05",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0006_01",
+    "query": "show Production Site C equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "Multi-Roll Calender C-02",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0006_02",
+    "query": "show me Multi-Roll Calender C-02",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "Multi-Roll Calender C-02",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0006_03",
+    "query": "check Multi-Roll Calender C-02",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "Multi-Roll Calender C-02",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0006_04",
+    "query": "find Calender",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "Multi-Roll Calender C-02",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0006_05",
+    "query": "find temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "Multi-Roll Calender C-02",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0007_01",
+    "query": "UniformityTesterUT-10 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "Uniformity Tester UT-10",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0007_02",
+    "query": "Uniformity Tester UT-10 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "Uniformity Tester UT-10",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0007_03",
+    "query": "find control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "Uniformity Tester UT-10",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0007_04",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "Uniformity Tester UT-10",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0007_05",
+    "query": "show me Uniformity Tester UT-10",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "Uniformity Tester UT-10",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0008_01",
+    "query": "VMIEDGERE-21 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "VMI EDGER E-21",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0008_02",
+    "query": "which VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "VMI EDGER E-21",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0008_03",
+    "query": "display VMI EDGER E-21",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "VMI EDGER E-21",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0008_04",
+    "query": "show Production Site B equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "VMI EDGER E-21",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0008_05",
+    "query": "display VMI EDGER E-21",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "VMI EDGER E-21",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0009_01",
+    "query": "check TBM-X4DualDrum",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "TBM-X4 Dual Drum",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0009_02",
+    "query": "show me TBM-X4 Dual Drum",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "TBM-X4 Dual Drum",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0009_03",
+    "query": "list Tire Building Machine (TBM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "TBM-X4 Dual Drum",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0009_04",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "TBM-X4 Dual Drum",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0009_05",
+    "query": "machines with system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "TBM-X4 Dual Drum",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0010_01",
+    "query": "find VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "VMI MAXX 5",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0010_02",
+    "query": "which has sensor",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "VMI MAXX 5",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0010_03",
+    "query": "get info on VMI MAXX 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "VMI MAXX 5",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0010_04",
+    "query": "show VMI MAX 5",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "VMI MAXX 5",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0010_05",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "VMI MAXX 5",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0011_01",
+    "query": "Air Compressor System 101 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0011",
+    "expected_object_name": "Air Compressor System 101",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0011_02",
+    "query": "find pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0011",
+    "expected_object_name": "Air Compressor System 101",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0011_03",
+    "query": "find Air Compressor System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0011",
+    "expected_object_name": "Air Compressor System 101",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0011_04",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0011",
+    "expected_object_name": "Air Compressor System 101",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0011_05",
+    "query": "check AirCompressorSystem101",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0011",
+    "expected_object_name": "Air Compressor System 101",
+    "expected_object_type": "Air Compressor System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0012_01",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0012",
+    "expected_object_name": "Pneumatic Power Station B2",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0012_02",
+    "query": "show all Air Compressor System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0012",
+    "expected_object_name": "Pneumatic Power Station B2",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0012_03",
+    "query": "find vulcanization",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0012",
+    "expected_object_name": "Pneumatic Power Station B2",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0012_04",
+    "query": "show PneumaticPowerStationB2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0012",
+    "expected_object_name": "Pneumatic Power Station B2",
+    "expected_object_type": "Air Compressor System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0012_05",
+    "query": "get info on Pneumatic Power Station B2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0012",
+    "expected_object_name": "Pneumatic Power Station B2",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0013_01",
+    "query": "display Air Compressor System C-09",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0013",
+    "expected_object_name": "Air Compressor System C-09",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0013_02",
+    "query": "show AirCompressorSystemC-09",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0013",
+    "expected_object_name": "Air Compressor System C-09",
+    "expected_object_type": "Air Compressor System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0013_03",
+    "query": "show me Air Compressor System C-09",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0013",
+    "expected_object_name": "Air Compressor System C-09",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0013_04",
+    "query": "which Air Compressor System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0013",
+    "expected_object_name": "Air Compressor System C-09",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0013_05",
+    "query": "machines with pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0013",
+    "expected_object_name": "Air Compressor System C-09",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0014_01",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0014",
+    "expected_object_name": "Compressed Air Unit E-04",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0014_02",
+    "query": "which has pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0014",
+    "expected_object_name": "Compressed Air Unit E-04",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0014_03",
+    "query": "Compressed Air Unit E-04 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0014",
+    "expected_object_name": "Compressed Air Unit E-04",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0014_04",
+    "query": "check CompressedAirUnitE-04",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0014",
+    "expected_object_name": "Compressed Air Unit E-04",
+    "expected_object_type": "Air Compressor System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0014_05",
+    "query": "list Air Compressor System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0014",
+    "expected_object_name": "Compressed Air Unit E-04",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0015_01",
+    "query": "AirSupplySystem202 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0015",
+    "expected_object_name": "Air Supply System 202",
+    "expected_object_type": "Air Compressor System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0015_02",
+    "query": "get info on Air Supply System 202",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0015",
+    "expected_object_name": "Air Supply System 202",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0015_03",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0015",
+    "expected_object_name": "Air Supply System 202",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0015_04",
+    "query": "show me Air Supply System 202",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0015",
+    "expected_object_name": "Air Supply System 202",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0015_05",
+    "query": "list Air Compressor System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0015",
+    "expected_object_name": "Air Supply System 202",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0016_01",
+    "query": "what's in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0016",
+    "expected_object_name": "Pneumatic Supply Unit 55",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0016_02",
+    "query": "get info on Pneumatic Supply Unit 55",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0016",
+    "expected_object_name": "Pneumatic Supply Unit 55",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0016_03",
+    "query": "show PneumaticSupplyUnit55",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0016",
+    "expected_object_name": "Pneumatic Supply Unit 55",
+    "expected_object_type": "Air Compressor System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0016_04",
+    "query": "check Pneumatic Supply Unit 55",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0016",
+    "expected_object_name": "Pneumatic Supply Unit 55",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0016_05",
+    "query": "find pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0016",
+    "expected_object_name": "Pneumatic Supply Unit 55",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0017_01",
+    "query": "get info on Air Compressor System F-12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0017",
+    "expected_object_name": "Air Compressor System F-12",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0017_02",
+    "query": "show all Air Compressor System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0017",
+    "expected_object_name": "Air Compressor System F-12",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0017_03",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0017",
+    "expected_object_name": "Air Compressor System F-12",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0017_04",
+    "query": "get info on Air Compressor System F-12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0017",
+    "expected_object_name": "Air Compressor System F-12",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0017_05",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0017",
+    "expected_object_name": "Air Compressor System F-12",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0018_01",
+    "query": "check CompressedAirStationBB-01",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0018",
+    "expected_object_name": "Compressed Air Station BB-01",
+    "expected_object_type": "Air Compressor System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0018_02",
+    "query": "show all Air Compressor System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0018",
+    "expected_object_name": "Compressed Air Station BB-01",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0018_03",
+    "query": "display Compressed Air Station BB-01",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0018",
+    "expected_object_name": "Compressed Air Station BB-01",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0018_04",
+    "query": "what's in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0018",
+    "expected_object_name": "Compressed Air Station BB-01",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0018_05",
+    "query": "Compressed Air Station BB-01 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0018",
+    "expected_object_name": "Compressed Air Station BB-01",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0019_01",
+    "query": "find assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0019",
+    "expected_object_name": "Pneumatic Unit V-EDGER",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0019_02",
+    "query": "PneumaticUnitV-EDGER info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0019",
+    "expected_object_name": "Pneumatic Unit V-EDGER",
+    "expected_object_type": "Air Compressor System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0019_03",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0019",
+    "expected_object_name": "Pneumatic Unit V-EDGER",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0019_04",
+    "query": "Pneumatic Unit V-EDGER status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0019",
+    "expected_object_name": "Pneumatic Unit V-EDGER",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0019_05",
+    "query": "get info on Pneumatic Unit V-EDGER",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0019",
+    "expected_object_name": "Pneumatic Unit V-EDGER",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0020_01",
+    "query": "display Air Compressor System G-07",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0020",
+    "expected_object_name": "Air Compressor System G-07",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0020_02",
+    "query": "display Air Compressor System G-07",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0020",
+    "expected_object_name": "Air Compressor System G-07",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0020_03",
+    "query": "show all Air Compressor System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0020",
+    "expected_object_name": "Air Compressor System G-07",
+    "expected_object_type": "Air Compressor System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0020_04",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0020",
+    "expected_object_name": "Air Compressor System G-07",
+    "expected_object_type": "Air Compressor System"
+  },
+  {
+    "query_id": "Q_SYNTH_0020_05",
+    "query": "check AirCompressorSystemG-07",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0020",
+    "expected_object_name": "Air Compressor System G-07",
+    "expected_object_type": "Air Compressor System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0021_01",
+    "query": "display VMI MAXX 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0021",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0021_02",
+    "query": "check VMI MAXX 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0021",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0021_03",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0021",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0021_04",
+    "query": "show VMI MAAX 2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0021",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0021_05",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0021",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0022_01",
+    "query": "check Curing Pres 12",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0022",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0022_02",
+    "query": "list Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0022",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0022_03",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0022",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0022_04",
+    "query": "show me Curing Press 12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0022",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0022_05",
+    "query": "show me Curing Press 12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0022",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0023_01",
+    "query": "check BanburyMixer01",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0023",
+    "expected_object_name": "Banbury Mixer 01",
+    "expected_object_type": "Banbury Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0023_02",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0023",
+    "expected_object_name": "Banbury Mixer 01",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0023_03",
+    "query": "show me Banbury Mixer 01",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0023",
+    "expected_object_name": "Banbury Mixer 01",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0023_04",
+    "query": "find temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0023",
+    "expected_object_name": "Banbury Mixer 01",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0023_05",
+    "query": "show me Banbury Mixer 01",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0023",
+    "expected_object_name": "Banbury Mixer 01",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0024_01",
+    "query": "Extruder4 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0024",
+    "expected_object_name": "Extruder 4",
+    "expected_object_type": "Extruder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0024_02",
+    "query": "Extruder 4 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0024",
+    "expected_object_name": "Extruder 4",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0024_03",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0024",
+    "expected_object_name": "Extruder 4",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0024_04",
+    "query": "find Extruder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0024",
+    "expected_object_name": "Extruder 4",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0024_05",
+    "query": "check Extruder 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0024",
+    "expected_object_name": "Extruder 4",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0025_01",
+    "query": "machines with pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0025",
+    "expected_object_name": "Calender Unit 2",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0025_02",
+    "query": "Calender Unit 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0025",
+    "expected_object_name": "Calender Unit 2",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0025_03",
+    "query": "check Calender Unit 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0025",
+    "expected_object_name": "Calender Unit 2",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0025_04",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0025",
+    "expected_object_name": "Calender Unit 2",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0025_05",
+    "query": "find Calender",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0025",
+    "expected_object_name": "Calender Unit 2",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0026_01",
+    "query": "show me Uniformity Tester 05",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0026",
+    "expected_object_name": "Uniformity Tester 05",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0026_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0026",
+    "expected_object_name": "Uniformity Tester 05",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0026_03",
+    "query": "find testing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0026",
+    "expected_object_name": "Uniformity Tester 05",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0026_04",
+    "query": "find Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0026",
+    "expected_object_name": "Uniformity Tester 05",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0026_05",
+    "query": "show UniformityTester05",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0026",
+    "expected_object_name": "Uniformity Tester 05",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0027_01",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0027",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0027_02",
+    "query": "find assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0027",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0027_03",
+    "query": "check VMI EDGER 03",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0027",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0027_04",
+    "query": "find VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0027",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0027_05",
+    "query": "check VMI EDGER 03",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0027",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0028_01",
+    "query": "check Bead Builder 08",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0028",
+    "expected_object_name": "Bead Builder 08",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0028_02",
+    "query": "which Bead Builder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0028",
+    "expected_object_name": "Bead Builder 08",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0028_03",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0028",
+    "expected_object_name": "Bead Builder 08",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0028_04",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0028",
+    "expected_object_name": "Bead Builder 08",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0028_05",
+    "query": "show me Bead Builder 08",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0028",
+    "expected_object_name": "Bead Builder 08",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0029_01",
+    "query": "display TBM Dual-Drum 02",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0029",
+    "expected_object_name": "TBM Dual-Drum 02",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0029_02",
+    "query": "check TBMDual-Drum02",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0029",
+    "expected_object_name": "TBM Dual-Drum 02",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0029_03",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0029",
+    "expected_object_name": "TBM Dual-Drum 02",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0029_04",
+    "query": "list Tire Building Machine (TBM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0029",
+    "expected_object_name": "TBM Dual-Drum 02",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0029_05",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0029",
+    "expected_object_name": "TBM Dual-Drum 02",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0030_01",
+    "query": "which has testing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0030",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0030_02",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0030",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0030_03",
+    "query": "check ProductionSiteAlpha",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0030",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0030_04",
+    "query": "Production Site Alpha status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0030",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0030_05",
+    "query": "display Production Site Alpha",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0030",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0031_01",
+    "query": "show me Banbury Mixer 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0031",
+    "expected_object_name": "Banbury Mixer 3",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0031_02",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0031",
+    "expected_object_name": "Banbury Mixer 3",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0031_03",
+    "query": "find temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0031",
+    "expected_object_name": "Banbury Mixer 3",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0031_04",
+    "query": "show me Banbury Mixer 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0031",
+    "expected_object_name": "Banbury Mixer 3",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0031_05",
+    "query": "check BanburyMixer3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0031",
+    "expected_object_name": "Banbury Mixer 3",
+    "expected_object_type": "Banbury Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0032_01",
+    "query": "show all VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0032",
+    "expected_object_name": "VMI MAXX Unit 1",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0032_02",
+    "query": "what's in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0032",
+    "expected_object_name": "VMI MAXX Unit 1",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0032_03",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0032",
+    "expected_object_name": "VMI MAXX Unit 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0032_04",
+    "query": "show me VMI MAXX Unit 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0032",
+    "expected_object_name": "VMI MAXX Unit 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0032_05",
+    "query": "VMI MAX Unit 1 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0032",
+    "expected_object_name": "VMI MAXX Unit 1",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0033_01",
+    "query": "show me Curing Press 15",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0033",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0033_02",
+    "query": "machines with temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0033",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0033_03",
+    "query": "show me Curing Press 15",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0033",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0033_04",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0033",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0033_05",
+    "query": "show all Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0033",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0034_01",
+    "query": "show me Quadraplex Extruder 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0034",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0034_02",
+    "query": "machines with temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0034",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0034_03",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0034",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0034_04",
+    "query": "show QuadraplexExtruder2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0034",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0034_05",
+    "query": "which Extruder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0034",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0035_01",
+    "query": "CalenderLineA info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0035",
+    "expected_object_name": "Calender Line A",
+    "expected_object_type": "Calender",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0035_02",
+    "query": "which Calender",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0035",
+    "expected_object_name": "Calender Line A",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0035_03",
+    "query": "check Calender Line A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0035",
+    "expected_object_name": "Calender Line A",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0035_04",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0035",
+    "expected_object_name": "Calender Line A",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0035_05",
+    "query": "get info on Calender Line A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0035",
+    "expected_object_name": "Calender Line A",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0036_01",
+    "query": "display Tire Building Machine 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0036",
+    "expected_object_name": "Tire Building Machine 4",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0036_02",
+    "query": "machines with assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0036",
+    "expected_object_name": "Tire Building Machine 4",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0036_03",
+    "query": "show me Tire Building Machine 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0036",
+    "expected_object_name": "Tire Building Machine 4",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0036_04",
+    "query": "check Tire Building Machne 4",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0036",
+    "expected_object_name": "Tire Building Machine 4",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0036_05",
+    "query": "list Tire Building Machine (TBM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0036",
+    "expected_object_name": "Tire Building Machine 4",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0037_01",
+    "query": "display Bead Builder 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0037",
+    "expected_object_name": "Bead Builder 2",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0037_02",
+    "query": "show me Bead Builder 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0037",
+    "expected_object_name": "Bead Builder 2",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0037_03",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0037",
+    "expected_object_name": "Bead Builder 2",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0037_04",
+    "query": "check BeadBuilder2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0037",
+    "expected_object_name": "Bead Builder 2",
+    "expected_object_type": "Bead Builder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0037_05",
+    "query": "show all Bead Builder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0037",
+    "expected_object_name": "Bead Builder 2",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0038_01",
+    "query": "Uniformity Tester 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0038",
+    "expected_object_name": "Uniformity Tester 1",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0038_02",
+    "query": "UniformityTester1 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0038",
+    "expected_object_name": "Uniformity Tester 1",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0038_03",
+    "query": "which has control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0038",
+    "expected_object_name": "Uniformity Tester 1",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0038_04",
+    "query": "which Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0038",
+    "expected_object_name": "Uniformity Tester 1",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0038_05",
+    "query": "list Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0038",
+    "expected_object_name": "Uniformity Tester 1",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0039_01",
+    "query": "get info on VMI EDGER 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0039",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0039_02",
+    "query": "find assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0039",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0039_03",
+    "query": "show VMIEDGER3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0039",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0039_04",
+    "query": "get info on VMI EDGER 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0039",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0039_05",
+    "query": "list VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0039",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0040_01",
+    "query": "which has temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0040",
+    "expected_object_name": "Banbury Mixer 1",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0040_02",
+    "query": "get info on Banbury Mixer 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0040",
+    "expected_object_name": "Banbury Mixer 1",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0040_03",
+    "query": "find Banbury Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0040",
+    "expected_object_name": "Banbury Mixer 1",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0040_04",
+    "query": "get info on Banbury Mixer 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0040",
+    "expected_object_name": "Banbury Mixer 1",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0040_05",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0040",
+    "expected_object_name": "Banbury Mixer 1",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0041_01",
+    "query": "machines with assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0041",
+    "expected_object_name": "VMI MAXX 101",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0041_02",
+    "query": "check VMI MAAX 101",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0041",
+    "expected_object_name": "VMI MAXX 101",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0041_03",
+    "query": "display VMI MAXX 101",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0041",
+    "expected_object_name": "VMI MAXX 101",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0041_04",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0041",
+    "expected_object_name": "VMI MAXX 101",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0041_05",
+    "query": "VMI MAXX 101 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0041",
+    "expected_object_name": "VMI MAXX 101",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0042_01",
+    "query": "show BanburyMixer02",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0042",
+    "expected_object_name": "Banbury Mixer 02",
+    "expected_object_type": "Banbury Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0042_02",
+    "query": "show me Banbury Mixer 02",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0042",
+    "expected_object_name": "Banbury Mixer 02",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0042_03",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0042",
+    "expected_object_name": "Banbury Mixer 02",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0042_04",
+    "query": "check Banbury Mixer 02",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0042",
+    "expected_object_name": "Banbury Mixer 02",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0042_05",
+    "query": "which has temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0042",
+    "expected_object_name": "Banbury Mixer 02",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0043_01",
+    "query": "Quadraplex Extruder 05 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0043",
+    "expected_object_name": "Quadraplex Extruder 05",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0043_02",
+    "query": "QuadraplexExtruder05 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0043",
+    "expected_object_name": "Quadraplex Extruder 05",
+    "expected_object_type": "Extruder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0043_03",
+    "query": "Quadraplex Extruder 05 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0043",
+    "expected_object_name": "Quadraplex Extruder 05",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0043_04",
+    "query": "find Extruder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0043",
+    "expected_object_name": "Quadraplex Extruder 05",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0043_05",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0043",
+    "expected_object_name": "Quadraplex Extruder 05",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0044_01",
+    "query": "TBM Unit 08 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0044",
+    "expected_object_name": "TBM Unit 08",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0044_02",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0044",
+    "expected_object_name": "TBM Unit 08",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0044_03",
+    "query": "machines with vulcanization",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0044",
+    "expected_object_name": "TBM Unit 08",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0044_04",
+    "query": "find Tire Building Machine (TBM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0044",
+    "expected_object_name": "TBM Unit 08",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0044_05",
+    "query": "TBMUnit08 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0044",
+    "expected_object_name": "TBM Unit 08",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0045_01",
+    "query": "PrecisionCalender01 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0045",
+    "expected_object_name": "Precision Calender 01",
+    "expected_object_type": "Calender",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0045_02",
+    "query": "Precision Calender 01 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0045",
+    "expected_object_name": "Precision Calender 01",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0045_03",
+    "query": "which has control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0045",
+    "expected_object_name": "Precision Calender 01",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0045_04",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0045",
+    "expected_object_name": "Precision Calender 01",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0045_05",
+    "query": "check Precision Calender 01",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0045",
+    "expected_object_name": "Precision Calender 01",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0046_01",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0046",
+    "expected_object_name": "Uniformity Tester UT-09",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0046_02",
+    "query": "check Uniformity Tester UT-09",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0046",
+    "expected_object_name": "Uniformity Tester UT-09",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0046_03",
+    "query": "UniformityTesterUT-09 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0046",
+    "expected_object_name": "Uniformity Tester UT-09",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0046_04",
+    "query": "show me Uniformity Tester UT-09",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0046",
+    "expected_object_name": "Uniformity Tester UT-09",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0046_05",
+    "query": "which Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0046",
+    "expected_object_name": "Uniformity Tester UT-09",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0047_01",
+    "query": "which VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0047",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0047_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0047",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0047_03",
+    "query": "show VMIEDGER03",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0047",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0047_04",
+    "query": "show me VMI EDGER 03",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0047",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0047_05",
+    "query": "VMI EDGER 03 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0047",
+    "expected_object_name": "VMI EDGER 03",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0048_01",
+    "query": "display Bead Builder B-07",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0048",
+    "expected_object_name": "Bead Builder B-07",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0048_02",
+    "query": "find Bead Builder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0048",
+    "expected_object_name": "Bead Builder B-07",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0048_03",
+    "query": "BeadBuilderB-07 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0048",
+    "expected_object_name": "Bead Builder B-07",
+    "expected_object_type": "Bead Builder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0048_04",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0048",
+    "expected_object_name": "Bead Builder B-07",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0048_05",
+    "query": "check Bead Builder B-07",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0048",
+    "expected_object_name": "Bead Builder B-07",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0049_01",
+    "query": "display Curing Press 12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0049",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0049_02",
+    "query": "show me Curing Press 12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0049",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0049_03",
+    "query": "show all Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0049",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0049_04",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0049",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0049_05",
+    "query": "machines with system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0049",
+    "expected_object_name": "Curing Press 12",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0050_01",
+    "query": "check ProductionSiteAlpha",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0050",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0050_02",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0050",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0050_03",
+    "query": "which Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0050",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0050_04",
+    "query": "check Production Site Alpha",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0050",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0050_05",
+    "query": "check Production Site Alpha",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0050",
+    "expected_object_name": "Production Site Alpha",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0051_01",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0051",
+    "expected_object_name": "VMI MAXX-01",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0051_02",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0051",
+    "expected_object_name": "VMI MAXX-01",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0051_03",
+    "query": "find VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0051",
+    "expected_object_name": "VMI MAXX-01",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0051_04",
+    "query": "display VMI MAXX-01",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0051",
+    "expected_object_name": "VMI MAXX-01",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0051_05",
+    "query": "show VMI MAAX-01",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0051",
+    "expected_object_name": "VMI MAXX-01",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0052_01",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0052",
+    "expected_object_name": "CP-402 Vulcanizer",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0052_02",
+    "query": "find pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0052",
+    "expected_object_name": "CP-402 Vulcanizer",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0052_03",
+    "query": "get info on CP-402 Vulcanizer",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0052",
+    "expected_object_name": "CP-402 Vulcanizer",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0052_04",
+    "query": "show CP-402Vulcanizer",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0052",
+    "expected_object_name": "CP-402 Vulcanizer",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0052_05",
+    "query": "display CP-402 Vulcanizer",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0052",
+    "expected_object_name": "CP-402 Vulcanizer",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0053_01",
+    "query": "display Banbury Mixer BM-10",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0053",
+    "expected_object_name": "Banbury Mixer BM-10",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0053_02",
+    "query": "machines in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0053",
+    "expected_object_name": "Banbury Mixer BM-10",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0053_03",
+    "query": "show me Banbury Mixer BM-10",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0053",
+    "expected_object_name": "Banbury Mixer BM-10",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0053_04",
+    "query": "machines with mixing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0053",
+    "expected_object_name": "Banbury Mixer BM-10",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0053_05",
+    "query": "find Banbury Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0053",
+    "expected_object_name": "Banbury Mixer BM-10",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0054_01",
+    "query": "show ExtruderEX-7",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0054",
+    "expected_object_name": "Extruder EX-7",
+    "expected_object_type": "Extruder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0054_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0054",
+    "expected_object_name": "Extruder EX-7",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0054_03",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0054",
+    "expected_object_name": "Extruder EX-7",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0054_04",
+    "query": "display Extruder EX-7",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0054",
+    "expected_object_name": "Extruder EX-7",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0054_05",
+    "query": "check Extruder EX-7",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0054",
+    "expected_object_name": "Extruder EX-7",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0055_01",
+    "query": "find control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0055",
+    "expected_object_name": "Uniformity Tester UT-505",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0055_02",
+    "query": "check Uniformity Tester UT-505",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0055",
+    "expected_object_name": "Uniformity Tester UT-505",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0055_03",
+    "query": "UniformityTesterUT-505 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0055",
+    "expected_object_name": "Uniformity Tester UT-505",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0055_04",
+    "query": "Uniformity Tester UT-505 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0055",
+    "expected_object_name": "Uniformity Tester UT-505",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0055_05",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0055",
+    "expected_object_name": "Uniformity Tester UT-505",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0056_01",
+    "query": "list VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0056",
+    "expected_object_name": "VMI EDGER-03",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0056_02",
+    "query": "check VMI EDGER-03",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0056",
+    "expected_object_name": "VMI EDGER-03",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0056_03",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0056",
+    "expected_object_name": "VMI EDGER-03",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0056_04",
+    "query": "which has assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0056",
+    "expected_object_name": "VMI EDGER-03",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0056_05",
+    "query": "check VMIEDGER-03",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0056",
+    "expected_object_name": "VMI EDGER-03",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0057_01",
+    "query": "which Bead Builder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0057",
+    "expected_object_name": "Bead Builder BB-22",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0057_02",
+    "query": "Bead Builder BB-22 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0057",
+    "expected_object_name": "Bead Builder BB-22",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0057_03",
+    "query": "show me Bead Builder BB-22",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0057",
+    "expected_object_name": "Bead Builder BB-22",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0057_04",
+    "query": "which has pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0057",
+    "expected_object_name": "Bead Builder BB-22",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0057_05",
+    "query": "machines in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0057",
+    "expected_object_name": "Bead Builder BB-22",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0058_01",
+    "query": "which Calender",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0058",
+    "expected_object_name": "Calender CL-100",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0058_02",
+    "query": "get info on Calender CL-100",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0058",
+    "expected_object_name": "Calender CL-100",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0058_03",
+    "query": "machines in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0058",
+    "expected_object_name": "Calender CL-100",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0058_04",
+    "query": "which has control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0058",
+    "expected_object_name": "Calender CL-100",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0058_05",
+    "query": "Calender CL-100 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0058",
+    "expected_object_name": "Calender CL-100",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0059_01",
+    "query": "check TBM-MD-04 Assembler",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0059",
+    "expected_object_name": "TBM-MD-04 Assembler",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0059_02",
+    "query": "machines with vulcanization",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0059",
+    "expected_object_name": "TBM-MD-04 Assembler",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0059_03",
+    "query": "get info on TBM-MD-04 Assembler",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0059",
+    "expected_object_name": "TBM-MD-04 Assembler",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0059_04",
+    "query": "show all Tire Building Machine (TBM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0059",
+    "expected_object_name": "TBM-MD-04 Assembler",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0059_05",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0059",
+    "expected_object_name": "TBM-MD-04 Assembler",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0060_01",
+    "query": "check Site C Operations",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0060",
+    "expected_object_name": "Site C Operations",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0060_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0060",
+    "expected_object_name": "Site C Operations",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0060_03",
+    "query": "list Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0060",
+    "expected_object_name": "Site C Operations",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0060_04",
+    "query": "get info on Site C Operations",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0060",
+    "expected_object_name": "Site C Operations",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0060_05",
+    "query": "find mixing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0060",
+    "expected_object_name": "Site C Operations",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0061_01",
+    "query": "show VMI MAX 2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0061",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0061_02",
+    "query": "get info on VMI MAXX 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0061",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0061_03",
+    "query": "VMI MAXX 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0061",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0061_04",
+    "query": "list VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0061",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0061_05",
+    "query": "machines with system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0061",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0062_01",
+    "query": "show VMIEDGER04",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0062",
+    "expected_object_name": "VMI EDGER 04",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0062_02",
+    "query": "VMI EDGER 04 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0062",
+    "expected_object_name": "VMI EDGER 04",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0062_03",
+    "query": "show all VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0062",
+    "expected_object_name": "VMI EDGER 04",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0062_04",
+    "query": "VMI EDGER 04 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0062",
+    "expected_object_name": "VMI EDGER 04",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0062_05",
+    "query": "machines with assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0062",
+    "expected_object_name": "VMI EDGER 04",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0063_01",
+    "query": "which Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0063",
+    "expected_object_name": "Curing Press CP-80",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0063_02",
+    "query": "Devices status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0063",
+    "expected_object_name": "Curing Press CP-80",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0063_03",
+    "query": "machines with temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0063",
+    "expected_object_name": "Curing Press CP-80",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0063_04",
+    "query": "check Curing Press CP-80",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0063",
+    "expected_object_name": "Curing Press CP-80",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0063_05",
+    "query": "display Curing Press CP-80",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0063",
+    "expected_object_name": "Curing Press CP-80",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0064_01",
+    "query": "QuadraplexExtruderEX-12 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0064",
+    "expected_object_name": "Quadraplex Extruder EX-12",
+    "expected_object_type": "Extruder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0064_02",
+    "query": "list Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0064",
+    "expected_object_name": "Quadraplex Extruder EX-12",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0064_03",
+    "query": "which Extruder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0064",
+    "expected_object_name": "Quadraplex Extruder EX-12",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0064_04",
+    "query": "show me Quadraplex Extruder EX-12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0064",
+    "expected_object_name": "Quadraplex Extruder EX-12",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0064_05",
+    "query": "which has pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0064",
+    "expected_object_name": "Quadraplex Extruder EX-12",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0065_01",
+    "query": "show Multi-RollCalenderCAL-05",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0065",
+    "expected_object_name": "Multi-Roll Calender CAL-05",
+    "expected_object_type": "Calender",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0065_02",
+    "query": "check Multi-Roll Calender CAL-05",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0065",
+    "expected_object_name": "Multi-Roll Calender CAL-05",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0065_03",
+    "query": "Devices status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0065",
+    "expected_object_name": "Multi-Roll Calender CAL-05",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0065_04",
+    "query": "machines with sensor",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0065",
+    "expected_object_name": "Multi-Roll Calender CAL-05",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0065_05",
+    "query": "find Calender",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0065",
+    "expected_object_name": "Multi-Roll Calender CAL-05",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0066_01",
+    "query": "Devices status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0066",
+    "expected_object_name": "Banbury Mixer MX-200",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0066_02",
+    "query": "show me Banbury Mixer MX-200",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0066",
+    "expected_object_name": "Banbury Mixer MX-200",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0066_03",
+    "query": "find control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0066",
+    "expected_object_name": "Banbury Mixer MX-200",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0066_04",
+    "query": "show all Banbury Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0066",
+    "expected_object_name": "Banbury Mixer MX-200",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0066_05",
+    "query": "Banbury Mixer MX-200 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0066",
+    "expected_object_name": "Banbury Mixer MX-200",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0067_01",
+    "query": "TBMDualDrum08 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0067",
+    "expected_object_name": "TBM Dual Drum 08",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0067_02",
+    "query": "TBM Dual Drum 08 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0067",
+    "expected_object_name": "TBM Dual Drum 08",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0067_03",
+    "query": "what's in Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0067",
+    "expected_object_name": "TBM Dual Drum 08",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0067_04",
+    "query": "find Tire Building Machine (TBM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0067",
+    "expected_object_name": "TBM Dual Drum 08",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0067_05",
+    "query": "TBM Dual Drum 08 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0067",
+    "expected_object_name": "TBM Dual Drum 08",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0068_01",
+    "query": "show me Bead Builder BB-02",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0068",
+    "expected_object_name": "Bead Builder BB-02",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0068_02",
+    "query": "BeadBuilderBB-02 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0068",
+    "expected_object_name": "Bead Builder BB-02",
+    "expected_object_type": "Bead Builder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0068_03",
+    "query": "what's in Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0068",
+    "expected_object_name": "Bead Builder BB-02",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0068_04",
+    "query": "Bead Builder BB-02 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0068",
+    "expected_object_name": "Bead Builder BB-02",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0068_05",
+    "query": "show all Bead Builder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0068",
+    "expected_object_name": "Bead Builder BB-02",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0069_01",
+    "query": "machines in Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0069",
+    "expected_object_name": "Uniformity Tester UT-15",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0069_02",
+    "query": "which has control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0069",
+    "expected_object_name": "Uniformity Tester UT-15",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0069_03",
+    "query": "show me Uniformity Tester UT-15",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0069",
+    "expected_object_name": "Uniformity Tester UT-15",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0069_04",
+    "query": "check UniformityTesterUT-15",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0069",
+    "expected_object_name": "Uniformity Tester UT-15",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0069_05",
+    "query": "list Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0069",
+    "expected_object_name": "Uniformity Tester UT-15",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0070_01",
+    "query": "check Smart Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0070",
+    "expected_object_name": "Smart Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0070_02",
+    "query": "check SmartProductionSiteA",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0070",
+    "expected_object_name": "Smart Production Site A",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0070_03",
+    "query": "check Smart Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0070",
+    "expected_object_name": "Smart Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0070_04",
+    "query": "list Sites",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0070",
+    "expected_object_name": "Smart Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0070_05",
+    "query": "which Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0070",
+    "expected_object_name": "Smart Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0071_01",
+    "query": "VMI MAX 1 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0071",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0071_02",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0071",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0071_03",
+    "query": "show me VMI MAXX 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0071",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0071_04",
+    "query": "list VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0071",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0071_05",
+    "query": "show me VMI MAXX 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0071",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0072_01",
+    "query": "check Curing Press 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0072",
+    "expected_object_name": "Curing Press 4",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0072_02",
+    "query": "list Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0072",
+    "expected_object_name": "Curing Press 4",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0072_03",
+    "query": "which has pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0072",
+    "expected_object_name": "Curing Press 4",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0072_04",
+    "query": "get info on Curing Press 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0072",
+    "expected_object_name": "Curing Press 4",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0072_05",
+    "query": "Curing Prss 4 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0072",
+    "expected_object_name": "Curing Press 4",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0073_01",
+    "query": "which Extruder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0073",
+    "expected_object_name": "Extruder 102",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0073_02",
+    "query": "get info on Extruder 102",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0073",
+    "expected_object_name": "Extruder 102",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0073_03",
+    "query": "check Extruder 102",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0073",
+    "expected_object_name": "Extruder 102",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0073_04",
+    "query": "check Extruder102",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0073",
+    "expected_object_name": "Extruder 102",
+    "expected_object_type": "Extruder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0073_05",
+    "query": "machines with temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0073",
+    "expected_object_name": "Extruder 102",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0074_01",
+    "query": "BanburyMixer5 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0074",
+    "expected_object_name": "Banbury Mixer 5",
+    "expected_object_type": "Banbury Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0074_02",
+    "query": "check Banbury Mixer 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0074",
+    "expected_object_name": "Banbury Mixer 5",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0074_03",
+    "query": "which has control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0074",
+    "expected_object_name": "Banbury Mixer 5",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0074_04",
+    "query": "show Mixing Area equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0074",
+    "expected_object_name": "Banbury Mixer 5",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0074_05",
+    "query": "check Banbury Mixer 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0074",
+    "expected_object_name": "Banbury Mixer 5",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0075_01",
+    "query": "machines with control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0075",
+    "expected_object_name": "Uniformity Tester 2",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0075_02",
+    "query": "get info on Uniformity Tester 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0075",
+    "expected_object_name": "Uniformity Tester 2",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0075_03",
+    "query": "show me Uniformity Tester 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0075",
+    "expected_object_name": "Uniformity Tester 2",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0075_04",
+    "query": "which Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0075",
+    "expected_object_name": "Uniformity Tester 2",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0075_05",
+    "query": "check UniformityTester2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0075",
+    "expected_object_name": "Uniformity Tester 2",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0076_01",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0076",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0076_02",
+    "query": "display VMI EDGER 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0076",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0076_03",
+    "query": "find assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0076",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0076_04",
+    "query": "show all VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0076",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0076_05",
+    "query": "show me VMI EDGER 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0076",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0077_01",
+    "query": "show me Calender 8",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0077",
+    "expected_object_name": "Calender 8",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0077_02",
+    "query": "machines in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0077",
+    "expected_object_name": "Calender 8",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0077_03",
+    "query": "Calender 8 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0077",
+    "expected_object_name": "Calender 8",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0077_04",
+    "query": "machines with control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0077",
+    "expected_object_name": "Calender 8",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0077_05",
+    "query": "check Calender8",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0077",
+    "expected_object_name": "Calender 8",
+    "expected_object_type": "Calender",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0078_01",
+    "query": "show all Tire Building Machine (TBM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0078",
+    "expected_object_name": "TBM 5",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0078_02",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0078",
+    "expected_object_name": "TBM 5",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0078_03",
+    "query": "find sensor",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0078",
+    "expected_object_name": "TBM 5",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0078_04",
+    "query": "TBM 5 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0078",
+    "expected_object_name": "TBM 5",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0078_05",
+    "query": "TBM5 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0078",
+    "expected_object_name": "TBM 5",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0079_01",
+    "query": "check Bead Builder 12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0079",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0079_02",
+    "query": "machines with assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0079",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0079_03",
+    "query": "show BeadBuilder12",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0079",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0079_04",
+    "query": "check Bead Builder 12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0079",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0079_05",
+    "query": "list Bead Builder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0079",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0080_01",
+    "query": "show me Production Site C",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0080",
+    "expected_object_name": "Production Site C",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0080_02",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0080",
+    "expected_object_name": "Production Site C",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0080_03",
+    "query": "display Production Site C",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0080",
+    "expected_object_name": "Production Site C",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0080_04",
+    "query": "machines with system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0080",
+    "expected_object_name": "Production Site C",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0080_05",
+    "query": "find Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0080",
+    "expected_object_name": "Production Site C",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0081_01",
+    "query": "check VMI MAXX Assembly Station 04",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0081",
+    "expected_object_name": "VMI MAXX Assembly Station 04",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0081_02",
+    "query": "list VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0081",
+    "expected_object_name": "VMI MAXX Assembly Station 04",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0081_03",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0081",
+    "expected_object_name": "VMI MAXX Assembly Station 04",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0081_04",
+    "query": "display VMI MAXX Assembly Station 04",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0081",
+    "expected_object_name": "VMI MAXX Assembly Station 04",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0081_05",
+    "query": "check VMI MAX Assembly Station 04",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0081",
+    "expected_object_name": "VMI MAXX Assembly Station 04",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0082_01",
+    "query": "machines with assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0082",
+    "expected_object_name": "VMI EDGER Unit 07",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0082_02",
+    "query": "display VMI EDGER Unit 07",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0082",
+    "expected_object_name": "VMI EDGER Unit 07",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0082_03",
+    "query": "check VMI EDGER Unit 07",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0082",
+    "expected_object_name": "VMI EDGER Unit 07",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0082_04",
+    "query": "VMIEDGERUnit07 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0082",
+    "expected_object_name": "VMI EDGER Unit 07",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0082_05",
+    "query": "show all VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0082",
+    "expected_object_name": "VMI EDGER Unit 07",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0083_01",
+    "query": "display Curing Press 15",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0083",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0083_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0083",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0083_03",
+    "query": "list Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0083",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0083_04",
+    "query": "find temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0083",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0083_05",
+    "query": "show Curing Prss 15",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0083",
+    "expected_object_name": "Curing Press 15",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0084_01",
+    "query": "show all Extruder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0084",
+    "expected_object_name": "Quadraplex Extruder 02",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0084_02",
+    "query": "display Quadraplex Extruder 02",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0084",
+    "expected_object_name": "Quadraplex Extruder 02",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0084_03",
+    "query": "show me Quadraplex Extruder 02",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0084",
+    "expected_object_name": "Quadraplex Extruder 02",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0084_04",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0084",
+    "expected_object_name": "Quadraplex Extruder 02",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0084_05",
+    "query": "Production Site B status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0084",
+    "expected_object_name": "Quadraplex Extruder 02",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0085_01",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0085",
+    "expected_object_name": "Multi-Roll Calender 01",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0085_02",
+    "query": "find control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0085",
+    "expected_object_name": "Multi-Roll Calender 01",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0085_03",
+    "query": "show me Multi-Roll Calender 01",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0085",
+    "expected_object_name": "Multi-Roll Calender 01",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0085_04",
+    "query": "show me Multi-Roll Calender 01",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0085",
+    "expected_object_name": "Multi-Roll Calender 01",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0085_05",
+    "query": "list Calender",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0085",
+    "expected_object_name": "Multi-Roll Calender 01",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0086_01",
+    "query": "show Production Site B equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0086",
+    "expected_object_name": "Banbury Mixer 05",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0086_02",
+    "query": "which has control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0086",
+    "expected_object_name": "Banbury Mixer 05",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0086_03",
+    "query": "find Banbury Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0086",
+    "expected_object_name": "Banbury Mixer 05",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0086_04",
+    "query": "BanburyMixer05 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0086",
+    "expected_object_name": "Banbury Mixer 05",
+    "expected_object_type": "Banbury Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0086_05",
+    "query": "get info on Banbury Mixer 05",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0086",
+    "expected_object_name": "Banbury Mixer 05",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0087_01",
+    "query": "which Tire Building Machine (TBM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0087",
+    "expected_object_name": "TBM Multi-Drum Unit 03",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0087_02",
+    "query": "check TBM Multi-Drum Unit 03",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0087",
+    "expected_object_name": "TBM Multi-Drum Unit 03",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0087_03",
+    "query": "display TBM Multi-Drum Unit 03",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0087",
+    "expected_object_name": "TBM Multi-Drum Unit 03",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0087_04",
+    "query": "TBMMulti-DrumUnit03 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0087",
+    "expected_object_name": "TBM Multi-Drum Unit 03",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0087_05",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0087",
+    "expected_object_name": "TBM Multi-Drum Unit 03",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0088_01",
+    "query": "get info on Bead Builder Station 09",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0088",
+    "expected_object_name": "Bead Builder Station 09",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0088_02",
+    "query": "machines in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0088",
+    "expected_object_name": "Bead Builder Station 09",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0088_03",
+    "query": "check Bead Builder Station 09",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0088",
+    "expected_object_name": "Bead Builder Station 09",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0088_04",
+    "query": "check BeadBuilderStation09",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0088",
+    "expected_object_name": "Bead Builder Station 09",
+    "expected_object_type": "Bead Builder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0088_05",
+    "query": "show all Bead Builder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0088",
+    "expected_object_name": "Bead Builder Station 09",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0089_01",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0089",
+    "expected_object_name": "High-Speed Uniformity Tester 06",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0089_02",
+    "query": "find testing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0089",
+    "expected_object_name": "High-Speed Uniformity Tester 06",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0089_03",
+    "query": "check High-Speed Uniformity Tester 06",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0089",
+    "expected_object_name": "High-Speed Uniformity Tester 06",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0089_04",
+    "query": "which Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0089",
+    "expected_object_name": "High-Speed Uniformity Tester 06",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0089_05",
+    "query": "show me High-Speed Uniformity Tester 06",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0089",
+    "expected_object_name": "High-Speed Uniformity Tester 06",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0090_01",
+    "query": "list Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0090",
+    "expected_object_name": "Production Site A Management Hub",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0090_02",
+    "query": "ProductionSiteAManagementHub info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0090",
+    "expected_object_name": "Production Site A Management Hub",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0090_03",
+    "query": "display Production Site A Management Hub",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0090",
+    "expected_object_name": "Production Site A Management Hub",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0090_04",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0090",
+    "expected_object_name": "Production Site A Management Hub",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0090_05",
+    "query": "Production Site A Management Hub status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0090",
+    "expected_object_name": "Production Site A Management Hub",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0091_01",
+    "query": "Curing Pres 7 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0091",
+    "expected_object_name": "Curing Press 7",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0091_02",
+    "query": "machines with temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0091",
+    "expected_object_name": "Curing Press 7",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0091_03",
+    "query": "list Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0091",
+    "expected_object_name": "Curing Press 7",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0091_04",
+    "query": "show me Curing Press 7",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0091",
+    "expected_object_name": "Curing Press 7",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0091_05",
+    "query": "display Curing Press 7",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0091",
+    "expected_object_name": "Curing Press 7",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_0092_01",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0092",
+    "expected_object_name": "VMI MAXX - Unit 01",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0092_02",
+    "query": "display VMI MAXX - Unit 01",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0092",
+    "expected_object_name": "VMI MAXX - Unit 01",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0092_03",
+    "query": "which VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0092",
+    "expected_object_name": "VMI MAXX - Unit 01",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0092_04",
+    "query": "VMI MAAX - Unit 01 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0092",
+    "expected_object_name": "VMI MAXX - Unit 01",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0092_05",
+    "query": "VMI MAXX - Unit 01 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0092",
+    "expected_object_name": "VMI MAXX - Unit 01",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_0093_01",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0093",
+    "expected_object_name": "Banbury Mixer Alpha",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0093_02",
+    "query": "show BanburyMixerAlpha",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0093",
+    "expected_object_name": "Banbury Mixer Alpha",
+    "expected_object_type": "Banbury Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0093_03",
+    "query": "find Banbury Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0093",
+    "expected_object_name": "Banbury Mixer Alpha",
+    "expected_object_type": "Banbury Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0093_04",
+    "query": "machines with mixing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0093",
+    "expected_object_name": "Banbury Mixer Alpha",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0093_05",
+    "query": "check Banbury Mixer Alpha",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0093",
+    "expected_object_name": "Banbury Mixer Alpha",
+    "expected_object_type": "Banbury Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_0094_01",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0094",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0094_02",
+    "query": "machines with control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0094",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0094_03",
+    "query": "show me Quadraplex Extruder 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0094",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0094_04",
+    "query": "Quadraplex Extruder 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0094",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder"
+  },
+  {
+    "query_id": "Q_SYNTH_0094_05",
+    "query": "find Extruder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0094",
+    "expected_object_name": "Quadraplex Extruder 2",
+    "expected_object_type": "Extruder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0095_01",
+    "query": "Tire Building Machine 04 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0095",
+    "expected_object_name": "Tire Building Machine 04",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0095_02",
+    "query": "show Tire Building Machne 04",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0095",
+    "expected_object_name": "Tire Building Machine 04",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0095_03",
+    "query": "Tire Building Machine 04 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0095",
+    "expected_object_name": "Tire Building Machine 04",
+    "expected_object_type": "Tire Building Machine (TBM)"
+  },
+  {
+    "query_id": "Q_SYNTH_0095_04",
+    "query": "list Tire Building Machine (TBM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0095",
+    "expected_object_name": "Tire Building Machine 04",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0095_05",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0095",
+    "expected_object_name": "Tire Building Machine 04",
+    "expected_object_type": "Tire Building Machine (TBM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0096_01",
+    "query": "display Steel Belt Calender 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0096",
+    "expected_object_name": "Steel Belt Calender 1",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0096_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0096",
+    "expected_object_name": "Steel Belt Calender 1",
+    "expected_object_type": "Calender",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0096_03",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0096",
+    "expected_object_name": "Steel Belt Calender 1",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0096_04",
+    "query": "show me Steel Belt Calender 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0096",
+    "expected_object_name": "Steel Belt Calender 1",
+    "expected_object_type": "Calender"
+  },
+  {
+    "query_id": "Q_SYNTH_0096_05",
+    "query": "SteelBeltCalender1 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0096",
+    "expected_object_name": "Steel Belt Calender 1",
+    "expected_object_type": "Calender",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0097_01",
+    "query": "display Bead Builder 12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0097",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0097_02",
+    "query": "list Bead Builder",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0097",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0097_03",
+    "query": "check BeadBuilder12",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0097",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0097_04",
+    "query": "check Bead Builder 12",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0097",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder"
+  },
+  {
+    "query_id": "Q_SYNTH_0097_05",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0097",
+    "expected_object_name": "Bead Builder 12",
+    "expected_object_type": "Bead Builder",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0098_01",
+    "query": "show all Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0098",
+    "expected_object_name": "Uniformity Tester X-100",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0098_02",
+    "query": "get info on Uniformity Tester X-100",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0098",
+    "expected_object_name": "Uniformity Tester X-100",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0098_03",
+    "query": "display Uniformity Tester X-100",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0098",
+    "expected_object_name": "Uniformity Tester X-100",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0098_04",
+    "query": "machines with control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0098",
+    "expected_object_name": "Uniformity Tester X-100",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0098_05",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0098",
+    "expected_object_name": "Uniformity Tester X-100",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0099_01",
+    "query": "show VMIEDGER5",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0099",
+    "expected_object_name": "VMI EDGER 5",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0099_02",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0099",
+    "expected_object_name": "VMI EDGER 5",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0099_03",
+    "query": "show me VMI EDGER 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0099",
+    "expected_object_name": "VMI EDGER 5",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0099_04",
+    "query": "machines with assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0099",
+    "expected_object_name": "VMI EDGER 5",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0099_05",
+    "query": "show me VMI EDGER 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0099",
+    "expected_object_name": "VMI EDGER 5",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_0100_01",
+    "query": "get info on Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0100",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_0100_02",
+    "query": "show all Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0100",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0100_03",
+    "query": "show ProductionSiteA",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0100",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0100_04",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0100",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0100_05",
+    "query": "check Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0100",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  }
+]

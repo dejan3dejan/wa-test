@@ -1,0 +1,6 @@
+google-genai==1.60.0
+pinecone-client==5.0.1
+python-dotenv==1.0.1
+pandas==2.2.3
+numpy==2.1.2
+tqdm==4.66.5

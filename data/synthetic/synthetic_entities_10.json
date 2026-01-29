@@ -1,0 +1,92 @@
+[
+  {
+    "name": "TUM 1",
+    "description": "End-of-line quality inspection gate for Tire Production Line 1. This machine measures critical quality parameters including Radial Force Variation (RFV) and Lateral Force Variation (LFV) to ensure compliance with strict automotive standards. As a primary data source for the smart factory, it functions as the 'Label' generator for supervised learning models. The high-resolution measurements provide the necessary 'Ground Truth' (Y-variable) required to train predictive models against upstream processes such as the Banbury Mixer and VMI MAXX building machines, enabling real-time anomaly detection and process optimization for high-performance passenger tires.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 1",
+    "full_text": "TUM 1 - End-of-line quality inspection gate for Tire Production Line 1. This machine measures critical quality parameters including Radial Force Variation (RFV) and Lateral Force Variation (LFV) to ensure compliance with strict automotive standards. As a primary data source for the smart factory, it functions as the 'Label' generator for supervised learning models. The high-resolution measurements provide the necessary 'Ground Truth' (Y-variable) required to train predictive models against upstream processes such as the Banbury Mixer and VMI MAXX building machines, enabling real-time anomaly detection and process optimization for high-performance passenger tires.",
+    "guid": "SYNTH_0001",
+    "is_synthetic": true
+  },
+  {
+    "name": "TUM 4",
+    "description": "Precision quality assurance system located at the final stage of Tire Production Line 2. This Uniformity Tester evaluates geometric run-out and dynamic force variations during high-speed rotation. It serves as a critical feedback loop for the facility's predictive maintenance architecture. By treating the resulting measurement data as the 'Ground Truth' Y-variable, the system correlates quality defects with specific operational settings in upstream Tire Building Machine (TBM) and Curing Press units. This integration allows for the training of advanced neural networks that predict tire uniformity based on earlier manufacturing deviations, ensuring every tire meets rigorous safety specifications.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 2",
+    "full_text": "TUM 4 - Precision quality assurance system located at the final stage of Tire Production Line 2. This Uniformity Tester evaluates geometric run-out and dynamic force variations during high-speed rotation. It serves as a critical feedback loop for the facility's predictive maintenance architecture. By treating the resulting measurement data as the 'Ground Truth' Y-variable, the system correlates quality defects with specific operational settings in upstream Tire Building Machine (TBM) and Curing Press units. This integration allows for the training of advanced neural networks that predict tire uniformity based on earlier manufacturing deviations, ensuring every tire meets rigorous safety specifications.",
+    "guid": "SYNTH_0002",
+    "is_synthetic": true
+  },
+  {
+    "name": "TUM 7",
+    "description": "Industrial uniformity inspection module designed specifically for the light truck tire segment in Production Line 4. This unit measures Radial Force Variation (RFV) and geometric consistency to validate the structural integrity of the tire. Within the smart factory's data hierarchy, TUM 7 acts as the definitive quality label for supervised learning algorithms. The data captured at this gate is used to back-propagate through the production line, training predictive models on parameters sourced from the Quadraplex Extruder and Calender machines. This ensures that upstream component variations are accurately mapped to final product performance, facilitating proactive process control.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site B/Tire Production Line 4",
+    "full_text": "TUM 7 - Industrial uniformity inspection module designed specifically for the light truck tire segment in Production Line 4. This unit measures Radial Force Variation (RFV) and geometric consistency to validate the structural integrity of the tire. Within the smart factory's data hierarchy, TUM 7 acts as the definitive quality label for supervised learning algorithms. The data captured at this gate is used to back-propagate through the production line, training predictive models on parameters sourced from the Quadraplex Extruder and Calender machines. This ensures that upstream component variations are accurately mapped to final product performance, facilitating proactive process control.",
+    "guid": "SYNTH_0003",
+    "is_synthetic": true
+  },
+  {
+    "name": "TUM 2",
+    "description": "End-of-line uniformity testing station specializing in high-output radial passenger tires at Line 3, Bay 2. This asset measures Lateral Force Variation (LFV) and balance parameters to ensure smooth vehicle handling. It functions as the primary supervisor for upstream data analytics, providing the essential 'Label' data for automated machine learning workflows. By utilizing these measurements as the 'Ground Truth,' engineers can train predictive models that analyze inputs from the VMI MAXX tire building machine and the VMI EDGER component preparer. This enables the factory to anticipate uniformity issues before tires reach the final inspection, optimizing throughput and material efficiency.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site A/Tire Production Line 3",
+    "full_text": "TUM 2 - End-of-line uniformity testing station specializing in high-output radial passenger tires at Line 3, Bay 2. This asset measures Lateral Force Variation (LFV) and balance parameters to ensure smooth vehicle handling. It functions as the primary supervisor for upstream data analytics, providing the essential 'Label' data for automated machine learning workflows. By utilizing these measurements as the 'Ground Truth,' engineers can train predictive models that analyze inputs from the VMI MAXX tire building machine and the VMI EDGER component preparer. This enables the factory to anticipate uniformity issues before tires reach the final inspection, optimizing throughput and material efficiency.",
+    "guid": "SYNTH_0004",
+    "is_synthetic": true
+  },
+  {
+    "name": "TUM 10",
+    "description": "High-precision Uniformity Tester integrated into the smart production ecosystem of Line 5 for end-of-line verification. This machine captures detailed metrics on Radial Force Variation (RFV) and geometric run-out for every tire following the vulcanization process in the Curing Press. It serves as the master data source for 'Ground Truth' labels in the site’s predictive modeling framework. By correlating these Y-variables with time-series data from the Banbury Mixer and the multi-roll Calender, the system develops sophisticated models to detect manufacturing anomalies early in the lifecycle. This feedback loop is vital for maintaining the high-performance standards required in modern tire manufacturing.",
+    "type_name": "Uniformity Tester",
+    "path": "Smart Tire Production/Production Site C/Tire Production Line 5",
+    "full_text": "TUM 10 - High-precision Uniformity Tester integrated into the smart production ecosystem of Line 5 for end-of-line verification. This machine captures detailed metrics on Radial Force Variation (RFV) and geometric run-out for every tire following the vulcanization process in the Curing Press. It serves as the master data source for 'Ground Truth' labels in the site’s predictive modeling framework. By correlating these Y-variables with time-series data from the Banbury Mixer and the multi-roll Calender, the system develops sophisticated models to detect manufacturing anomalies early in the lifecycle. This feedback loop is vital for maintaining the high-performance standards required in modern tire manufacturing.",
+    "guid": "SYNTH_0005",
+    "is_synthetic": true
+  },
+  {
+    "name": "AGV-101-L1",
+    "description": "Automated material handling system dedicated to Production Line 1. This unit facilitates the critical transfer of green tires from the VMI MAXX tire building machine to the hydraulic Curing Presses. Efficient operation is essential to maintain high OEE-Availability, as transport latency directly impacts press cycle times. Operators should monitor 'Wait_Time' telemetry to detect bottlenecks that cause downstream throughput drops. This AGV ensures a continuous flow of high-precision radial passenger tires through the vulcanization stage to achieve final durability.",
+    "type_name": "AGV",
+    "path": "Smart Tire Production/Production Site A/Logistics/AGV-101-L1",
+    "full_text": "AGV-101-L1 - Automated material handling system dedicated to Production Line 1. This unit facilitates the critical transfer of green tires from the VMI MAXX tire building machine to the hydraulic Curing Presses. Efficient operation is essential to maintain high OEE-Availability, as transport latency directly impacts press cycle times. Operators should monitor 'Wait_Time' telemetry to detect bottlenecks that cause downstream throughput drops. This AGV ensures a continuous flow of high-precision radial passenger tires through the vulcanization stage to achieve final durability.",
+    "guid": "SYNTH_0006",
+    "is_synthetic": true
+  },
+  {
+    "name": "AGV-205-L2",
+    "description": "Industrial automated guided vehicle servicing Production Line 2. It manages the logistics of rubber profiles between the Quadraplex Extruder and the multi-drum Tire Building Machine. Delays in tread and sidewall delivery create idle states for the TBM, reducing overall factory output. By correlating 'Transport_Idle' events with Extruder discharge rates, the system optimizes the delivery of components for light truck tire assembly. Maintaining precise timing prevents the accumulation of unprocessed components in the buffer zones and ensures consistent profiles during assembly.",
+    "type_name": "AGV",
+    "path": "Smart Tire Production/Production Site A/Logistics/AGV-205-L2",
+    "full_text": "AGV-205-L2 - Industrial automated guided vehicle servicing Production Line 2. It manages the logistics of rubber profiles between the Quadraplex Extruder and the multi-drum Tire Building Machine. Delays in tread and sidewall delivery create idle states for the TBM, reducing overall factory output. By correlating 'Transport_Idle' events with Extruder discharge rates, the system optimizes the delivery of components for light truck tire assembly. Maintaining precise timing prevents the accumulation of unprocessed components in the buffer zones and ensures consistent profiles during assembly.",
+    "guid": "SYNTH_0007",
+    "is_synthetic": true
+  },
+  {
+    "name": "AGV-309-BayB",
+    "description": "Specialized material handling robot operating in Bay B of the logistics zone. This unit is responsible for transporting reinforced wire beads from the Bead Builder to the VMI MAXX assembly stations. Any interruption in bead apex loading delivery disrupts the hands-off/eyes-off building process, leading to significant drops in the daily output of 1800 tires. Analytics should focus on 'Queue_Duration' to prevent TBM starvation. This system is vital for ensuring the structural integrity of green tires before they reach the Curing Press stage for vulcanization.",
+    "type_name": "AGV",
+    "path": "Smart Tire Production/Production Site A/Logistics/AGV-309-BayB",
+    "full_text": "AGV-309-BayB - Specialized material handling robot operating in Bay B of the logistics zone. This unit is responsible for transporting reinforced wire beads from the Bead Builder to the VMI MAXX assembly stations. Any interruption in bead apex loading delivery disrupts the hands-off/eyes-off building process, leading to significant drops in the daily output of 1800 tires. Analytics should focus on 'Queue_Duration' to prevent TBM starvation. This system is vital for ensuring the structural integrity of green tires before they reach the Curing Press stage for vulcanization.",
+    "guid": "SYNTH_0008",
+    "is_synthetic": true
+  },
+  {
+    "name": "AGV-412-L3",
+    "description": "High-capacity automated transport system configured for Production Line 3. It bridges the gap between the Calender multi-roll machine and the Tire Building Machine by delivering rubber sheets and coated steel belts. Operational efficiency for this AGV is measured by its ability to synchronize with TBM assembly cycles to avoid material aging. Monitoring 'Travel_Latency' helps identify pathing conflicts that reduce Curing Press utilization and overall OEE. This unit supports the production of radial passenger tires by ensuring consistent component availability from the compounding and calendering stages.",
+    "type_name": "AGV",
+    "path": "Smart Tire Production/Production Site A/Logistics/AGV-412-L3",
+    "full_text": "AGV-412-L3 - High-capacity automated transport system configured for Production Line 3. It bridges the gap between the Calender multi-roll machine and the Tire Building Machine by delivering rubber sheets and coated steel belts. Operational efficiency for this AGV is measured by its ability to synchronize with TBM assembly cycles to avoid material aging. Monitoring 'Travel_Latency' helps identify pathing conflicts that reduce Curing Press utilization and overall OEE. This unit supports the production of radial passenger tires by ensuring consistent component availability from the compounding and calendering stages.",
+    "guid": "SYNTH_0009",
+    "is_synthetic": true
+  },
+  {
+    "name": "AGV-550-Finish",
+    "description": "Automated logistics unit servicing the final assembly area. It transports green tires processed by the VMI EDGER for component finishing directly to the hydraulic Curing Presses for final vulcanization. Real-time data integration allows for the correlation of 'Wait_Time' events with overall Line Throughput metrics. By optimizing the transit between precision finishing and high-temperature curing, this AGV minimizes process variability and maximizes OEE-Availability. It is a core component of the automated material handling strategy within Production Site A, ensuring high-speed rotation stability after the final shape is achieved.",
+    "type_name": "AGV",
+    "path": "Smart Tire Production/Production Site A/Logistics/AGV-550-Finish",
+    "full_text": "AGV-550-Finish - Automated logistics unit servicing the final assembly area. It transports green tires processed by the VMI EDGER for component finishing directly to the hydraulic Curing Presses for final vulcanization. Real-time data integration allows for the correlation of 'Wait_Time' events with overall Line Throughput metrics. By optimizing the transit between precision finishing and high-temperature curing, this AGV minimizes process variability and maximizes OEE-Availability. It is a core component of the automated material handling strategy within Production Site A, ensuring high-speed rotation stability after the final shape is achieved.",
+    "guid": "SYNTH_0010",
+    "is_synthetic": true
+  }
+]

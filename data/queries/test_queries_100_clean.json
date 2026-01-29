@@ -1,0 +1,4773 @@
+[
+  {
+    "query_id": "Q_SYNTH_CLEAN_0001_01",
+    "query": "get info on Site B Overview",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0001",
+    "expected_object_name": "Site B Overview",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0001_02",
+    "query": "show Production Site B equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0001",
+    "expected_object_name": "Site B Overview",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0001_03",
+    "query": "display Site B Overview",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0001",
+    "expected_object_name": "Site B Overview",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0001_04",
+    "query": "check SiteBOverview",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0001",
+    "expected_object_name": "Site B Overview",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0001_05",
+    "query": "find Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0001",
+    "expected_object_name": "Site B Overview",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0002_01",
+    "query": "show me Cutter 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0002",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0002_02",
+    "query": "Cutter1 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0002",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0002_03",
+    "query": "Cutter 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0002",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0002_04",
+    "query": "find Cutter",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0002",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0002_05",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0002",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0003_01",
+    "query": "check Boiler System A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0003",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0003_02",
+    "query": "list Boiler System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0003",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0003_03",
+    "query": "machines with pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0003",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0003_04",
+    "query": "check BoilerSystemA",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0003",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0003_05",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0003",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0004_01",
+    "query": "AGV3 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0004",
+    "expected_object_name": "AGV 3",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0004_02",
+    "query": "get info on AGV 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0004",
+    "expected_object_name": "AGV 3",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0004_03",
+    "query": "find AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0004",
+    "expected_object_name": "AGV 3",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0004_04",
+    "query": "what's in Logistics",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0004",
+    "expected_object_name": "AGV 3",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0004_05",
+    "query": "AGV 3 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0004",
+    "expected_object_name": "AGV 3",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0005_01",
+    "query": "show all VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0005",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0005_02",
+    "query": "which has assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0005",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0005_03",
+    "query": "VMI EDGER 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0005",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0005_04",
+    "query": "list Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0005",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0005_05",
+    "query": "show VMIEDGER2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0005",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0006_01",
+    "query": "check MixerB3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0006",
+    "expected_object_name": "Mixer B3",
+    "expected_object_type": "Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0006_02",
+    "query": "show all Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0006",
+    "expected_object_name": "Mixer B3",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0006_03",
+    "query": "get info on Mixer B3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0006",
+    "expected_object_name": "Mixer B3",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0006_04",
+    "query": "Mixer B3 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0006",
+    "expected_object_name": "Mixer B3",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0006_05",
+    "query": "Mixing Department status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0006",
+    "expected_object_name": "Mixer B3",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0007_01",
+    "query": "check Curing Pres 3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0007",
+    "expected_object_name": "Curing Press 3",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0007_02",
+    "query": "what's in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0007",
+    "expected_object_name": "Curing Press 3",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0007_03",
+    "query": "find pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0007",
+    "expected_object_name": "Curing Press 3",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0007_04",
+    "query": "find Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0007",
+    "expected_object_name": "Curing Press 3",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0007_05",
+    "query": "show me Curing Press 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0007",
+    "expected_object_name": "Curing Press 3",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0008_01",
+    "query": "check Smart Tire Machne S1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0008",
+    "expected_object_name": "Smart Tire Machine S1",
+    "expected_object_type": "Smart Tire Machine",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0008_02",
+    "query": "Smart Tire Machine S1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0008",
+    "expected_object_name": "Smart Tire Machine S1",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0008_03",
+    "query": "list Smart Tire Machine",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0008",
+    "expected_object_name": "Smart Tire Machine S1",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0008_04",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0008",
+    "expected_object_name": "Smart Tire Machine S1",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0008_05",
+    "query": "get info on Smart Tire Machine S1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0008",
+    "expected_object_name": "Smart Tire Machine S1",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0009_01",
+    "query": "TUM2 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0009",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0009_02",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0009",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0009_03",
+    "query": "TUM 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0009",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0009_04",
+    "query": "display TUM 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0009",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0009_05",
+    "query": "find Tire Uniformity Machine (TUM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0009",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0010_01",
+    "query": "list Production Line",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0010",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0010_02",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0010",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0010_03",
+    "query": "check TireProductionLine1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0010",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0010_04",
+    "query": "get info on Tire Production Line 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0010",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0010_05",
+    "query": "show me Tire Production Line 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0010",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0011_01",
+    "query": "show all Production Line",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0011",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0011_02",
+    "query": "which has assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0011",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0011_03",
+    "query": "check Tire Production Line 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0011",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0011_04",
+    "query": "Tire Production Line 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0011",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0011_05",
+    "query": "show TireProductionLine2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0011",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0012_01",
+    "query": "TireProductionLine3 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0012",
+    "expected_object_name": "Tire Production Line 3",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0012_02",
+    "query": "get info on Tire Production Line 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0012",
+    "expected_object_name": "Tire Production Line 3",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0012_03",
+    "query": "get info on Tire Production Line 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0012",
+    "expected_object_name": "Tire Production Line 3",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0012_04",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0012",
+    "expected_object_name": "Tire Production Line 3",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0012_05",
+    "query": "find Production Line",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0012",
+    "expected_object_name": "Tire Production Line 3",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0013_01",
+    "query": "machines in Mixing Department",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0013",
+    "expected_object_name": "Mixing Department West",
+    "expected_object_type": "Mixing Department",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0013_02",
+    "query": "display Mixing Department West",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0013",
+    "expected_object_name": "Mixing Department West",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0013_03",
+    "query": "which has mixing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0013",
+    "expected_object_name": "Mixing Department West",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0013_04",
+    "query": "check Mixing Department West",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0013",
+    "expected_object_name": "Mixing Department West",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0013_05",
+    "query": "MixingDepartmentWest info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0013",
+    "expected_object_name": "Mixing Department West",
+    "expected_object_type": "Mixing Department",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0014_01",
+    "query": "list Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0014",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0014_02",
+    "query": "get info on Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0014",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0014_03",
+    "query": "display Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0014",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0014_04",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0014",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0014_05",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0014",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0015_01",
+    "query": "ProductionSiteB info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0015",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0015_02",
+    "query": "Production Site B status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0015",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0015_03",
+    "query": "check Production Site B",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0015",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0015_04",
+    "query": "find testing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0015",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0015_05",
+    "query": "list Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0015",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0016_01",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0016",
+    "expected_object_name": "Logistics Hub East",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0016_02",
+    "query": "show me Logistics Hub East",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0016",
+    "expected_object_name": "Logistics Hub East",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0016_03",
+    "query": "list Logistics",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0016",
+    "expected_object_name": "Logistics Hub East",
+    "expected_object_type": "Logistics",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0016_04",
+    "query": "Logistics Hub East status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0016",
+    "expected_object_name": "Logistics Hub East",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0016_05",
+    "query": "show LogisticsHubEast",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0016",
+    "expected_object_name": "Logistics Hub East",
+    "expected_object_type": "Logistics",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0017_01",
+    "query": "VMI MAX Pro info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0017",
+    "expected_object_name": "VMI MAXX Pro",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0017_02",
+    "query": "machines with system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0017",
+    "expected_object_name": "VMI MAXX Pro",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0017_03",
+    "query": "get info on VMI MAXX Pro",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0017",
+    "expected_object_name": "VMI MAXX Pro",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0017_04",
+    "query": "Devices status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0017",
+    "expected_object_name": "VMI MAXX Pro",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0017_05",
+    "query": "find VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0017",
+    "expected_object_name": "VMI MAXX Pro",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0018_01",
+    "query": "what's in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0018",
+    "expected_object_name": "VMI MAXX Agile",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0018_02",
+    "query": "get info on VMI MAXX Agile",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0018",
+    "expected_object_name": "VMI MAXX Agile",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0018_03",
+    "query": "VMI MAXX Agile status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0018",
+    "expected_object_name": "VMI MAXX Agile",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0018_04",
+    "query": "show VMI MAX Agile",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0018",
+    "expected_object_name": "VMI MAXX Agile",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0018_05",
+    "query": "which VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0018",
+    "expected_object_name": "VMI MAXX Agile",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0019_01",
+    "query": "list Smart Tire Machine",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0019",
+    "expected_object_name": "Smart Tire Machine H2",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0019_02",
+    "query": "check Smart Tire Machine H2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0019",
+    "expected_object_name": "Smart Tire Machine H2",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0019_03",
+    "query": "display Smart Tire Machine H2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0019",
+    "expected_object_name": "Smart Tire Machine H2",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0019_04",
+    "query": "list Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0019",
+    "expected_object_name": "Smart Tire Machine H2",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0019_05",
+    "query": "show Smart Tire Machne H2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0019",
+    "expected_object_name": "Smart Tire Machine H2",
+    "expected_object_type": "Smart Tire Machine",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0020_01",
+    "query": "show me Curing Press Array 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0020",
+    "expected_object_name": "Curing Press Array 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0020_02",
+    "query": "check Curing Pres Array 2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0020",
+    "expected_object_name": "Curing Press Array 2",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0020_03",
+    "query": "show all Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0020",
+    "expected_object_name": "Curing Press Array 2",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0020_04",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0020",
+    "expected_object_name": "Curing Press Array 2",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0020_05",
+    "query": "which has temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0020",
+    "expected_object_name": "Curing Press Array 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0021_01",
+    "query": "which Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0021",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0021_02",
+    "query": "check Mixer1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0021",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0021_03",
+    "query": "Mixing Department status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0021",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0021_04",
+    "query": "Mixer 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0021",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0021_05",
+    "query": "Mixer 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0021",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0022_01",
+    "query": "list Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0022",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0022_02",
+    "query": "get info on VMI EDGER 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0022",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0022_03",
+    "query": "display VMI EDGER 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0022",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0022_04",
+    "query": "which VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0022",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0022_05",
+    "query": "check VMIEDGER3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0022",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0023_01",
+    "query": "machines in Logistics",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0023",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0023_02",
+    "query": "check AGV 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0023",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0023_03",
+    "query": "check AGV 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0023",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0023_04",
+    "query": "show all AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0023",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0023_05",
+    "query": "check AGV5",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0023",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0024_01",
+    "query": "get info on Production Line 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0024",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0024_02",
+    "query": "list Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0024",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0024_03",
+    "query": "list Production Line",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0024",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0024_04",
+    "query": "Production Line 3 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0024",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0024_05",
+    "query": "ProductionLine3 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0024",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0025_01",
+    "query": "show Curing Prss 5",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0025",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0025_02",
+    "query": "display Curing Press 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0025",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0025_03",
+    "query": "display Curing Press 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0025",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0025_04",
+    "query": "find Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0025",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0025_05",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0025",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0026_01",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0026",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0026_02",
+    "query": "show me Smart Tire Machine 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0026",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0026_03",
+    "query": "find Smart Tire Machine",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0026",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0026_04",
+    "query": "which has control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0026",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0026_05",
+    "query": "Smart Tire Machine 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0026",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0027_01",
+    "query": "get info on Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0027",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0027_02",
+    "query": "show ProductionSiteA",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0027",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0027_03",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0027",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0027_04",
+    "query": "which Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0027",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0027_05",
+    "query": "check Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0027",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0028_01",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0028",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0028_02",
+    "query": "check Mixing Department 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0028",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0028_03",
+    "query": "which Mixing Department",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0028",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0028_04",
+    "query": "show me Mixing Department 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0028",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0028_05",
+    "query": "show MixingDepartment1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0028",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0029_01",
+    "query": "check TUM2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0029",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0029_02",
+    "query": "list Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0029",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0029_03",
+    "query": "show me TUM 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0029",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0029_04",
+    "query": "check TUM 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0029",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0029_05",
+    "query": "show all Tire Uniformity Machine (TUM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0029",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0030_01",
+    "query": "Boiler System 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0030",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0030_02",
+    "query": "check BoilerSystem1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0030",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0030_03",
+    "query": "machines with vulcanization",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0030",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0030_04",
+    "query": "show Devices equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0030",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0030_05",
+    "query": "list Boiler System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0030",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0031_01",
+    "query": "show me Cutter 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0031",
+    "expected_object_name": "Cutter 4",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0031_02",
+    "query": "get info on Cutter 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0031",
+    "expected_object_name": "Cutter 4",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0031_03",
+    "query": "show Mixing Department equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0031",
+    "expected_object_name": "Cutter 4",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0031_04",
+    "query": "check Cutter4",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0031",
+    "expected_object_name": "Cutter 4",
+    "expected_object_type": "Cutter",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0031_05",
+    "query": "list Cutter",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0031",
+    "expected_object_name": "Cutter 4",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0032_01",
+    "query": "get info on VMI MAXX 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0032",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0032_02",
+    "query": "show me VMI MAXX 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0032",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0032_03",
+    "query": "find VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0032",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0032_04",
+    "query": "check VMI MAX 2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0032",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0032_05",
+    "query": "machines in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0032",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0033_01",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0033",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0033_02",
+    "query": "show LogisticsHub",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0033",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0033_03",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0033",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0033_04",
+    "query": "which Logistics",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0033",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0033_05",
+    "query": "display Logistics Hub",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0033",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0034_01",
+    "query": "ProductionSiteB info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0034",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0034_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0034",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0034_03",
+    "query": "show me Production Site B",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0034",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0034_04",
+    "query": "find Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0034",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0034_05",
+    "query": "show me Production Site B",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0034",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0035_01",
+    "query": "display Tire Production Line 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0035",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0035_02",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0035",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0035_03",
+    "query": "show all Production Line",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0035",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0035_04",
+    "query": "check TireProductionLine1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0035",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0035_05",
+    "query": "show me Tire Production Line 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0035",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0036_01",
+    "query": "list Mixing Department",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0036",
+    "expected_object_name": "Mixer 3 (Banbury Mixer)",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0036_02",
+    "query": "show all Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0036",
+    "expected_object_name": "Mixer 3 (Banbury Mixer)",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0036_03",
+    "query": "Mixer 3 (Banbury Mixer) status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0036",
+    "expected_object_name": "Mixer 3 (Banbury Mixer)",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0036_04",
+    "query": "show me Mixer 3 (Banbury Mixer)",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0036",
+    "expected_object_name": "Mixer 3 (Banbury Mixer)",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0036_05",
+    "query": "find temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0036",
+    "expected_object_name": "Mixer 3 (Banbury Mixer)",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0037_01",
+    "query": "check Curing Press 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0037",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0037_02",
+    "query": "which has temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0037",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0037_03",
+    "query": "check Curing Press 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0037",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0037_04",
+    "query": "check Curing Prss 2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0037",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0037_05",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0037",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0038_01",
+    "query": "display Smart Tire Machine 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0038",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0038_02",
+    "query": "check Smart Tire Machine 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0038",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0038_03",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0038",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0038_04",
+    "query": "list Smart Tire Machine",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0038",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0038_05",
+    "query": "Production Site B status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0038",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0039_01",
+    "query": "display TUM 1 (Advanced)",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0039",
+    "expected_object_name": "TUM 1 (Advanced)",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0039_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0039",
+    "expected_object_name": "TUM 1 (Advanced)",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0039_03",
+    "query": "which Tire Uniformity Machine (TUM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0039",
+    "expected_object_name": "TUM 1 (Advanced)",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0039_04",
+    "query": "machines with testing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0039",
+    "expected_object_name": "TUM 1 (Advanced)",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0039_05",
+    "query": "display TUM 1 (Advanced)",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0039",
+    "expected_object_name": "TUM 1 (Advanced)",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0040_01",
+    "query": "display AGV 1 (Heavy Duty)",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0040",
+    "expected_object_name": "AGV 1 (Heavy Duty)",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0040_02",
+    "query": "find AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0040",
+    "expected_object_name": "AGV 1 (Heavy Duty)",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0040_03",
+    "query": "show me AGV 1 (Heavy Duty)",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0040",
+    "expected_object_name": "AGV 1 (Heavy Duty)",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0040_04",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0040",
+    "expected_object_name": "AGV 1 (Heavy Duty)",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0040_05",
+    "query": "what's in Logistics",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0040",
+    "expected_object_name": "AGV 1 (Heavy Duty)",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0041_01",
+    "query": "get info on TUM 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0041",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0041_02",
+    "query": "display TUM 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0041",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0041_03",
+    "query": "TUM1 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0041",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0041_04",
+    "query": "show all Tire Uniformity Machine (TUM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0041",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0041_05",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0041",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0042_01",
+    "query": "display VMI MAXX 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0042",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0042_02",
+    "query": "check VMI MAAX 1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0042",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0042_03",
+    "query": "Devices status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0042",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0042_04",
+    "query": "list VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0042",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0042_05",
+    "query": "show me VMI MAXX 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0042",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0043_01",
+    "query": "check CutterLine3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0043",
+    "expected_object_name": "Cutter Line 3",
+    "expected_object_type": "Cutter",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0043_02",
+    "query": "show all Cutter",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0043",
+    "expected_object_name": "Cutter Line 3",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0043_03",
+    "query": "what's in Mixing Department",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0043",
+    "expected_object_name": "Cutter Line 3",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0043_04",
+    "query": "Cutter Line 3 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0043",
+    "expected_object_name": "Cutter Line 3",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0043_05",
+    "query": "Cutter Line 3 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0043",
+    "expected_object_name": "Cutter Line 3",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0044_01",
+    "query": "show LogisticsHubA",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0044",
+    "expected_object_name": "Logistics Hub A",
+    "expected_object_type": "Logistics",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0044_02",
+    "query": "check Logistics Hub A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0044",
+    "expected_object_name": "Logistics Hub A",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0044_03",
+    "query": "Logistics status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0044",
+    "expected_object_name": "Logistics Hub A",
+    "expected_object_type": "Logistics",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0044_04",
+    "query": "show all Logistics",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0044",
+    "expected_object_name": "Logistics Hub A",
+    "expected_object_type": "Logistics",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0044_05",
+    "query": "get info on Logistics Hub A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0044",
+    "expected_object_name": "Logistics Hub A",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0045_01",
+    "query": "what's in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0045",
+    "expected_object_name": "AGV Fleet 2",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0045_02",
+    "query": "display AGV Fleet 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0045",
+    "expected_object_name": "AGV Fleet 2",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0045_03",
+    "query": "AGV Fleet 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0045",
+    "expected_object_name": "AGV Fleet 2",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0045_04",
+    "query": "show AGVFleet2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0045",
+    "expected_object_name": "AGV Fleet 2",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0045_05",
+    "query": "find AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0045",
+    "expected_object_name": "AGV Fleet 2",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0046_01",
+    "query": "show me Curing Press 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0046",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0046_02",
+    "query": "show me Curing Press 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0046",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0046_03",
+    "query": "check Curing Prss 2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0046",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0046_04",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0046",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0046_05",
+    "query": "find pressure",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0046",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0047_01",
+    "query": "what's in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0047",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0047_02",
+    "query": "check Smart Tire Machine 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0047",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0047_03",
+    "query": "Smart Tire Machne 3 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0047",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0047_04",
+    "query": "which Smart Tire Machine",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0047",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0047_05",
+    "query": "find control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0047",
+    "expected_object_name": "Smart Tire Machine 3",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0048_01",
+    "query": "get info on Mixer A-5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0048",
+    "expected_object_name": "Mixer A-5",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0048_02",
+    "query": "list Mixing Department",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0048",
+    "expected_object_name": "Mixer A-5",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0048_03",
+    "query": "check MixerA-5",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0048",
+    "expected_object_name": "Mixer A-5",
+    "expected_object_type": "Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0048_04",
+    "query": "show me Mixer A-5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0048",
+    "expected_object_name": "Mixer A-5",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0048_05",
+    "query": "list Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0048",
+    "expected_object_name": "Mixer A-5",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0049_01",
+    "query": "BoilerSystemPS-A info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0049",
+    "expected_object_name": "Boiler System PS-A",
+    "expected_object_type": "Boiler System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0049_02",
+    "query": "machines with temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0049",
+    "expected_object_name": "Boiler System PS-A",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0049_03",
+    "query": "display Boiler System PS-A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0049",
+    "expected_object_name": "Boiler System PS-A",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0049_04",
+    "query": "Boiler System PS-A status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0049",
+    "expected_object_name": "Boiler System PS-A",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0049_05",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0049",
+    "expected_object_name": "Boiler System PS-A",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0050_01",
+    "query": "check ProductionLine3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0050",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0050_02",
+    "query": "check Production Line 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0050",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0050_03",
+    "query": "Production Line 3 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0050",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0050_04",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0050",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0050_05",
+    "query": "list Production Line",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0050",
+    "expected_object_name": "Production Line 3",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0051_01",
+    "query": "find VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0051",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0051_02",
+    "query": "check VMIEDGER2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0051",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0051_03",
+    "query": "check VMI EDGER 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0051",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0051_04",
+    "query": "machines in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0051",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0051_05",
+    "query": "show me VMI EDGER 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0051",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0052_01",
+    "query": "get info on Mixing Department B",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0052",
+    "expected_object_name": "Mixing Department B",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0052_02",
+    "query": "which Mixing Department",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0052",
+    "expected_object_name": "Mixing Department B",
+    "expected_object_type": "Mixing Department",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0052_03",
+    "query": "list Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0052",
+    "expected_object_name": "Mixing Department B",
+    "expected_object_type": "Mixing Department",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0052_04",
+    "query": "display Mixing Department B",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0052",
+    "expected_object_name": "Mixing Department B",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0052_05",
+    "query": "show MixingDepartmentB",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0052",
+    "expected_object_name": "Mixing Department B",
+    "expected_object_type": "Mixing Department",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0053_01",
+    "query": "check TUM2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0053",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0053_02",
+    "query": "get info on TUM 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0053",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0053_03",
+    "query": "check TUM 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0053",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0053_04",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0053",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0053_05",
+    "query": "find Tire Uniformity Machine (TUM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0053",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0054_01",
+    "query": "find Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0054",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0054_02",
+    "query": "show ProductionSiteA",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0054",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0054_03",
+    "query": "which has control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0054",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0054_04",
+    "query": "check Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0054",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0054_05",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0054",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0055_01",
+    "query": "what's in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0055",
+    "expected_object_name": "Smart Tire Machine 10",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0055_02",
+    "query": "show me Smart Tire Machine 10",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0055",
+    "expected_object_name": "Smart Tire Machine 10",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0055_03",
+    "query": "show all Smart Tire Machine",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0055",
+    "expected_object_name": "Smart Tire Machine 10",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0055_04",
+    "query": "show Smart Tire Machne 10",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0055",
+    "expected_object_name": "Smart Tire Machine 10",
+    "expected_object_type": "Smart Tire Machine",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0055_05",
+    "query": "which has control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0055",
+    "expected_object_name": "Smart Tire Machine 10",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0056_01",
+    "query": "check Mixer B-3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0056",
+    "expected_object_name": "Mixer B-3",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0056_02",
+    "query": "Mixer B-3 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0056",
+    "expected_object_name": "Mixer B-3",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0056_03",
+    "query": "MixerB-3 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0056",
+    "expected_object_name": "Mixer B-3",
+    "expected_object_type": "Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0056_04",
+    "query": "show all Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0056",
+    "expected_object_name": "Mixer B-3",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0056_05",
+    "query": "which has temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0056",
+    "expected_object_name": "Mixer B-3",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0057_01",
+    "query": "Curing Press 5 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0057",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0057_02",
+    "query": "which has temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0057",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0057_03",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0057",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0057_04",
+    "query": "display Curing Press 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0057",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0057_05",
+    "query": "show Curing Pres 5",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0057",
+    "expected_object_name": "Curing Press 5",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0058_01",
+    "query": "display VMI EDGER 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0058",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0058_02",
+    "query": "machines with system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0058",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0058_03",
+    "query": "which VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0058",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0058_04",
+    "query": "what's in Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0058",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0058_05",
+    "query": "get info on VMI EDGER 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0058",
+    "expected_object_name": "VMI EDGER 3",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0059_01",
+    "query": "machines with mixing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0059",
+    "expected_object_name": "AGV Main Corridor",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0059_02",
+    "query": "find AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0059",
+    "expected_object_name": "AGV Main Corridor",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0059_03",
+    "query": "check AGV Main Corridor",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0059",
+    "expected_object_name": "AGV Main Corridor",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0059_04",
+    "query": "check AGV Main Corridor",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0059",
+    "expected_object_name": "AGV Main Corridor",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0059_05",
+    "query": "AGVMainCorridor info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0059",
+    "expected_object_name": "AGV Main Corridor",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0060_01",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0060",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0060_02",
+    "query": "TireProductionLine1 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0060",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0060_03",
+    "query": "Tire Production Line 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0060",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0060_04",
+    "query": "find assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0060",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0060_05",
+    "query": "display Tire Production Line 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0060",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0061_01",
+    "query": "show all Tire Uniformity Machine (TUM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0061",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0061_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0061",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0061_03",
+    "query": "TUM 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0061",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0061_04",
+    "query": "check TUM 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0061",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0061_05",
+    "query": "TUM1 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0061",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0062_01",
+    "query": "find VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0062",
+    "expected_object_name": "VMI MAXX 3",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0062_02",
+    "query": "check VMI MAXX 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0062",
+    "expected_object_name": "VMI MAXX 3",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0062_03",
+    "query": "VMI MAAX 3 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0062",
+    "expected_object_name": "VMI MAXX 3",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0062_04",
+    "query": "check VMI MAXX 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0062",
+    "expected_object_name": "VMI MAXX 3",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0062_05",
+    "query": "what's in Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0062",
+    "expected_object_name": "VMI MAXX 3",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0063_01",
+    "query": "check Cutter 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0063",
+    "expected_object_name": "Cutter 2",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0063_02",
+    "query": "Cutter 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0063",
+    "expected_object_name": "Cutter 2",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0063_03",
+    "query": "check Cutter2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0063",
+    "expected_object_name": "Cutter 2",
+    "expected_object_type": "Cutter",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0063_04",
+    "query": "show all Cutter",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0063",
+    "expected_object_name": "Cutter 2",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0063_05",
+    "query": "show Mixing Department equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0063",
+    "expected_object_name": "Cutter 2",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0064_01",
+    "query": "display AGV 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0064",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0064_02",
+    "query": "get info on AGV 5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0064",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0064_03",
+    "query": "check AGV5",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0064",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0064_04",
+    "query": "what's in Logistics",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0064",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0064_05",
+    "query": "show all AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0064",
+    "expected_object_name": "AGV 5",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0065_01",
+    "query": "Boiler System A status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0065",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0065_02",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0065",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0065_03",
+    "query": "BoilerSystemA info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0065",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0065_04",
+    "query": "which Boiler System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0065",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0065_05",
+    "query": "Boiler System A status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0065",
+    "expected_object_name": "Boiler System A",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0066_01",
+    "query": "show me Production Site B",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0066",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0066_02",
+    "query": "show me Production Site B",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0066",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0066_03",
+    "query": "show ProductionSiteB",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0066",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0066_04",
+    "query": "show all Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0066",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0066_05",
+    "query": "show Production Site B equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0066",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0067_01",
+    "query": "find Mixing Department",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0067",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0067_02",
+    "query": "get info on Mixing Department 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0067",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0067_03",
+    "query": "display Mixing Department 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0067",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0067_04",
+    "query": "show MixingDepartment1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0067",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0067_05",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0067",
+    "expected_object_name": "Mixing Department 1",
+    "expected_object_type": "Mixing Department",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0068_01",
+    "query": "what's in Logistics",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0068",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0068_02",
+    "query": "get info on Logistics Hub",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0068",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0068_03",
+    "query": "check LogisticsHub",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0068",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0068_04",
+    "query": "show me Logistics Hub",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0068",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0068_05",
+    "query": "find Logistics",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0068",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0069_01",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0069",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0069_02",
+    "query": "check Tire Production Line 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0069",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0069_03",
+    "query": "machines with assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0069",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0069_04",
+    "query": "show TireProductionLine2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0069",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0069_05",
+    "query": "get info on Tire Production Line 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0069",
+    "expected_object_name": "Tire Production Line 2",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0070_01",
+    "query": "MixerM5 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0070",
+    "expected_object_name": "Mixer M5",
+    "expected_object_type": "Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0070_02",
+    "query": "machines in Mixing Department",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0070",
+    "expected_object_name": "Mixer M5",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0070_03",
+    "query": "get info on Mixer M5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0070",
+    "expected_object_name": "Mixer M5",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0070_04",
+    "query": "find Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0070",
+    "expected_object_name": "Mixer M5",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0070_05",
+    "query": "check Mixer M5",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0070",
+    "expected_object_name": "Mixer M5",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0071_01",
+    "query": "which has assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0071",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0071_02",
+    "query": "what's in Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0071",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0071_03",
+    "query": "VMI EDGER 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0071",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0071_04",
+    "query": "VMI EDGER 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0071",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0071_05",
+    "query": "show all VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0071",
+    "expected_object_name": "VMI EDGER 2",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0072_01",
+    "query": "check Curing Press B3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0072",
+    "expected_object_name": "Curing Press B3",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0072_02",
+    "query": "find control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0072",
+    "expected_object_name": "Curing Press B3",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0072_03",
+    "query": "show me Curing Press B3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0072",
+    "expected_object_name": "Curing Press B3",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0072_04",
+    "query": "find Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0072",
+    "expected_object_name": "Curing Press B3",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0072_05",
+    "query": "check Curing Pres B3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0072",
+    "expected_object_name": "Curing Press B3",
+    "expected_object_type": "Curing Press",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0073_01",
+    "query": "which Smart Tire Machine",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0073",
+    "expected_object_name": "Smart Tire Machine 4",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0073_02",
+    "query": "which has sensor",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0073",
+    "expected_object_name": "Smart Tire Machine 4",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0073_03",
+    "query": "Smart Tire Machine 4 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0073",
+    "expected_object_name": "Smart Tire Machine 4",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0073_04",
+    "query": "Production Site B status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0073",
+    "expected_object_name": "Smart Tire Machine 4",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0073_05",
+    "query": "Smart Tire Machine 4 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0073",
+    "expected_object_name": "Smart Tire Machine 4",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0074_01",
+    "query": "show me Production Site A",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0074",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0074_02",
+    "query": "find mixing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0074",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0074_03",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0074",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0074_04",
+    "query": "which Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0074",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0074_05",
+    "query": "ProductionSiteA info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0074",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0075_01",
+    "query": "display Tire Production Line 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0075",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0075_02",
+    "query": "Tire Production Line 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0075",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0075_03",
+    "query": "check TireProductionLine1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0075",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0075_04",
+    "query": "find Production Line",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0075",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0075_05",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0075",
+    "expected_object_name": "Tire Production Line 1",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0076_01",
+    "query": "VMI MAXX 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0076",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0076_02",
+    "query": "show VMI MAX 1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0076",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0076_03",
+    "query": "machines in Devices",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0076",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0076_04",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0076",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0076_05",
+    "query": "which VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0076",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0077_01",
+    "query": "find Tire Uniformity Machine (TUM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0077",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0077_02",
+    "query": "show me TUM 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0077",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0077_03",
+    "query": "display TUM 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0077",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0077_04",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0077",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0077_05",
+    "query": "show TUM2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0077",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0078_01",
+    "query": "list Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0078",
+    "expected_object_name": "Mixer M10",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0078_02",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0078",
+    "expected_object_name": "Mixer M10",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0078_03",
+    "query": "show MixerM10",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0078",
+    "expected_object_name": "Mixer M10",
+    "expected_object_type": "Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0078_04",
+    "query": "machines in Mixing Department",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0078",
+    "expected_object_name": "Mixer M10",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0078_05",
+    "query": "get info on Mixer M10",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0078",
+    "expected_object_name": "Mixer M10",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0079_01",
+    "query": "machines with system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0079",
+    "expected_object_name": "AGV Main Fleet",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0079_02",
+    "query": "show all AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0079",
+    "expected_object_name": "AGV Main Fleet",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0079_03",
+    "query": "AGVMainFleet info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0079",
+    "expected_object_name": "AGV Main Fleet",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0079_04",
+    "query": "machines in Logistics",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0079",
+    "expected_object_name": "AGV Main Fleet",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0079_05",
+    "query": "show me AGV Main Fleet",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0079",
+    "expected_object_name": "AGV Main Fleet",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0080_01",
+    "query": "list Boiler System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0080",
+    "expected_object_name": "Boiler System B",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0080_02",
+    "query": "Boiler System B status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0080",
+    "expected_object_name": "Boiler System B",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0080_03",
+    "query": "BoilerSystemB info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0080",
+    "expected_object_name": "Boiler System B",
+    "expected_object_type": "Boiler System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0080_04",
+    "query": "find control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0080",
+    "expected_object_name": "Boiler System B",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0080_05",
+    "query": "what's in Production Site B",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0080",
+    "expected_object_name": "Boiler System B",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0081_01",
+    "query": "which VMI EDGER",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0081",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0081_02",
+    "query": "get info on VMI EDGER 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0081",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0081_03",
+    "query": "VMI EDGER 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0081",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0081_04",
+    "query": "show Devices equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0081",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0081_05",
+    "query": "show VMIEDGER1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0081",
+    "expected_object_name": "VMI EDGER 1",
+    "expected_object_type": "VMI EDGER",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0082_01",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0082",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0082_02",
+    "query": "which Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0082",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0082_03",
+    "query": "display Curing Press 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0082",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0082_04",
+    "query": "find vulcanization",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0082",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0082_05",
+    "query": "Curing Press 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0082",
+    "expected_object_name": "Curing Press 2",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0083_01",
+    "query": "Mixing Department status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0083",
+    "expected_object_name": "Mixer 3",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0083_02",
+    "query": "check Mixer3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0083",
+    "expected_object_name": "Mixer 3",
+    "expected_object_type": "Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0083_03",
+    "query": "list Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0083",
+    "expected_object_name": "Mixer 3",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0083_04",
+    "query": "get info on Mixer 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0083",
+    "expected_object_name": "Mixer 3",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0083_05",
+    "query": "get info on Mixer 3",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0083",
+    "expected_object_name": "Mixer 3",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0084_01",
+    "query": "find AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0084",
+    "expected_object_name": "AGV 7",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0084_02",
+    "query": "what's in Logistics",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0084",
+    "expected_object_name": "AGV 7",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0084_03",
+    "query": "show me AGV 7",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0084",
+    "expected_object_name": "AGV 7",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0084_04",
+    "query": "AGV7 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0084",
+    "expected_object_name": "AGV 7",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0084_05",
+    "query": "display AGV 7",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0084",
+    "expected_object_name": "AGV 7",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0085_01",
+    "query": "get info on Production Site B",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0085",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0085_02",
+    "query": "which Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0085",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0085_03",
+    "query": "Production Site B status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0085",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0085_04",
+    "query": "check ProductionSiteB",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0085",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0085_05",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0085",
+    "expected_object_name": "Production Site B",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0086_01",
+    "query": "Smart Tire Machne 2 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0086",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0086_02",
+    "query": "which Smart Tire Machine",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0086",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0086_03",
+    "query": "check Smart Tire Machine 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0086",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0086_04",
+    "query": "Smart Tire Machine 2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0086",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0086_05",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0086",
+    "expected_object_name": "Smart Tire Machine 2",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0087_01",
+    "query": "Tire Uniformity Machne (TUM) 4 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0087",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 4",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0087_02",
+    "query": "Production Site B status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0087",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 4",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0087_03",
+    "query": "get info on Tire Uniformity Machine (TUM) 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0087",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 4",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0087_04",
+    "query": "list Tire Uniformity Machine (TUM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0087",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 4",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0087_05",
+    "query": "show me Tire Uniformity Machine (TUM) 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0087",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 4",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0088_01",
+    "query": "Mixer 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0088",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0088_02",
+    "query": "what's in Mixing Department",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0088",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0088_03",
+    "query": "show all Mixer",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0088",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0088_04",
+    "query": "show Mixer1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0088",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0088_05",
+    "query": "show me Mixer 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0088",
+    "expected_object_name": "Mixer 1",
+    "expected_object_type": "Mixer"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0089_01",
+    "query": "Mixing Department status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0089",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0089_02",
+    "query": "display Cutter 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0089",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0089_03",
+    "query": "check Cutter1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0089",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0089_04",
+    "query": "find Cutter",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0089",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0089_05",
+    "query": "display Cutter 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0089",
+    "expected_object_name": "Cutter 1",
+    "expected_object_type": "Cutter"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0090_01",
+    "query": "which has assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0090",
+    "expected_object_name": "Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0090_02",
+    "query": "check ProductionLine1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0090",
+    "expected_object_name": "Production Line 1",
+    "expected_object_type": "Production Line",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0090_03",
+    "query": "show me Production Line 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0090",
+    "expected_object_name": "Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0090_04",
+    "query": "Production Line 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0090",
+    "expected_object_name": "Production Line 1",
+    "expected_object_type": "Production Line"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0090_05",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0090",
+    "expected_object_name": "Production Line 1",
+    "expected_object_type": "Production Line",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0091_01",
+    "query": "find Boiler System",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0091",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0091_02",
+    "query": "display Boiler System 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0091",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0091_03",
+    "query": "check BoilerSystem1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0091",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0091_04",
+    "query": "machines with vulcanization",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0091",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0091_05",
+    "query": "show me Boiler System 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0091",
+    "expected_object_name": "Boiler System 1",
+    "expected_object_type": "Boiler System"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0092_01",
+    "query": "show me VMI MAXX 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0092",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0092_02",
+    "query": "show me VMI MAXX 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0092",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0092_03",
+    "query": "check VMI MAAX 2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0092",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0092_04",
+    "query": "machines with control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0092",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0092_05",
+    "query": "which VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0092",
+    "expected_object_name": "VMI MAXX 2",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0093_01",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0093",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0093_02",
+    "query": "show LogisticsHub",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0093",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0093_03",
+    "query": "show Logistics equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0093",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0093_04",
+    "query": "check Logistics Hub",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0093",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0093_05",
+    "query": "show all Logistics",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0093",
+    "expected_object_name": "Logistics Hub",
+    "expected_object_type": "Logistics",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0094_01",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0094",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0094_02",
+    "query": "Production Site A status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0094",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0094_03",
+    "query": "which has mixing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0094",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0094_04",
+    "query": "ProductionSiteA info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0094",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0094_05",
+    "query": "find Production Site",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0094",
+    "expected_object_name": "Production Site A",
+    "expected_object_type": "Production Site",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0095_01",
+    "query": "check Smart Tire Machine 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0095",
+    "expected_object_name": "Smart Tire Machine 1",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0095_02",
+    "query": "list Smart Tire Machine",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0095",
+    "expected_object_name": "Smart Tire Machine 1",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0095_03",
+    "query": "show me Smart Tire Machine 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0095",
+    "expected_object_name": "Smart Tire Machine 1",
+    "expected_object_type": "Smart Tire Machine"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0095_04",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0095",
+    "expected_object_name": "Smart Tire Machine 1",
+    "expected_object_type": "Smart Tire Machine",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0095_05",
+    "query": "check Smart Tire Machne 1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0095",
+    "expected_object_name": "Smart Tire Machine 1",
+    "expected_object_type": "Smart Tire Machine",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0096_01",
+    "query": "display Curing Press 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0096",
+    "expected_object_name": "Curing Press 1",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0096_02",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0096",
+    "expected_object_name": "Curing Press 1",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0096_03",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0096",
+    "expected_object_name": "Curing Press 1",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0096_04",
+    "query": "list Curing Press",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0096",
+    "expected_object_name": "Curing Press 1",
+    "expected_object_type": "Curing Press",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0096_05",
+    "query": "check Curing Press 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0096",
+    "expected_object_name": "Curing Press 1",
+    "expected_object_type": "Curing Press"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0097_01",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0097",
+    "expected_object_name": "Mixing Department",
+    "expected_object_type": "Mixing Department",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0097_02",
+    "query": "machines with control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0097",
+    "expected_object_name": "Mixing Department",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0097_03",
+    "query": "get info on Mixing Department",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0097",
+    "expected_object_name": "Mixing Department",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0097_04",
+    "query": "check Mixing Department",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0097",
+    "expected_object_name": "Mixing Department",
+    "expected_object_type": "Mixing Department"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0097_05",
+    "query": "which Mixing Department",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0097",
+    "expected_object_name": "Mixing Department",
+    "expected_object_type": "Mixing Department",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0098_01",
+    "query": "show me VMI MAXX 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0098",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0098_02",
+    "query": "get info on VMI MAXX 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0098",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0098_03",
+    "query": "check VMI MAAX 1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0098",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0098_04",
+    "query": "list VMI MAXX",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0098",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0098_05",
+    "query": "which has sensor",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0098",
+    "expected_object_name": "VMI MAXX 1",
+    "expected_object_type": "VMI MAXX"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0099_01",
+    "query": "which has sensor",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0099",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0099_02",
+    "query": "Tire Uniformity Machine (TUM) 1 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0099",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0099_03",
+    "query": "check Tire Uniformity Machne (TUM) 1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_CLEAN_0099",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0099_04",
+    "query": "Production Site A status",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0099",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0099_05",
+    "query": "show all Tire Uniformity Machine (TUM)",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0099",
+    "expected_object_name": "Tire Uniformity Machine (TUM) 1",
+    "expected_object_type": "Tire Uniformity Machine (TUM)",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0100_01",
+    "query": "machines with system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_CLEAN_0100",
+    "expected_object_name": "AGV 1",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0100_02",
+    "query": "show all AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0100",
+    "expected_object_name": "AGV 1",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0100_03",
+    "query": "list Logistics",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_CLEAN_0100",
+    "expected_object_name": "AGV 1",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0100_04",
+    "query": "display AGV 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0100",
+    "expected_object_name": "AGV 1",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_CLEAN_0100_05",
+    "query": "get info on AGV 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_CLEAN_0100",
+    "expected_object_name": "AGV 1",
+    "expected_object_type": "AGV"
+  }
+]

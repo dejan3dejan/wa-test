@@ -1,0 +1,479 @@
+[
+  {
+    "query_id": "Q_SYNTH_0001_01",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0001_02",
+    "query": "check TUM1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0001_03",
+    "query": "get info on TUM 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0001_04",
+    "query": "get info on TUM 1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0001_05",
+    "query": "find Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0001",
+    "expected_object_name": "TUM 1",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0002_01",
+    "query": "machines with system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "TUM 4",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0002_02",
+    "query": "check TUM 4",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "TUM 4",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0002_03",
+    "query": "TUM4 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "TUM 4",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0002_04",
+    "query": "which Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "TUM 4",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0002_05",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0002",
+    "expected_object_name": "TUM 4",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0003_01",
+    "query": "TUM 7 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "TUM 7",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0003_02",
+    "query": "find Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "TUM 7",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0003_03",
+    "query": "machines with control",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "TUM 7",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0003_04",
+    "query": "show Production Site B equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "TUM 7",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0003_05",
+    "query": "check TUM7",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0003",
+    "expected_object_name": "TUM 7",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0004_01",
+    "query": "show TUM2",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0004_02",
+    "query": "display TUM 2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0004_03",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0004_04",
+    "query": "find testing",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0004_05",
+    "query": "find Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0004",
+    "expected_object_name": "TUM 2",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0005_01",
+    "query": "TUM 10 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "TUM 10",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0005_02",
+    "query": "check TUM10",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "TUM 10",
+    "expected_object_type": "Uniformity Tester",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0005_03",
+    "query": "which has system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "TUM 10",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0005_04",
+    "query": "check TUM 10",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "TUM 10",
+    "expected_object_type": "Uniformity Tester"
+  },
+  {
+    "query_id": "Q_SYNTH_0005_05",
+    "query": "find Uniformity Tester",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0005",
+    "expected_object_name": "TUM 10",
+    "expected_object_type": "Uniformity Tester",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0006_01",
+    "query": "find AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "AGV-101-L1",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0006_02",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "AGV-101-L1",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0006_03",
+    "query": "display AGV-101-L1",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "AGV-101-L1",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0006_04",
+    "query": "show AGV-101-L1",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "AGV-101-L1",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0006_05",
+    "query": "find vulcanization",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0006",
+    "expected_object_name": "AGV-101-L1",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0007_01",
+    "query": "AGV-205-L2 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "AGV-205-L2",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0007_02",
+    "query": "AGV-205-L2 info",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "AGV-205-L2",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0007_03",
+    "query": "check AGV-205-L2",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "AGV-205-L2",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0007_04",
+    "query": "machines with assembly",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "AGV-205-L2",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0007_05",
+    "query": "what's in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0007",
+    "expected_object_name": "AGV-205-L2",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0008_01",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "AGV-309-BayB",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0008_02",
+    "query": "show AGV-309-BayB",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "AGV-309-BayB",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0008_03",
+    "query": "show all AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "AGV-309-BayB",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0008_04",
+    "query": "machines in Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "AGV-309-BayB",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0008_05",
+    "query": "show me AGV-309-BayB",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0008",
+    "expected_object_name": "AGV-309-BayB",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0009_01",
+    "query": "show AGV-412-L3",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "AGV-412-L3",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0009_02",
+    "query": "show Production Site A equipment",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "AGV-412-L3",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0009_03",
+    "query": "list AGV",
+    "query_type": "type_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "AGV-412-L3",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  },
+  {
+    "query_id": "Q_SYNTH_0009_04",
+    "query": "find system",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "AGV-412-L3",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0009_05",
+    "query": "AGV-412-L3 status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0009",
+    "expected_object_name": "AGV-412-L3",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0010_01",
+    "query": "show AGV-550-Finish",
+    "query_type": "fuzzy_match",
+    "difficulty": "medium",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "AGV-550-Finish",
+    "expected_object_type": "AGV",
+    "has_typo": true
+  },
+  {
+    "query_id": "Q_SYNTH_0010_02",
+    "query": "AGV-550-Finish status",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "AGV-550-Finish",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0010_03",
+    "query": "check AGV-550-Finish",
+    "query_type": "exact_match",
+    "difficulty": "easy",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "AGV-550-Finish",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0010_04",
+    "query": "find temperature",
+    "query_type": "semantic_search",
+    "difficulty": "very_hard",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "AGV-550-Finish",
+    "expected_object_type": "AGV"
+  },
+  {
+    "query_id": "Q_SYNTH_0010_05",
+    "query": "list Production Site A",
+    "query_type": "location_search",
+    "difficulty": "hard",
+    "expected_object_id": "SYNTH_0010",
+    "expected_object_name": "AGV-550-Finish",
+    "expected_object_type": "AGV",
+    "note": "Multiple results expected"
+  }
+]
