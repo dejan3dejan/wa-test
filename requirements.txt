@@ -1,6 +1,14 @@
-google-genai==1.60.0
-pinecone-client==5.0.1
-python-dotenv==1.0.1
-pandas==2.2.3
-numpy==2.1.2
-tqdm==4.66.5
+# Core dependencies
+pinecone>=5.0.0
+google-generativeai>=0.8.0
+python-dotenv>=1.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Sparse embeddings
+pinecone-text>=0.9.0
+
+# Progress bars
+tqdm>=4.65.0

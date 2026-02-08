@@ -1,20 +1,35 @@
-import os
+"""
+Synthetic entity generation for RAG benchmarking.
+
+Generates tire factory entities with varying description quality using Gemini LLM.
+Supports realistic, clean, and mixed profiles for diverse testing scenarios.
+"""
+
 import json
-import random
+import os
+import sys
 import time
-from google import genai
-from typing import List, Dict
-from dotenv import load_dotenv
 from pathlib import Path
+from typing import Dict, List
+
+from dotenv import load_dotenv
+from google import genai
+
+# Add project root to path
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+
 from src.utils.config import Config
+from src.utils.llm_utils import extract_json_from_response, JSONExtractionError
 
 load_dotenv()
 
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+# Initialize Gemini client
+client = genai.Client(api_key=Config.GEMINI_API_KEY)
 MODEL_NAME = "gemini-2.5-flash"
 
-OUTPUT_DIR = Path(Config.SYNTHETIC_DATA_DIR)
-OUTPUT_DIR.mkdir(exist_ok=True)
+OUTPUT_DIR = Config.SYNTHETIC_DATA_DIR
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 DATASET_SIZES = [10, 100, 1000]
 
@@ -24,19 +39,51 @@ PROFILES = {
     "mixed": {"empty": 0.20, "minimal": 0.25, "medium": 0.35, "detailed": 0.20}
 }
 
+
+class EntityGenerationError(Exception):
+    """Raised when entity generation fails."""
+    pass
+
+
 def load_seeds(path: str = None) -> List[Dict]:
+    """
+    Load seed entities from file for few-shot prompting.
+    
+    Args:
+        path: Path to seed entities file. Defaults to cleaned_entities.json
+        
+    Returns:
+        List of seed entity dictionaries
+    """
     if path is None:
-        path = os.path.join(Config.PROCESSED_DATA_DIR, 'cleaned_entities.json')
-    if not os.path.exists(path):
+        path = Config.PROCESSED_DATA_DIR / "cleaned_entities.json"
+    
+    if not path.exists():
         return []
-    with open(path, 'r', encoding='utf-8') as f:
+    
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
 
 seeds = load_seeds()
 
+
 def generate_batch(size: int, profile: str = "realistic") -> List[Dict]:
+    """
+    Generate a batch of synthetic entities using Gemini.
+    
+    Args:
+        size: Number of entities to generate
+        profile: Distribution profile (realistic, clean, mixed)
+        
+    Returns:
+        List of generated entity dictionaries
+        
+    Raises:
+        EntityGenerationError: If generation fails after retries
+    """
     if not seeds:
-        return []
+        raise EntityGenerationError("No seed entities available for prompting")
     
     dist = PROFILES[profile]
     target_empty = int(size * dist["empty"])
@@ -44,9 +91,54 @@ def generate_batch(size: int, profile: str = "realistic") -> List[Dict]:
     target_medium = int(size * dist["medium"])
     target_detailed = size - (target_empty + target_minimal + target_medium)
     
-    examples = random.sample(seeds, min(3, len(seeds)))
+    prompt = _build_generation_prompt(
+        size, target_empty, target_minimal, target_medium, target_detailed
+    )
     
-    prompt = f"""
+    for attempt in range(3):
+        try:
+            response = client.models.generate_content(
+                model=MODEL_NAME, contents=prompt
+            )
+            text = response.text.strip()
+            
+            entities = _parse_and_validate_batch(
+                text, size, target_empty
+            )
+            
+            if entities:
+                return entities
+                    
+        except (JSONExtractionError, ValueError) as e:
+            print(f"Error attempt {attempt + 1}: {e}")
+            time.sleep(3 + attempt * 3)
+    
+    raise EntityGenerationError(
+        f"Failed to generate valid batch after 3 attempts"
+    )
+
+
+def _build_generation_prompt(
+    size: int,
+    target_empty: int,
+    target_minimal: int,
+    target_medium: int,
+    target_detailed: int
+) -> str:
+    """
+    Build the LLM prompt for entity generation.
+    
+    Args:
+        size: Total entities to generate
+        target_empty: Number with empty descriptions
+        target_minimal: Number with minimal descriptions
+        target_medium: Number with medium descriptions
+        target_detailed: Number with detailed descriptions
+        
+    Returns:
+        Formatted prompt string
+    """
+    return f"""
 Generate {size} tire factory entities.
 
 DISTRIBUTION:
@@ -81,74 +173,132 @@ full_text: If description empty use just name, else "name - description"
 Output ONLY JSON array:
 [{{"name": "...", "description": "...", "type_name": "...", "path": "...", "full_text": "..."}}]
 """
-    
-    for attempt in range(3):
-        try:
-            response = client.models.generate_content(model=MODEL_NAME, contents=prompt)
-            text = response.text.strip()
-            
-            if '```json' in text:
-                text = text.split('```json')[1].split('```')[0].strip()
-            elif '```' in text:
-                text = text.split('```')[1].split('```')[0].strip()
-            
-            entities = json.loads(text)
-            
-            if isinstance(entities, list) and len(entities) == size:
-                empty = sum(1 for e in entities if not e.get('description', '').strip())
-                print(f"   Generated: {empty}/{target_empty} empty")
-                if abs(empty - target_empty) <= 2:
-                    return entities
-                    
-        except Exception as e:
-            print(f"Error attempt {attempt+1}: {e}")
-            time.sleep(3 + attempt * 3)
-    
-    return []
 
-def generate_dataset(total: int, profile: str, batch_size: int = 10) -> List[Dict]:
+
+def _parse_and_validate_batch(
+    text: str,
+    expected_size: int,
+    target_empty: int
+) -> List[Dict]:
+    """
+    Parse and validate generated entity batch.
+    
+    Args:
+        text: Raw LLM response text
+        expected_size: Expected number of entities
+        target_empty: Target number of empty descriptions
+        
+    Returns:
+        List of entities if valid, None otherwise
+    """
+    entities = extract_json_from_response(text)
+    
+    if not isinstance(entities, list) or len(entities) != expected_size:
+        return None
+    
+    empty_count = sum(
+        1 for entity in entities
+        if not entity.get("description", "").strip()
+    )
+    
+    print(f"   Generated: {empty_count}/{target_empty} empty")
+    
+    # Allow +/- 2 entities tolerance for empty count
+    if abs(empty_count - target_empty) <= 2:
+        return entities
+    
+    return None
+
+
+def generate_dataset(
+    total: int,
+    profile: str,
+    batch_size: int = 10
+) -> List[Dict]:
+    """
+    Generate complete dataset of synthetic entities.
+    
+    Args:
+        total: Total number of entities to generate
+        profile: Distribution profile
+        batch_size: Batch size for generation
+        
+    Returns:
+        List of generated entities with GUIDs assigned
+    """
     entities = []
     
     while len(entities) < total:
         remaining = total - len(entities)
-        current = min(batch_size, remaining)
-        batch = generate_batch(current, profile)
+        current_batch_size = min(batch_size, remaining)
         
-        if not batch:
+        try:
+            batch = generate_batch(current_batch_size, profile)
+            entities.extend(batch)
+            print(f"Progress: {len(entities)}/{total}")
+            time.sleep(2)
+        except EntityGenerationError as e:
+            print(f"Batch generation failed: {e}")
             time.sleep(5)
-            continue
-        
-        entities.extend(batch)
-        print(f"Progress: {len(entities)}/{total}")
-        time.sleep(2)
     
+    # Trim to exact size and assign GUIDs
     entities = entities[:total]
-    for i, e in enumerate(entities):
-        e["guid"] = f"SYNTH_{profile.upper()}_{i+1:04d}"
-        e["is_synthetic"] = True
+    for i, entity in enumerate(entities):
+        entity["guid"] = f"SYNTH_{profile.upper()}_{i + 1:04d}"
+        entity["is_synthetic"] = True
     
     return entities
 
+
 def save_dataset(entities: List[Dict], size: int, profile: str):
+    """
+    Save generated dataset to file with statistics.
+    
+    Args:
+        entities: List of entities to save
+        size: Dataset size for filename
+        profile: Profile name for filename
+    """
     filename = OUTPUT_DIR / f"synthetic_entities_{size}_{profile}.json"
     
-    with open(filename, 'w', encoding='utf-8') as f:
+    with open(filename, "w", encoding="utf-8") as f:
         json.dump(entities, f, ensure_ascii=False, indent=2)
     
-    empty = sum(1 for e in entities if not e.get('description', '').strip())
-    minimal = sum(1 for e in entities if e.get('description', '').strip() and len(e['description']) < 100)
-    medium = sum(1 for e in entities if 100 <= len(e.get('description', '')) < 300)
-    detailed = sum(1 for e in entities if len(e.get('description', '')) >= 300)
+    # Calculate distribution statistics
+    empty = sum(
+        1 for e in entities if not e.get("description", "").strip()
+    )
+    minimal = sum(
+        1 for e in entities
+        if e.get("description", "").strip() and len(e["description"]) < 100
+    )
+    medium = sum(
+        1 for e in entities
+        if 100 <= len(e.get("description", "")) < 300
+    )
+    detailed = sum(
+        1 for e in entities if len(e.get("description", "")) >= 300
+    )
     
     print(f"\nSaved: {filename}")
-    print(f"Empty: {empty} ({empty/size*100:.1f}%), Minimal: {minimal} ({minimal/size*100:.1f}%), Medium: {medium} ({medium/size*100:.1f}%), Detailed: {detailed} ({detailed/size*100:.1f}%)\n")
+    print(
+        f"Empty: {empty} ({empty / size * 100:.1f}%), "
+        f"Minimal: {minimal} ({minimal / size * 100:.1f}%), "
+        f"Medium: {medium} ({medium / size * 100:.1f}%), "
+        f"Detailed: {detailed} ({detailed / size * 100:.1f}%)\n"
+    )
+
 
 def main():
+    """Main entry point for dataset generation."""
     print("Dataset Generator - Realistic & Clean profiles\n")
     
-    profile = input("Profile (realistic/clean/mixed) [realistic]: ").strip().lower() or "realistic"
+    profile = input(
+        "Profile (realistic/clean/mixed) [realistic]: "
+    ).strip().lower() or "realistic"
     
     if profile not in PROFILES:
+        print(f"Invalid profile '{profile}'. Using 'realistic'.")
         profile = "realistic"
     
     print(f"\nGenerating with profile: {profile}\n")
@@ -160,10 +310,13 @@ def main():
             entities = generate_dataset(size, profile, batch_size)
             save_dataset(entities, size, profile)
         except KeyboardInterrupt:
-            print("\nInterrupted")
+            print("\nInterrupted by user")
             break
+        except EntityGenerationError as e:
+            print(f"Generation error: {e}")
         except Exception as e:
-            print(f"Error: {e}")
+            print(f"Unexpected error: {e}")
+
 
 if __name__ == "__main__":
     main()

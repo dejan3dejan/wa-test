@@ -1,0 +1,2 @@
+# This file ensures the data/ directory structure is preserved in git
+# All contents of data/ are ignored except this file
