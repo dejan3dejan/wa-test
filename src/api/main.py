@@ -1,8 +1,11 @@
 """Main FastAPI application for RAG operations."""
 
 import os
+import json
+import glob
 from contextlib import asynccontextmanager
 from typing import Dict, List, Optional
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
@@ -11,8 +14,9 @@ from src.api import schemas
 from src.database.vector_db import VectorDB
 from src.processing.embedder import Embedder
 from src.utils.config import Config
-from src.utils.logger import get_logger
+from src.utils.logger import get_logger, Logger
 
+Logger.setup(log_level="INFO", log_file="app.log")
 logger = get_logger(__name__)
 resources = {}
 
@@ -194,6 +198,118 @@ async def delete_namespace(name: str):
         return {"message": f"Namespace '{name}' deleted successfully."}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/multi-query")
+async def multi_query_rag(request: schemas.MultiQueryRequest):
+    """Perform multiple hybrid search queries in one request."""
+    try:
+        db: VectorDB = resources["vector_db"]
+        embedder: Embedder = resources["embedder"]
+        if request.namespace:
+            embedder.load_bm25(request.namespace)
+        
+        all_results = []
+        for query_text in request.queries:
+            dense_vec = embedder.get_embedding(query_text, task_type="RETRIEVAL_QUERY")
+            sparse_vec = embedder.get_sparse_embedding(query_text)
+            response = db.query_index(vector=dense_vec, sparse_vector=sparse_vec, top_k=request.top_k, namespace=request.namespace)
+            
+            matches = [schemas.SearchResult(id=m["id"], score=m["score"], metadata=m["metadata"]) for m in response.get("matches", [])]
+            all_results.append({"query": query_text, "results": matches})
+            
+        return {"results": all_results, "namespace": request.namespace}
+    except Exception as e:
+        logger.error(f"Multi-query error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/documents/{doc_id}")
+async def get_document(doc_id: str, namespace: str = ""):
+    """Retrieve exactly one document by ID."""
+    try:
+        db: VectorDB = resources["vector_db"]
+        response = db.index.fetch(ids=[doc_id], namespace=namespace)
+        vectors = response.get("vectors", {})
+        if doc_id not in vectors:
+            raise HTTPException(status_code=404, detail=f"Document {doc_id} not found")
+        return {"id": doc_id, "metadata": vectors[doc_id].get("metadata", {}), "namespace": namespace}
+    except HTTPException: raise
+    except Exception as e:
+        logger.error(f"Fetch error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.delete("/documents/{doc_id}")
+async def delete_document(doc_id: str, namespace: str = ""):
+    """Delete a single document by ID."""
+    try:
+        db: VectorDB = resources["vector_db"]
+        db.index.delete(ids=[doc_id], namespace=namespace)
+        return {"message": f"Document {doc_id} deleted."}
+    except Exception as e:
+        logger.error(f"Delete error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/ingest-file")
+async def ingest_file(request: schemas.IngestFileRequest):
+    """Load and index a JSON file from disk."""
+    try:
+        file_path = Config.BASE_DIR / request.file_path
+        if not file_path.exists():
+            raise HTTPException(status_code=404, detail=f"File not found: {request.file_path}")
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        items = [schemas.UpsertItem(id=str(e.get("id", e.get("name", "missing_id"))), text=e.get("description", e.get("text", "")), metadata=e) for e in data]
+        return await upsert_data(schemas.UpsertRequest(items=items, namespace=request.namespace))
+    except Exception as e:
+        logger.error(f"File ingest error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/evaluate")
+async def evaluate_namespace(request: schemas.EvaluationRequest):
+    """Run local evaluation script logic through the API."""
+    try:
+        from src.evaluation.evaluator import Evaluator
+        from src.processing.data_processor import DataProcessor
+        processor = DataProcessor()
+        evaluator = Evaluator()
+        queries_path = Config.BASE_DIR / request.queries_file
+        if not queries_path.exists():
+            raise HTTPException(status_code=404, detail="Queries file not found")
+        queries = processor.load_json(str(queries_path))
+        namespace = request.namespace or queries_path.stem.replace("test_queries_", "")
+        df = evaluator.run(queries, namespace=namespace)
+        metrics = {"hit@1": df["hit@1"].mean(), "hit@5": df["hit@5"].mean(), "mrr": df["mrr"].mean(), "total_queries": len(df)}
+        return {"namespace": namespace, "metrics": metrics}
+    except Exception as e:
+        logger.error(f"Evaluation error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/results")
+async def list_results():
+    """List all CSV result files."""
+    try:
+        results_dir = Path(Config.RESULTS_DIR)
+        files = glob.glob(str(results_dir / "*.csv"))
+        return {"files": [os.path.basename(f) for f in files]}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/logs")
+async def get_logs(lines: int = 50):
+    """Retrieve recent application logs."""
+    try:
+        log_file = Config.BASE_DIR / "app.log"
+        if not log_file.exists(): return {"message": "Log file not found", "logs": []}
+        with open(log_file, "r") as f:
+            return {"logs": f.readlines()[-lines:]}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/config")
+async def update_config(request: schemas.ConfigUpdateRequest):
+    """Update runtime settings."""
+    if request.alpha is not None: Config.ALPHA = request.alpha
+    if request.top_k is not None: Config.TOP_K = request.top_k
+    return {"message": "Config updated", "ALPHA": Config.ALPHA, "TOP_K": Config.TOP_K}
 
 if __name__ == "__main__":
     import uvicorn

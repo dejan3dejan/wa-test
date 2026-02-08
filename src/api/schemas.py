@@ -11,6 +11,13 @@ class QueryRequest(BaseModel):
     namespace: str = Field(default="", description="Pinecone namespace to search in")
     with_audit: bool = Field(default=False, description="Whether to audit the top result with Gemini")
 
+class MultiQueryRequest(BaseModel):
+    """Request schema for multiple search queries."""
+    queries: List[str]
+    top_k: int = 5
+    alpha: float = 0.5
+    namespace: str = ""
+
 class AuditResult(BaseModel):
     """Schema for the LLM audit judge result."""
     label: Literal["factual", "hallucinated"]
@@ -40,6 +47,21 @@ class UpsertRequest(BaseModel):
     """Request schema for batch vector upsert."""
     items: List[UpsertItem]
     namespace: str = ""
+
+class IngestFileRequest(BaseModel):
+    """Request schema for ingesting a local file."""
+    file_path: str = Field(..., description="Relative path to JSON file in data/ directory")
+    namespace: str = ""
+
+class EvaluationRequest(BaseModel):
+    """Request schema for running evaluation."""
+    queries_file: str = Field(..., description="Path to query JSON file")
+    namespace: Optional[str] = None
+
+class ConfigUpdateRequest(BaseModel):
+    """Request schema for updating app configuration."""
+    alpha: Optional[float] = Field(None, ge=0.0, le=1.0)
+    top_k: Optional[int] = Field(None, ge=1, le=50)
 
 class StatsResponse(BaseModel):
     """Response schema for index statistics."""
