@@ -5,7 +5,7 @@ import pickle
 from typing import Dict, List
 
 import numpy as np
-from google import genai
+import google.genai as genai
 from google.genai import types
 from pinecone_text.sparse import BM25Encoder
 

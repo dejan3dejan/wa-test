@@ -182,7 +182,7 @@ async def upsert_data(request: schemas.UpsertRequest):
         return {
             "message": f"Successfully upserted {len(vectors_to_upsert)} items.",
             "namespace": request.namespace,
-            "response": response
+            "upsert_count": len(vectors_to_upsert)
         }
 
     except Exception as e:
