@@ -67,6 +67,15 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+### 4. Docker (Alternative)
+
+If you have Docker and Docker Compose installed, you can skip the local environment setup:
+
+```bash
+docker-compose up --build
+```
+This will automatically build the image, install dependencies, and start the API on `http://localhost:8000`.
+
 ### 4. Configure Environment
 
 Create a `.env` file in the project root:

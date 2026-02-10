@@ -40,3 +40,7 @@ results/*
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Logs
+app.log
+*.log
